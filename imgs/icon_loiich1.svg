@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#002d6f"/>
+      <stop offset="1" stop-color="#7998c6"/>
+    </linearGradient>
+  </defs>
+  <g id="icon_loiich1" transform="translate(-389 -2871)">
+    <path id="Path_12881" data-name="Path 12881" d="M30,0A30,30,0,1,1,0,30,30,30,0,0,1,30,0Z" transform="translate(389 2871)" fill="url(#linear-gradient)"/>
+    <g id="Group_7093" data-name="Group 7093" transform="translate(399 2884)">
+      <path id="Path_12835" data-name="Path 12835" d="M27.079,19.981l-3.557-.653V9.838a1.807,1.807,0,0,0-1.56-1.829,1.739,1.739,0,0,0-1.918,1.73v8.7a.7.7,0,0,1-.7.7h0a.7.7,0,0,1-.7-.7v-7.9A1.807,1.807,0,0,0,17.092,8.7a1.739,1.739,0,0,0-1.918,1.73V24a.7.7,0,0,1-1.391,0V21.217H12.391A1.391,1.391,0,0,0,11,22.609v5.565c0,2.435,3.478,4.217,3.478,6.957H27l2.267-11.9A2.783,2.783,0,0,0,27.079,19.981Z" transform="translate(-0.304 -2.13)" fill="#fff"/>
+      <path id="Path_12836" data-name="Path 12836" d="M13.478,14.678V8.3a3.134,3.134,0,0,1,3.131-3.13c.1,0,.21.005.317.016a3.048,3.048,0,0,1,1.831.873,3.133,3.133,0,0,1,2.721-1.584c.1,0,.21.005.317.016a3.213,3.213,0,0,1,2.813,3.214v6.275A6.956,6.956,0,0,0,17.952,1.771a6.707,6.707,0,0,0-1-.076,6.958,6.958,0,0,0-3.478,12.983Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

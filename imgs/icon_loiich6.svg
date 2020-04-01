@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#002d6f"/>
+      <stop offset="1" stop-color="#7998c6"/>
+    </linearGradient>
+  </defs>
+  <g id="icon_loiich6" transform="translate(-1167 -3167)">
+    <rect id="Rectangle_1862" data-name="Rectangle 1862" width="60" height="60" rx="30" transform="translate(1167 3167)" fill="url(#linear-gradient)"/>
+    <g id="Group_7100" data-name="Group 7100" transform="translate(1181 3182)">
+      <path id="Path_12856" data-name="Path 12856" d="M3,10A1,1,0,0,0,4,9V4H9A1,1,0,0,0,9,2H3A1,1,0,0,0,2,3V9A1,1,0,0,0,3,10Z" fill="#fff"/>
+      <path id="Path_12857" data-name="Path 12857" d="M23,4h5V9a1,1,0,0,0,2,0V3a1,1,0,0,0-1-1H23a1,1,0,0,0,0,2Z" fill="#fff"/>
+      <path id="Path_12858" data-name="Path 12858" d="M29,22a1,1,0,0,0-1,1v5H23a1,1,0,0,0,0,2h6a1,1,0,0,0,1-1V23A1,1,0,0,0,29,22Z" fill="#fff"/>
+      <path id="Path_12859" data-name="Path 12859" d="M9,28H4V23a1,1,0,0,0-2,0v6a1,1,0,0,0,1,1H9a1,1,0,0,0,0-2Z" fill="#fff"/>
+      <path id="Path_12860" data-name="Path 12860" d="M31,15H26V7a1,1,0,0,0-1-1H7A1,1,0,0,0,6,7v8H1a1,1,0,0,0,0,2H31a1,1,0,0,0,0-2Z" fill="#fff"/>
+      <path id="Path_12861" data-name="Path 12861" d="M6,19v6a1,1,0,0,0,1,1H25a1,1,0,0,0,1-1V19Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>
