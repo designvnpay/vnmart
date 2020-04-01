@@ -578,7 +578,7 @@ body {
 }
 
 @media (max-width: 480px) {
-	.main {text-align: center;}
+	.guide-detail__content {text-align: center;}
 .swiper-pagination-number .swiper-pagination-bullet:not(:last-of-type) {
   margin-right: 15px;
 }
