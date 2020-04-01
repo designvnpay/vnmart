@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#4a4a4a"/>
+    </linearGradient>
+    <clipPath id="clip-ic-shield">
+      <rect width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="ic-shield" clip-path="url(#clip-ic-shield)">
+    <g id="checkpadding">
+      <rect id="Rectangle_1023" data-name="Rectangle 1023" width="40.197" height="40.197" transform="translate(0)" fill="none"/>
+      <g id="Group_3315" data-name="Group 3315" transform="translate(7.182 7.182)">
+        <path id="Path_7596" data-name="Path 7596" d="M28.226,7.426A23.133,23.133,0,0,1,16.1,3.088a.442.442,0,0,0-.531,0A23.133,23.133,0,0,1,3.443,7.426.443.443,0,0,0,3,7.868c0,9.318,4.97,17.469,12.66,20.765a.442.442,0,0,0,.349,0c7.69-3.3,12.66-11.447,12.66-20.765A.443.443,0,0,0,28.226,7.426ZM15.834,27.743V15.834H5.217A24.073,24.073,0,0,1,3.889,8.3,24.559,24.559,0,0,0,15.834,3.991V15.834H26.451A19.994,19.994,0,0,1,15.834,27.743Z" transform="translate(-3 -3)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+ body {color:#4A4A4A;font-family: sf_pro_display}
+       #blockloiich {background:url('../imgs/bg1.svg') no-repeat 0px 100%; min-height: 600px;margin: 0 auto; background-size: contain;padding:100px 0px;}
+       #doitactieubieu {background:#F9F8F8;padding:100px 0px;} 
+       h4.titleblock {text-align: center;font-size: 36px; font-family: sf_pro_display_bold}
+       a {color:#4A4A4A;}
+       .datetime {color:#AD0000;font-size: 13px}
+       .mb30 {margin-bottom: 30px !important;} .pb30 {padding-bottom: 30px !important;} .pb100 {padding-bottom: 100px}
+       @font-face {
+            font-family: 'sf_pro_display';
+            src: url('../fonts/SF-Pro-Display-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+        }
+        @font-face {
+            font-family: 'sf_pro_display_bold';
+            src: url('../fonts/SF-Pro-Display-Bold.otf') format('truetype');
+            font-weight: bold;
+            font-style: bold;
+
+        }
+       @font-face {
+            font-family: 'fs_harabararegular';
+            src: url('../fonts/fs_harabara.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+        }
+#gioithieuvi, #nganhanghotro {background:#F9F8F8;padding:100px 0px;}        
+        .blockloiich .title {font-family: 'fs_harabararegular';font-size: 19px;color: #002D6F;margin-bottom: 5px}
+        .blockloiich .items {margin-bottom: 50px;padding-left: 70px; text-align: justify;}
+        .blockloiich .icon1 {background:url("../imgs/icon_loiich1.png") no-repeat 0px 5px;}
+        .blockloiich .icon2 {background:url("../imgs/icon_loiich2.png") no-repeat 0px 5px;}
+        .blockloiich .icon3 {background:url("../imgs/icon_loiich3.png") no-repeat 0px 5px;}
+        .blockloiich .icon4 {background:url("../imgs/icon_loiich4.png") no-repeat 0px 5px;}
+        .blockloiich .icon5 {background:url("../imgs/icon_loiich5.png") no-repeat 0px 5px;}
+        .blockloiich .icon6 {background:url("../imgs/icon_loiich6.png") no-repeat 0px 5px;}
+.listbank {}
+.listbank .items {display: block;border:1pt solid #B2BCCA; border-radius: 10px;background:#fff; text-align: center;padding:10px 0px;max-height: 140px;margin-bottom: 30px;box-shadow:0px 5px 20px -10px #002D6F}
+.listbank .items:hover {box-shadow: none; -webkit-animation-duration: 4s; animation-duration: 4s;  -webkit-animation-fill-mode: both;  animation-fill-mode: both;}
+.listbank .items img {max-width: 100%;border-radius:10px;max-height: 120px}
+.boxgtvi {background-image: linear-gradient(#C40000, #002D6F); border-radius: 20px;padding:20px;color:#fff;min-height: 400px;text-align: center;max-width: 260px;margin: 0 auto; margin-bottom: 20px}
+.boxgtvi h4 {font-size: 19px; font-family:fs_harabararegular }
+#boxdoitac {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#boxdoitac p.collapse:not(.show) {
+    height: 42px !important;
+    overflow: hidden;
+  
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+}
+
+#boxdoitac p.collapsing {
+    min-height: 42px !important;
+}
+#boxdoitac .control a.collapsed:after  {
+    content: '+ Xem toàn bộ';
+}
+#boxdoitac .control a:not(.collapsed):after {
+    content: '- Ẩn bớt';
+}
+#boxdoitac .items {display: inline-block;padding:10px 25px;background: #fff;border: 1pt solid #707070; border-radius:10px;min-height: 100px}
+#tintuc {padding:100px 0px;}
+#tintuc .title {display: block;font-weight: bold;color: #002D6F;font-size: 18px}
+#hoidap {background:url('../imgs/bg_hoidap.svg') no-repeat 20% 80% #FAFAFA;padding:100px 0px;}
+.listquest .itemsquest {margin-bottom: 30px}
+.listquest .itemsquest p {margin-bottom: 5px;padding-left: 40px;}
+.listquest .title {font-weight: bold; font-size: 18px;font-family: sf_pro_display_bold}
+.listquest .typeques1 {background:url("../imgs/svg_taikhoan.svg") no-repeat;}
+.listquest .typeques2 {background:url("../imgs/svg_money.svg") no-repeat;}
+.listquest .typeques3 {background:url("../imgs/svg_link.svg") no-repeat;}
+.listquest .typeques4 {background:url("../imgs/svg_money1.svg") no-repeat;}
+.listquest .typeques5 {background:url("../imgs/svg_bill.svg") no-repeat;}
+@media only screen and (max-width: 767px){
+#blockloiich {background: none}  
+}

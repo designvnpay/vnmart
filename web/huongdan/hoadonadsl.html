@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="format-detection" content="telephone=no">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+      <title>VNPAY</title>
+      <link rel="stylesheet" href="../css/bundles.css">
+      <link rel="stylesheet" href="../css/style.search.css">
+      <link rel="stylesheet" href="../css/component.css">
+      <link rel="stylesheet" href="../css/custom.css">
+      <link rel="shortcut icon" type="text/html" href="../images/ico.png">
+      <!--[if IE 9]>
+      <link rel="stylesheet" href="css/ie9.css" type="text/css" />
+      <![endif]-->
+   </head>
+   <body>
+      <input type="checkbox" id="menu-trigger" class="hidden">
+      <input type="checkbox" id="guide-trigger" class="hidden">
+      <header class="menu">
+         <div class="menu__wrap">
+            <a class="menu__logo" href="#">
+            <img src="../imgs/logo.svg" width="" alt="">
+            </a>
+            <div class="menu__mobile" data-scroll-header>
+               <div class="menu__mobile__item menu__mobile__ic">
+               </div>
+               <a href="" class="menu__mobile__item menu__mobile__logo">
+               <img src="../imgs/logo-white.svg" alt="">
+               </a>
+               <div class="menu__mobile__item menu__mobile__ic">
+                  <label class="trigger" for="menu-trigger">
+                     <div class="hamburger hamburger--stand">
+                        <div class="hamburger-box">
+                           <div class="hamburger-inner"></div>
+                        </div>
+                     </div>
+                  </label>
+               </div>
+            </div>
+            <div class="menu__content__outside">
+               <div class="menu__content" data-gumshoe-header>
+                  <div class="menu__content__wrap only-one" data-accordion-group data-gumshoe>
+                     <a class="menu__item" href="../index.html">
+                        <div class="menu__item__block">Trang chủ</div>
+                     </a>
+                     
+                     <a class="menu__item" href="../dichvu.html">
+                        <div class="menu__item__block">Dịch vụ</div>
+                     </a>
+                     <a class="menu__item active" href="../huongdan.html">
+                        <div class="menu__item__block">Hướng dẫn</div>
+                     </a>
+                     <a class="menu__item menu__item--download" href="../index.html#taiungdung">
+                        <div class="btn-wrap-width-md-100 ml20">
+                           <button class="btn bg-secondary btn-md ripple btn-rounded">
+                           <span class="btn-text">Tải ứng dụng</span>
+                           </button>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <div class="main main--with-menu">
+         <label for="guide-trigger" class="guide-trigger">
+         Danh mục hướng dẫn sử dụng <img src="../images/base/icons/arrow-down/square/base.svg" class="ic-lg" alt="">
+         </label>
+         <div class="guide-detail">
+            <div class="container">
+               <div class="row row-0">
+                  <div class="col-lg-4 guide-detail__menu">
+                     <div class="p">
+                        <div class="accordion accordion-snap p accordion-guide" data-accordion-group>
+                           <div class="accordion-item" data-accordion>
+                              <div class="accordion-control" data-control>
+                                 Hướng dẫn chung
+                                 <div class="accordion-icon">
+                                    <img src="../images/base/icons/arrow-down/square/base.svg" alt="">
+                                 </div>
+                              </div>
+                              <div class="accordion-content" data-content>
+                                 <div>
+                                    <ul class="list-guide">
+                                       <li>
+                                          <a class="list-guide__main" href="dangkytaikhoan.html"><span
+                                             class="color-base">Đăng ký tài khoản</span></a>
+                                       </li>
+                                       <li>
+                                          <a class="list-guide__main" href="lienkettaikhoan.html"><span
+                                             class="color-base">Liên kết tài khoản</span></a>
+                                       </li>
+                                       <li>
+                                          <a class="list-guide__main" href="huylienkettaikhoan.html"><span
+                                             class="color-base">Hủy liên kết tài khoản</span></a>
+                                       </li>
+                                       <li>
+                                          <a class="list-guide__main" href="khaibaothongtin.html"><span
+                                             class="color-base">Khai
+                                          báo thông tin</span></a>
+                                       </li>
+                                       <li>
+                                          <a class="list-guide__main" href="naptienvaovi.html"><span
+                                             class="color-base">Nạp
+                                          tiền vào ví</span></a>
+                                       </li>
+                                       <li style="display: none;">
+                                          <a class="list-guide__main" href="ruttientuvi.html"><span
+                                             class="color-base">Rút
+                                          tiền từ ví</span></a>
+                                       </li>
+                                       <li>
+                                          <a class="list-guide__main" href="lichsugiaodich.html"><span
+                                             class="color-base">Xem lịch sử giao dịch</span></a>
+                                       </li>
+                                       <li><a class="list-guide__main" href="caidatmatkhaubaovehaibuoc.html"><span
+                                          class="color-base">Cài đặt mật khẩu bảo vệ hai
+                                          bước</span></a>
+                                       </li>
+                                       <li><a class="list-guide__main" href="caidatvantaykhuonmat.html"><span
+                                          class="color-base">Cài đặt vân tay/ FaceID</span></a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="accordion-item active open" data-accordion>
+                              <div class="accordion-control" data-control>
+                                 Nhóm dịch vụ Thanh toán
+                                 <div class="accordion-icon">
+                                    <img src="../images/base/icons/arrow-down/square/base.svg" alt="">
+                                 </div>
+                              </div>
+                              <div class="accordion-content" data-content>
+                                 <div>
+                                    <ul class="list-guide">
+                                       <li>
+                                          <a class="list-guide__main" href="naptiendienthoai.html"><span
+                                             class="color-base">Nạp tiền điện thoại</span></a>
+                                       </li>
+                                       <li>
+                                          <a class="list-guide__main" href="cuocdidongtrasau.html"><span
+                                             class="color-base">Cước di động trả
+                                          sau</span></a>
+                                       </li>
+                                       <li style="display: none;">
+                                          <a class="list-guide__main" href=""><span class="color-base">Điện
+                                          thoại cố
+                                          định</span></a>
+                                       </li>
+                                       <li>
+                                          <a class="list-guide__main" href="hoadondien.html"><span
+                                             class="color-base">Hóa đơn Điện</span></a>
+                                       </li>
+                                       <li>
+                                          <a class="list-guide__main" href="hoadonnuoc.html"><span
+                                             class="color-base">Hóa đơn Nước</span></a>
+                                       </li>
+                                       <li>
+                                          <a class="list-guide__main active" href="hoadonadsl.html"><span
+                                             class="color-base">Hóa đơn ADSL</span></a>
+                                       </li>
+                                       <li style="display: none;">
+                                          <a class="list-guide__main" href=""><span
+                                             class="color-base">Hóa đơn Truyền hình</span></a>
+                                       </li>
+									   <li>
+                                          <a class="list-guide__main" href="thanhtoan-vnpayqr.html"><span
+                                             class="color-base">Thanh toán bằng mã VNPAY QR</span></a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="accordion-item" data-accordion>
+                              <div class="accordion-control" data-control>
+                                 Chuyển – nhận tiền
+                                 <div class="accordion-icon">
+                                    <img src="../images/base/icons/arrow-down/square/base.svg" alt="">
+                                 </div>
+                              </div>
+                              <div class="accordion-content" data-content>
+                                 <div>
+                                    <ul class="list-guide">
+                                       <li>
+                                          <a class="list-guide__main" href="chuyentienquasodienthoai.html"><span class="color-base">Chuyển
+                                          tiền qua số điện thoại</span></a>
+                                       </li>
+                                       <li style="display: none">
+                                          <a class="list-guide__main" href="tangqua.html"><span class="color-base">Tặng
+                                          quà</span></a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="accordion-item" data-accordion style="display: none">
+                              <div class="accordion-control" data-control>
+                                 Nhóm Vận tải – du lịch
+                                 <div class="accordion-icon">
+                                    <img src="../images/base/icons/arrow-down/square/base.svg" alt="">
+                                 </div>
+                              </div>
+                              <div class="accordion-content" data-content>
+                                 <div>
+                                    <ul class="list-guide">
+                                       <li>
+                                          <a class="list-guide__main" href=""><span class="color-base">Đặt vé
+                                          xe</span></a>
+                                       </li>
+                                       <li>
+                                          <a class="list-guide__main" href=""><span class="color-base">Đặt vé
+                                          tàu</span></a>
+                                       </li>
+                                       <li>
+                                          <a class="list-guide__main" href=""><span class="color-base">Đặt vé
+                                          máy bay</span></a>
+                                       </li>
+                                       <li>
+                                          <a class="list-guide__main" href=""><span class="color-base">Đặt
+                                          phòng khách sạn</span></a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="accordion-item" data-accordion style="display: none">
+                              <div class="accordion-control" data-control>
+                                 Giải trí, mua sắm
+                                 <div class="accordion-icon">
+                                    <img src="../images/base/icons/arrow-down/square/base.svg" alt="">
+                                 </div>
+                              </div>
+                              <div class="accordion-content" data-content>
+                                 <div>
+                                    <ul class="list-guide">
+                                       <li>
+                                          <a class="list-guide__main" href=""><span class="color-base">Đặt vé
+                                          xem phim</span></a>
+                                       </li>
+                                       <li>
+                                          <a class="list-guide__main" href=""><span
+                                             class="color-base">Vnshop</span></a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+						   <div class="accordion-item" data-accordion>
+                              <div class="accordion-control" data-control>
+                                 Quản lý TK đăng nhập
+                                 <div class="accordion-icon">
+                                    <img src="../images/base/icons/arrow-down/square/base.svg" alt="">
+                                 </div>
+                              </div>
+                              <div class="accordion-content" data-content>
+                                 <div>
+                                    <ul class="list-guide">
+                                       <li>
+                                          <a class="list-guide__main" href="taikhoan1.html">
+											  <span class="color-base">Tạo mới tài khoản đăng nhập phụ (User chính)</span>
+										   </a>
+                                       </li>
+                                       <li>
+                                          <a class="list-guide__main" href="taikhoan2.html">
+											  <span class="color-base">Cập nhật thông tin tài khoản đăng nhập phụ (User chính)</span>
+										   </a>
+                                       </li>
+									   <li>
+                                          <a class="list-guide__main" href="taikhoan3.html">
+											  <span class="color-base">Kích hoạt tài khoản đăng nhập phụ</span>
+										   </a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-8 guide-detail__content">
+                     <div class="h2 b guide-detail__heading">Hóa đơn ADSL</div>
+                     <div class="swiper-pagination-number"></div>
+                     <div class="row">
+                        <div class="col-md-8">
+                           <div class="swiper-container swiper-guide-content swiper-btn-center">
+                              <div class="swiper-wrapper">
+								  <div class="swiper-slide">
+                                    <div class="guide-detail__main">
+                                       <div class="guide-detail__number h1 color-primary b">01</div>
+                                       <div class="guide-detail__title h2 color-primary b">
+                                          Chọn Thanh toán hóa đơn
+                                       </div>
+                                       <div class="guide-detail__txt">
+                                          Từ màn hình chính Ứng dụng, <br>chọn mục <strong>Thanh toán hóa đơn</strong>
+                                       </div>
+                                    </div>
+                                 </div>
+								  <div class="swiper-slide">
+                                    <div class="guide-detail__main">
+                                       <div class="guide-detail__number h1 color-primary b">02</div>
+                                       <div class="guide-detail__title h2 color-primary b">
+                                          Chọn Internet & ĐT cố định
+                                       </div>
+                                       <div class="guide-detail__txt">
+                                          
+                                       </div>
+                                    </div>
+                                 </div>
+								  <div class="swiper-slide">
+                                    <div class="guide-detail__main">
+                                       <div class="guide-detail__number h1 color-primary b">03</div>
+                                       <div class="guide-detail__title h2 color-primary b">
+                                          Nhập thông tin
+                                       </div>
+                                       <div class="guide-detail__txt">
+                                          Nhập các thông tin yêu cầu <br>rồi nhấn <strong>Tiếp tục</strong>
+                                       </div>
+                                    </div>
+                                 </div>
+								  <div class="swiper-slide">
+                                    <div class="guide-detail__main">
+                                       <div class="guide-detail__number h1 color-primary b">04</div>
+                                       <div class="guide-detail__title h2 color-primary b">
+                                          Xác nhận thông tin
+                                       </div>
+                                       <div class="guide-detail__txt">
+                                          Kiểm tra lại thông tin giao dịch trước khi nhấn <strong>Xác nhận</strong>
+                                       </div>
+                                    </div>
+                                 </div>
+								  <div class="swiper-slide">
+                                    <div class="guide-detail__main">
+                                       <div class="guide-detail__number h1 color-primary b">05</div>
+                                       <div class="guide-detail__title h2 color-primary b">
+                                          Xác thực giao dịch
+                                       </div>
+                                       <div class="guide-detail__txt">
+                                         
+                                       </div>
+                                    </div>
+                                 </div>
+								  <div class="swiper-slide">
+                                    <div class="guide-detail__main">
+                                       <div class="guide-detail__number h1 color-primary b">06</div>
+                                       <div class="guide-detail__title h2 color-primary b">
+                                          Thông báo Thành công
+                                       </div>
+                                       <div class="guide-detail__txt">
+                                          
+                                       </div>
+                                    </div>
+                                 </div>
+							   </div>
+                           </div>							
+                           <div class="btn-wrap-width-lg-100 pb30">
+                              <button class="btn bg-secondary btn-rounded btn-md ripple" id="guide-next">
+                              <span class="btn-text">Bước tiếp theo</span>
+                              <img src="../images/base/icons/arrow-right/square/base.svg" class="ic-md"
+                                 alt="">
+                              </button>
+                           </div>
+                           <div class="btn-wrap-width-lg-100 pb30" style="display: none;">
+                              <button class="btn bg-secondary btn-rounded btn-md ripple" id="guide-prev">
+                              <img src="../images/base/icons/arrow-left/square/base.svg" class="ic-md" alt="">
+                              <span class="btn-text">Xem lại bước đầu</span>
+                              </button>
+                           </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                           <div class="feature-phone-inner">
+                              <div class="feature-phone-header">
+                                 <img src="../images/web/img/phone-header.png">
+                              </div>
+                              <div class="iframe-phone">
+                                 <div class="swiper-container swiper-guide swiper-btn-center">
+                                    <div class="swiper-wrapper">
+                                       <div class="swiper-slide">
+                                          <img src="imgs/hoadonadsl1.png">
+                                       </div>
+                                       <div class="swiper-slide">
+                                          <img src="imgs/hoadonadsl2.png">
+                                       </div>
+                                       <div class="swiper-slide">
+                                          <img src="imgs/hoadonadsl3.png">
+                                       </div>
+                                       <div class="swiper-slide">
+                                          <img src="imgs/hoadonadsl4.png">
+                                       </div>
+                                       <div class="swiper-slide">
+                                          <img src="imgs/hoadonadsl5.png">
+                                       </div>
+                                       <div class="swiper-slide">
+                                          <img src="imgs/hoadonadsl6.png">
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <img src="../images/web/img/phone-tinh-nang.png" alt="" class="feature-phone"
+                                 width="300">
+                           </div>
+                        </div>
+                        <div class="col-md-12">
+                              <div class="guide-detail__footer">
+                                    <a class="guide-detail-back" href="hoadondien.html">
+                                       <div class="table table-auto color-base">
+                                          <div class="td guide-detail-back__ic">
+                                             <img src="../images/base/icons/arrow-left/crop/base.svg" width="8"
+                                                alt="">
+                                          </div>
+                                          <div class="td guide-detail-back__txt">
+                                             <div class="guide-detail-back__sub">Dịch vụ thanh toán</div>
+                                             <div class="guide-detail-back__main h4">Hóa đơn điện</div>
+                                          </div>
+                                       </div>
+                                    </a>
+                                    <a class="guide-detail-next text-right" href="hoadoninternet.html">
+                                       <div class="table table-auto color-base">
+                                          <div class="td guide-detail-back__txt">
+                                             <div class="guide-detail-back__sub">Dịch vụ thanh toán</div>
+                                             <div class="guide-detail-back__main h4">Hóa đơn ADSL</div>
+                                          </div>
+                                          <div class="td guide-detail-back__ic">
+                                             <img src="../images/base/icons/arrow-right/crop/base.svg" width="8"
+                                                alt="">
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div class="footer-up color-white">
+            <div class="container">
+               <div class="row list-pb30">
+                  <div class="col-lg-3 col-sm-6 col-xs-12">
+                     <div class="footer-up-title h3 b pb10">
+                        Chăm sóc khách hàng
+                     </div>
+                     <ul class="footer-up-list">
+                        <li>
+                           <a class="footer-up-list__main" href="tel:1900555577"><span
+                              class="color-white hover-u">1900 55
+                           55 77</span></a>
+                        </li>
+                        <li>
+                           <a class="footer-up-list__main" href="mailto:hotrovnpay@vnpay.vn"><span
+                              class="color-white hover-u">hotrovnpay@vnpay.vn</span></a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-xs-12">
+                     <div class="footer-up-title h3 b pb10">
+                        Dịch vụ <img src="../images/web/img/logo-qr-white.svg" alt="">
+                     </div>
+                     <ul class="footer-up-list">
+                        <li>
+                           <a class="footer-up-list__main" href="tel:1900555577"><span
+                              class="color-white hover-u">1900 55
+                           55 77</span></a>
+                        </li>
+                        <li>
+                           <a class="footer-up-list__main" href="mailto:hotrovnpay@vnpay.vn"><span
+                              class="color-white hover-u">hotrovnpay@vnpay.vn</span></a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-xs-12">
+                     <div class="footer-up-title h3 b pb10">
+                        Tuyển dụng
+                     </div>
+                     <ul class="footer-up-list">
+                        <li>
+                           <a class="footer-up-list__main" href="tel:"><span class="color-white hover-u">(024) 3776
+                           4668
+                           (ext 172/193)</span></a>
+                        </li>
+                        <li>
+                           <a class="footer-up-list__main" href="mailto:hotrovnpay@vnpay.vn"><span
+                              class="color-white hover-u">hotrovnpay@vnpay.vn</span></a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-xs-12">
+                     <div class="footer-up-title h3 b pb10">
+                        Liên kết với VnPay
+                     </div>
+                     <div class="footer-social">
+                        <div class="row row-15 list-pb10">
+                           <div class="inline-block">
+                              <a href="">
+                              <img src="../images/web/icons/ic-social-fb.svg" alt="">
+                              </a>
+                           </div>
+                           <div class="inline-block">
+                              <a href="">
+                              <img src="../images/web/icons/ic-social-gplus.svg" alt="">
+                              </a>
+                           </div>
+                           <div class="inline-block">
+                              <a href="">
+                              <img src="../images/web/icons/ic-social-twitter.svg" alt="">
+                              </a>
+                           </div>
+                           <div class="inline-block">
+                              <a href="">
+                              <img src="../images/web/icons/ic-social-in.svg" alt="">
+                              </a>
+                           </div>
+                           <div class="inline-block">
+                              <a href="">
+                              <img src="../images/web/icons/ic-social-yt.svg" alt="">
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-bottom pv20 text-center">
+            <div class="container">
+               <div class="footer-bottom-title color-base pb5 b">
+                  Công ty cổ phần giải pháp thanh toán Việt Nam
+               </div>
+               <div class="footer-bottom-footer-sub color-black-1 pb10">
+                  Địa chỉ: Tầng 8, số 22 Phố Láng Hạ, Phường Láng Hạ, Quận Đống Đa, Thành phố Hà Nội, Việt Nam <br>
+                  <span class="inline-block">Điện thoại: <a href="tel:1900555577"><span
+                     class="color-primary">1900555577</span></a></span> - <span class="inline-block">Email:
+                  <a href="mailto:info@vnpay.vn"><span
+                     class="color-primary">info@vnpay.vn</span></a></span></span>
+               </div>
+               <div class="footer-bottom-verified">
+                  <div class="row-10 list-pb10">
+                     <a class="inline-block">
+                     <img src="../images/web/icons/verified-1.svg" alt="">
+                     </a>
+                     <a class="inline-block">
+                     <img src="../images/web/icons/verified-2.svg" alt="">
+                     </a>
+                     <a class="inline-block">
+                     <img src="../images/web/icons/verified-3.svg" alt="">
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </body>
+   <script src="../js/jquery-3.2.1.min.js"></script>
+   <script src="../js/bundles.js"></script>
+   <script src="../js/init.js"></script>
+   <script src="../js/custom.js"></script>
+</html>

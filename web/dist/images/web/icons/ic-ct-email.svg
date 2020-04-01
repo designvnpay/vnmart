@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-ic-ct-email">
+      <rect width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="ic-ct-email" clip-path="url(#clip-ic-ct-email)">
+    <g id="Group_3509" data-name="Group 3509" transform="translate(-20.75 -379.653)">
+      <g id="ic_email" transform="translate(21.445 380.451)">
+        <circle id="Ellipse_134" data-name="Ellipse 134" cx="19.2" cy="19.2" r="19.2" transform="translate(0.2 0.2)" stroke-dasharray="35 3" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill="none"/>
+        <g id="Group_2301" data-name="Group 2301" transform="translate(8.846 10.854)">
+          <path id="Path_5592" data-name="Path 5592" stroke="#fff" d="M5,9l7.442,6.765L19.883,9" fill="none" transform="translate(-2.294 -5.617)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="35 3"/>
+          <rect id="Rectangle_1082" data-name="Rectangle 1082" width="20.295" height="16.236" rx="3" stroke-dasharray="35 3" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" fill="none"/>
+          <line id="Line_296" data-name="Line 296" y1="3.383" x2="2.706" transform="translate(2.706 9.471)" stroke-dasharray="35 3" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" fill="none"/>
+          <line id="Line_297" data-name="Line 297" x1="2.706" y1="3.383" transform="translate(14.883 9.471)" stroke-dasharray="35 3" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

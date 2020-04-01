@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-ic-ct-phone">
+      <rect width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="ic-ct-phone" clip-path="url(#clip-ic-ct-phone)">
+    <g id="Group_3508" data-name="Group 3508" transform="translate(-33.646 -379.653)">
+      <g id="ic_phonenumber" transform="translate(34.445 380.452)">
+        <circle id="Ellipse_134" data-name="Ellipse 134" cx="19.2" cy="19.2" r="19.2" transform="translate(0.2 0.2)" stroke-dasharray="35 3" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill="none"/>
+        <g id="Group_2300" data-name="Group 2300" transform="translate(11.851 9.917)">
+          <line id="Line_294" data-name="Line 294" x2="14.109" transform="translate(0 15.392)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Line_295" data-name="Line 295" x2="14.109" transform="translate(0 3.207)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Path_5591" data-name="Path 5591" stroke="#fff" d="M17.185,20.239H6.924A1.924,1.924,0,0,1,5,18.315V2.924A1.924,1.924,0,0,1,6.924,1H17.185a1.924,1.924,0,0,1,1.924,1.924V18.315a1.924,1.924,0,0,1-1.924,1.924Z" fill="none" transform="translate(-5 -1)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="35 3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

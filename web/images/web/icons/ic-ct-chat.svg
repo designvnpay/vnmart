@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-ic-ct-chat">
+      <rect width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="ic-ct-chat" clip-path="url(#clip-ic-ct-chat)">
+    <g id="Group_6672" data-name="Group 6672" transform="translate(-20.646 -379.653)">
+      <g id="ic_phonenumber" transform="translate(21.445 380.452)">
+        <circle id="Ellipse_134" data-name="Ellipse 134" cx="19.2" cy="19.2" r="19.2" transform="translate(0.2 0.2)" stroke-dasharray="35 3" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill="none"/>
+        <g id="surface1" transform="translate(-1.8 -0.713)">
+          <path id="Path_10489" data-name="Path 10489" d="M31.05,20.467c0-4.676-4.262-8.467-9.525-8.467S12,15.791,12,20.467s4.262,8.467,9.525,8.467a10.778,10.778,0,0,0,2.117-.215v2.609c2.146-1.377,6.83-5.114,7.355-9.971A7.938,7.938,0,0,0,31.05,20.467Z" fill="none" stroke="#fff" stroke-width="1"/>
+          <path id="Path_10490" data-name="Path 10490" d="M30.117,42.117H28V40h2.117Zm4.233,0H32.233V40H34.35Zm4.233,0H36.467V40h2.117Z" transform="translate(-11.767 -20.592)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

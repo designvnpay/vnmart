@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38.994" height="38.994" viewBox="0 0 38.994 38.994">
+  <defs>
+    <clipPath id="clip-ic-social-fb">
+      <rect width="38.994" height="38.994"/>
+    </clipPath>
+  </defs>
+  <g id="ic-social-fb" clip-path="url(#clip-ic-social-fb)">
+    <g id="surface1">
+      <path id="Path_10508" data-name="Path 10508" d="M37.679,55.541V43.1h-4.57V37.781h4.57V33.874c0-4.532,2.772-7,6.816-7a38.311,38.311,0,0,1,4.075.206v4.737H45.79c-2.209,0-2.635,1.036-2.635,2.574v3.382h5.263l-.685,5.316H43.125V54.978Z" transform="translate(-20.87 -17.674)" fill="#fff"/>
+      <path id="Path_10509" data-name="Path 10509" d="M27.5,8a19.5,19.5,0,1,0,19.5,19.5A19.5,19.5,0,0,0,27.5,8Zm0,35.095a15.6,15.6,0,1,1,15.6-15.6A15.6,15.6,0,0,1,27.5,43.095Z" transform="translate(-8 -8)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
