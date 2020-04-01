@@ -495,10 +495,10 @@ body {
 
 @media (max-width: 767px) {
   .swiper-pagination-number .swiper-pagination-bullet {
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    font-size: 12px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 13px;
   }
 
   .swiper-pagination-number .swiper-pagination-bullet:not(:last-of-type) {
@@ -580,7 +580,7 @@ body {
 @media (max-width: 480px) {
 	.guide-detail__content {text-align: center;}
 .swiper-pagination-number .swiper-pagination-bullet:not(:last-of-type) {
-  margin-right: 15px;
+  margin-right: 10px;
 }
   .guide-detail__footer {
     font-size: 13px;
