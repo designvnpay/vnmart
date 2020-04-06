@@ -3229,6 +3229,12 @@ sup {
     #box-vietnamairlines [class*=col-sm-] {
     padding-left: 0;
 }
+.title.txt-upper {
+    display: block;
+}
+.title.txt-upper h2 {
+    font-size: 16px;
+}
     }
 @media (max-width: 375px) {
     .title-name span {display: block;}

@@ -35,173 +35,53 @@
                         <h2>Dịch vụ thanh toán vé máy bay trả sau (Paylater)</h2>
                         <div class="icon-title"></div>
                     </div>
-                    <div class="check"><img src="images/check.svg" alt="" width="70" style="display: inline;">
-                        <div class="title-success">Giao dịch thành công!</div>
-                    </div>
                     <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade in active" id="box-vietnamairlines">
-                            <form action="step1.html" class="form-horizontal">
-                                <div class="form-group clearfix">
-    <label for="" class="col-sm-5 nobold">PNR:</label>
-    <div class="col-sm-7">
-      <b>XYZOKL</b>
-    </div>
-  </div>
-  <div class="form-group clearfix">
-    <label for="" class="col-sm-5 nobold">Số tiền thanh toán:</label>
-    <div class="col-sm-7">
-      <b>1.200.000 VNĐ</b>
-    </div>
-  </div>
-  <div class="space"></div>
-  <div class="box-info">
-                <div class="title-info">Thông tin hành trình</div>
-            
-                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="heading1">
-      <div class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
-            <table class="table table-noborder">
-        <tbody>
-          <tr>
-            <td class="td1"><span class="title-name">HAN</span></td>
-            <td class="td2"><span class="arrow-right"></span></td>
-            <td class="td3"><span class="title-name">LHR</span></td>
-          </tr>
-          
-        </tbody>
-      </table>
-          <span class="arrow">
-                            <img src="images/ic-arrow.svg">
-                        </span>
-        </a>
-      </div>
-    </div>
-    <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
-      <div class="panel-body">
-      <table class="table table-noborder">
-        <tbody>
-          <tr>
-            <td class="td1"><div class="title-name">HAN <span>(Hanoi)</span></div><div class="time-name">07:00 01/01/2020</div></td>
-            <td class="td2"><div class="title-name"><img src="images/fly.svg"></div><div class="fly-name">VN201</div></td>
-            <td class="td3"><div class="title-name">SGN <span>(Tp Ho Chi Minh)</span></div><div class="time-name">09:00 02/01/2020</div></td>
-          </tr>
-          <tr>
-            <td class="td1"><div class="title-name">SGN <span>(Tp Ho Chi Minh)</span></div><div class="time-name">07:00 01/01/2020</div></td>
-            <td class="td2"><div class="title-name"><img src="images/fly.svg"></div><div class="fly-name">VN203</div></td>
-            <td class="td3"><div class="title-name">LHR <span>(London)</span></div><div class="time-name">09:00 02/01/2020</div></td>
-          </tr>
-        </tbody>
-      </table>
+                        <div role="tabpanel" class="tab-pane fade in active" id="box-vietnamairlines">                        
+                           <div class="timer">
+                                                        <style type="text/css">
+                                                            .timer {
+                                                            background: url(images/loading_icon.gif) no-repeat 0 0;
+                                                            width: 95px;
+                                                            height: 95px;
+                                                            vertical-align: middle;
+                                                            margin: 0 auto;
+                                                        }
+                                                        .timer b {
+                                                            display: block;
+                                                            font-size: 36px;
+                                                            text-align: center;
+                                                            line-height: 29px;
+                                                            padding-top: 26px;
+                                                        }
+                                                        .timer span {
+                                                            display: block;
+                                                            text-align: center;font-size: 12px;
+                                                        }
+                                                        </style>
+                                                        <div class="timer">
+                                                          <b id="showtime">5</b> <span>Giây</span>   
+                                                        </div>
+                                                        
+                                                        <script type="text/javascript">                                                           
+                                                            var settimmer = 0;
+        $(function(){
+                window.setInterval(function() {
+                    var timeCounter = $("b[id=showtime]").html();
+                    var updateTime = eval(timeCounter)- eval(1);
+                    $("b[id=showtime]").html(updateTime);
 
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="heading2">
-      <div class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2" class="collapsed">
-            <table class="table table-noborder">
-        <tbody>
-          <tr>
-            <td class="td1"><span class="title-name">LHR</span></td>
-            <td class="td2"><span class="arrow-right"></span></td>
-            <td class="td3"><span class="title-name">HAN</span></td>
-          </tr>
-          
-        </tbody>
-      </table>
-          <span class="arrow">
-                            <img src="images/ic-arrow.svg">
-                        </span>
-        </a>
-      </div>
-    </div>
-    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-      <div class="panel-body">
-      <table class="table table-noborder">
-        <tbody>
-            <tr>
-            <td class="td1"><div class="title-name">LHR <span>(London)</span></div><div class="time-name">07:00 01-1/01/2020</div></td>            
-            <td class="td2"><div class="title-name"><img src="images/fly.svg"></div><div class="fly-name">VN203</div></td>
-            <td class="td3"><div class="title-name">SGN <span>(Tp Ho Chi Minh)</span></div><div class="time-name">09:00 02/01/2020</div></td>
-          </tr>
-          <tr>
-            <td class="td1"><div class="title-name">SGN <span>(Tp Ho Chi Minh)</span></div><div class="time-name">07:00 01/01/2020</div></td>
-            <td class="td2"><div class="title-name"><img src="images/fly.svg"></div><div class="fly-name">VN201</div></td>            
-            <td class="td3"><div class="title-name">HAN <span>(Hanoi)</span></div><div class="time-name">09:00 02/01/2020</div></td>
-          </tr>
+                    if(updateTime == 0){
+                        window.location = ("step6.html");
+                    }
+                }, 1000);
 
-        </tbody>
-      </table>
+        });
+                                                        </script>
 
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="heading3">
-      <div class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3" class="collapsed">
-            <table class="table table-noborder">
-        <tbody>
-          <tr>
-            <td class="td1"><span class="title-name">SGN</span></td>
-            <td class="td2"><span class="arrow-right"></span></td>
-            <td class="td3"><span class="title-name">SIN</span></td>
-          </tr>
-          
-        </tbody>
-      </table>
-          <span class="arrow">
-                            <img src="images/ic-arrow.svg">
-                        </span>
-        </a>
-      </div>
-    </div>
-    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-      <div class="panel-body">
-      <table class="table table-noborder">
-        <tbody>
-          <tr>
-            <td class="td1"><div class="title-name">HAN <span>(Hanoi)</span></div><div class="time-name">07:00 01/01/2020</div></td>
-            <td class="td2"><div class="title-name"><img src="images/fly.svg"></div><div class="fly-name">VN201</div></td>
-            <td class="td3"><div class="title-name">SGN <span>(Tp Ho Chi Minh)</span></div><div class="time-name">09:00 02/01/2020</div></td>
-          </tr>
-          <tr>
-            <td class="td1"><div class="title-name">SGN <span>(Tp Ho Chi Minh)</span></div><div class="time-name">07:00 01/01/2020</div></td>
-            <td class="td2"><div class="title-name"><img src="images/fly.svg"></div><div class="fly-name">VN203</div></td>
-            <td class="td3"><div class="title-name">SIN <span>(Singapore)</span></div><div class="time-name">09:00 02/01/2020</div></td>
-          </tr>
-        </tbody>
-      </table>
-
-      </div>
-    </div>
-  </div>
-</div>      
-</div>
-<div class="box-info">
-                <div class="title-info">Thông tin khách hàng</div>
-                <Ol class="list-customer">
-                                    <li>MR NUGYEN VAN A</li>
-                                    <li>MRS NGUYEN VAN B</li>
-                                </Ol>
-                </div>
-                                <div class="form-group clearfix">
-                                    <div class="col-sm-12">
-                                    <input type="submit" value="Giao dịch khác" class="btn btn-primary form-control">
-                                </div>
-                                </div>
-                                <div class="or">
-                                    <span>Hoặc truy cập</span>
-                                </div>
-                                <div class="form-group btn-cancel clearfix">
-                                    <div class="col-sm-12">
-                                    <a href="https://www.vietnamairlines.com/vn/vi/home" class="btn btn-default form-control">Website của Vietnam Airlines</a>
-                                </div>
-                                </div>
-                            </form>
+                                                    </div>
+                                                     <div class="space"></div> <div class="space"></div>
+                                                    <p align="center">Hệ thống đang thực hiện xuất vé, Vui long không đóng trình duyệt.</p>
+                                                    <div class="space"></div> <div class="space"></div>
                                                  
                         </div>
                     </div>
