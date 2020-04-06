@@ -3225,6 +3225,11 @@ sup {
     padding-top: 0;
 }
 }
+@media (max-width: 767px) {
+    #box-vietnamairlines [class*=col-sm-] {
+    padding-left: 0;
+}
+    }
 @media (max-width: 375px) {
     .title-name span {display: block;}
     }
