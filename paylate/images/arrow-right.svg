@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="8" viewBox="0 0 17 8">
+  <g id="arrow-right" transform="translate(9.5 -196.5)">
+    <line id="Line_1" data-name="Line 1" x2="14" transform="translate(-9.5 200.5)" fill="none" stroke="#555" stroke-width="2"/>
+    <path id="Path_3" data-name="Path 3" d="M4,2,8,7H0Z" transform="translate(9.5 196.5) rotate(90)" fill="#555"/>
+  </g>
+</svg>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cổng Thanh toán VnPayment">
+    <meta name="keywords" content="Cổng Thanh toán VnPayment">
+    <meta name="author" content="Cổng Thanh toán VnPayment">
+    <title>Thanh toán qua Ngân hàng BIDV</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/Styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body class="background-grey">
+    <div class="payement-method">
+        <div class="payment-method__body">
+            <div class="section-body-middle-introduce text-center padding-sx-big">
+                Chọn Phương thức thanh toán
+            </div>
+            <div class="section-body-middle-form-p1 nopadding no-border">
+                <div class="wrap">
+                    <button type="button" class="btn-list-option collapsed paytype-qr" onclick="javascript:window.location.href='step4.html'; return false;">Ứng dụng thanh toán quét mã <span class="vnpay--red">VN</span><span class="vnpay--blue">PAY</span><sup class="vnpay--red">QR</sup></button>
+                </div>
+                <div class="wrap">
+                    <button type="button" class="btn-list-option collapsed paytype-localbank" data-toggle="collapse" data-target="#tab1" aria-expanded="false">Thẻ ATM và tài khoản Ngân hàng
+                        <div class="triangle-border"></div>
+                        <span class="arrow">
+                            <img src="images/ic-arrow.svg">
+                        </span>
+                    </button>
+                    <div id="tab1" class="list-option-collapse collapse" aria-expanded="false" style="height: 1px;">
+                        <div class="collapse-wrap">
+                            <ul class="list_cart-2 clearfix">
+                                <li>
+                                    <label for="id9">
+                                        <input type="submit" value="" id="id9"><img src="images/bank/vietcombank_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id8">
+                                        <input type="submit" value="" id="id8"><img src="images/bank/vietinbank_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id1">
+                                        <input type="submit" value="" id="id1"><img src="images/bank/bidv_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id1">
+                                        <input type="submit" value="" id="id7"><img src="images/bank/agribank_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id11">
+                                        <input type="submit" value="" id="id11"><img src="images/bank/sacombank_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id7">
+                                        <input type="submit" value="" id="id17"><img src="images/bank/techcombank_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id2">
+                                        <input type="submit" value="" id="id20"><img src="images/bank/acb_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id10">
+                                        <input type="submit" value="" id="id18"><img src="images/bank/vpbank_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id2">
+                                        <input type="submit" value="" id="id2"><img src="images/bank/donga_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id3">
+                                        <input type="submit" value="" id="id3"><img src="images/bank/eximbank_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id13">
+                                        <input type="submit" value="" id="id13"><img src="images/bank/tpbank_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id12">
+                                        <input type="submit" value="" id="id12"><img src="images/bank/ncb_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id6">
+                                        <input type="submit" value="" id="id6"><img src="images/bank/oceanbank_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id4">
+                                        <input type="submit" value="" id="id4"><img src="images/bank/maritimebank_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id10">
+                                        <input type="submit" value="" id="id10"><img src="images/bank/hdbank_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id5">
+                                        <input type="submit" value="" id="id5"><img src="images/bank/nama_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id5">
+                                        <input type="submit" value="" id="id19"><img src="images/bank/OCB_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id5">
+                                        <input type="submit" value="" id="id19"><img src="images/bank/scb_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id5">
+                                        <input type="submit" value="" id="id19"><img src="images/bank/bacabank_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id5">
+                                        <input type="submit" value="" id="id19"><img src="images/bank/mbbank_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap wrap-visible">
+                    <button type="button" class="btn-list-option collapsed paytype-intncard">Thẻ quốc tế
+                    </button>
+                    <!-- <div id="tab2" class="list-option-collapse collapse" aria-expanded="false" style="height: 1px;">
+                        <div class="collapse-wrap no-padding-bottom">
+                            <ul class="list_cart-2 clearfix">
+                                <li>
+                                    <label for="id15">
+                                        <input type="submit" value="" id="id15"><img src="images/bank/visa_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id14">
+                                        <input type="submit" value="" id="id14"><img src="images/bank/mastercard_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                                <li>
+                                    <label for="id14">
+                                        <input type="submit" value="" id="id21"><img src="images/bank/jcb_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="wrap">
+                    <button type="button" class="btn-list-option collapsed paytype-ewallet">Ví điện tử</button>
+                    <!-- <div id="tab3" class="collapse list-option-collapse" aria-expanded="false">
+                        <div class="collapse-wrap">
+                            <ul class="list_cart-2 clearfix">
+                                <li>
+                                    <label for="id16">
+                                        <input type="submit" value="" id="id16"><img src="images/bank/vnmart_logo.png" width="200" height="40" alt="bank" /></label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="wrap">
+                    <button type="button" class="btn-list-option collapsed paytype-vnpay">Ví điện tử</button>
+                </div>
+            </div>
+            <div class="text-center margin10 section-body-middle-bottom" id="btn-back">
+                <a class="btn btn-default text-center" href="#">Quay lại</a>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="container clearfix">
+            <div class="col-md-12">
+                <div class="copyright">© 2008-2016 bởi Công ty Cổ phần giải pháp Thanh toán Việt Nam - VNPAY</div>
+                <div class="copyright_m">PHÁT TRIỂN BỞI VNPAY © 2016</div>
+                <div class="verify">
+                    <a href="https://sealinfo.verisign.com/splash?form_file=fdf/splash.fdf&amp;dn=www.vnpayment.vn&amp;lang=en" target="_blank"><img src="images/verify1.png" width="104" height="40"></a>
+                    <a href="#"><img src="images/verify4.png" width="62" height="40"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->    
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/java.js" type="text/javascript"></script>
+</body>
+
+</html>

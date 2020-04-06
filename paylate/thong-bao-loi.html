@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cổng Thanh toán VnPayment">
+    <meta name="keywords" content="Cổng Thanh toán VnPayment">
+    <meta name="author" content="Cổng Thanh toán VnPayment">
+    <title>Thanh toán qua Ngân hàng Bank</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/Styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header id="header" class="clearfix">
+        <div class="container clearfix">
+            <div class="navbar-header"><img src="images/mobifone-logo.png" width="170" height="60" alt="vnpay"></div>
+            <div class="nav navbar-nav navbar-right">
+                <div class="language">
+                    <a href="#"><img src="images/ic_vi.png" width="24" height="16" alt="vietnam" /></a>
+                    <a href="#"><img src="images/ic_en.png" width="24" height="16" alt="english" /></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header-->
+    <div id="container" class="container bs-docs-container clearfix">
+        <form class="form-horizontal">
+      <div class="box-succesful box-form-cont">
+      <img class="tick" src="images/error.png" width="120" height="120" alt=""/>
+  <h1 class="title-error">Giao dịch không thành công</h1>
+  <div class="code-transaction">(Ngày 22/9/2016, 12:30)</div>
+ <div class="form-group">
+    <label for="input1" class="col-sm-3 control-label">Mã giao dịch:</label>
+    <div class="col-sm-9">
+      <strong>5164</strong> 
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="input1" class="col-sm-3 control-label">Điện thoại hỗ trợ:</label>
+    <div class="col-sm-9">
+      <b style="background:#c00; border-radius:20px; -moz-border-radius:20px; -webkit-border-radius:20px; color:#fff; padding:2px 8px">1900 55 55 77</b>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="input1" class="col-sm-3 control-label">Thông báo:</label>
+    <div class="col-sm-9">
+      <b style="color:#f00"> Kết nối mạng bị ngắt</b>
+    </div>
+  </div>
+    </div>
+      </form>
+      <div id="my-timer">
+        <div class="name_time">Hệ thống sẽ tự động quay về trang <a href="http://mobifone.com.vn/" class="under"><strong>mobifone.com.vn</strong></a> sau: </div>
+        <div class="timer"><b id="showd-time">10</b> <span>Giây</span> </div>       
+</div>
+    </div>
+    <!-- End container-->
+    <footer id="footer">
+        <div class="container clearfix">
+            <div class="col-md-12">
+                <div class="copyright">&copy; 2008-2016 bởi Công ty Cổ phần giải pháp Thanh toán Việt Nam - VNPAY</div>
+                <div class="copyright_m">PHÁT TRIỂN BỞI VNPAY © 2016</div>
+                <div class="verify">
+                    <a href="https://sealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=www.vnpayment.vn&lang=en" target="_blank"><img src="images/verify1.png" width="104" height="40"></a>
+                    <a href="#"><img src="images/verify4.png" width="62" height="40"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <div id="modal-month" class="modal" data-easein="expandIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" role="button"><img src="images/btn_close.png" width="21" height="21" alt="" /></button>
+                    <h4 class="modal-title">Chọn tháng</h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-time clearfix">
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">1</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">2</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">3</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">4</span></a></div>
+                        </li>
+                        <li class="active">
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">5</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">6</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">7</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">8</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">9</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">0</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">11</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">12</span></a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-month-edit" class="modal" data-easein="expandIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn_next" data-dismiss="modal" data-toggle="modal" data-target="#modal-year" role="button"><img src="images/btn_next.png" width="21" height="21" alt="" /></button>
+                    <h4 class="modal-title">Chọn tháng</h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-time clearfix">
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">1</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">2</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">3</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">4</span></a></div>
+                        </li>
+                        <li class="active">
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">5</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">6</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">7</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">8</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">9</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">0</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">11</span></a></div>
+                        </li>
+                        <li>
+                            <div><a href="#modal-year" data-toggle="modal" role="button" data-dismiss="modal"><span class="name-time">Tháng</span><span class="number-time">12</span></a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-year" class="modal" data-easein="slideLeftIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn_previus" data-dismiss="modal" data-toggle="modal" data-target="#modal-month-edit" role="button"><img src="images/btn_previus.png" width="21" height="21" alt="" /></button>
+                    <button type="button" class="close" data-dismiss="modal" role="button"><img src="images/btn_close.png" width="21" height="21" alt="" /></button>
+                    <h4 class="modal-title">Chọn năm</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="screenshots-slider" class="owl-carousel">
+                        <div class="item">
+                            <ul class="list-time clearfix">
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2010</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2011</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2012</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2013</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2014</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2015</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2016</a></div>
+                                </li>
+                                <li class="active">
+                                    <div><a href="#" role="button" data-dismiss="modal">2017</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2018</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2019</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2020</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">20121</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="item active">
+                            <ul class="list-time clearfix">
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2022</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2023</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2024</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2025</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2026</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2027</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2028</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2029</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2030</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2031</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2032</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="#" role="button" data-dismiss="modal">2033</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-guide" class="modal" data-easein="expandIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div style="height: 255px; background: blue; position: absolute;"></div>
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" role="button"><img src="images/btn_close.png" width="22" height="22" alt="" /></button>
+                    <h4 class="modal-title" style="color:#3e3e3e font-size:24px;"><b>Hướng dẫn thanh toán</b></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row steps">
+                        <div class="col-md-12">
+                            <div class="col-md-4 left">
+                                <div class="modal-step">1</div>
+                                <p align="center">
+                                    <img src="images/step0.png" width="237" height="498" alt="step">
+                                    <p  class="modal-1">Đăng nhập ứng dụng Mobile Banking, chọn chức năng QRPay và scan mã QR</p>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="modal-step">2</div>
+                                <p align="center">  
+                                    <img src="images/step1.png" width="237" height="498" alt="step">
+                                    <p class="modal-1">Kiểm tra thông tin đơn hàng và lựa chọn tài khoản thanh toán</p>
+                                </p>
+                            </div>
+                            <div class="col-md-4 right">
+                                <div class="modal-step">3</div>
+                                <p align="center">
+                                    <img src="images/step2.png" width="237" height="498" alt="step">
+                                    <p  class="modal-1">Xác nhận thanh toán và hoàn tất giao dịch</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                          <p style="font-size: 24px; color: #3e3e3e; font-weight: bold; margin-bottom: 5px;">Ứng dụng hỗ trợ</p>
+                          <img src="images/logo-agribank.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/tab.js"></script>
+    <script src="js/velocity.min.js"></script>
+    <script src="js/velocity.ui.min.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/java.js" type="text/javascript"></script>
+</body>
+
+</html>
