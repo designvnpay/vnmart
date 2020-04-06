@@ -435,7 +435,7 @@ body {
 }
 
 .guide-detail__heading {
-  padding-bottom: 30px;padding-top: 15px;
+  padding: 15px 0 30px;
 }
 
 .swiper-pagination-number {
