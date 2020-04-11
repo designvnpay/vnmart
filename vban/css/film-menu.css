@@ -66,7 +66,7 @@ li.dropdown.mega-dropdown {
     position: relative;
 }
 
-.mega-dropdown__hot a:after {
+.mega-dropdown__hot>a:after {
     content: "Hot";
     clear: both;
     font-weight: 600;
