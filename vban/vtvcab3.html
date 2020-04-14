@@ -184,6 +184,7 @@
             </div>
             <div class="section-top-middle">
                 <div class="col-md-2"></div>
+                <div class="col-md-1 col-gap hidden-sm hidden-xs"></div>
                 <div class="col-md-7">
                     <a href="#"><img src="images/logo-vtvcab.png" alt="">Mua gói cước VTVcab</a>
                 </div>
@@ -197,9 +198,6 @@
                 <div class="section-body-left hidden-xs hidden-sm">
                     <ul>
                         <li>
-                            <a href="02.naptien_dt_1.html"><img src="images/ic_dark/ic-01.svg" alt="">Nạp tiền điện thoại</a>
-                        </li>
-                        <li>
                             <a href="03_flight_1.html"><img src="images/ic_dark/ic-02.svg" alt="">Mua vé máy bay</a>
                         </li>
                         <li>
@@ -209,172 +207,63 @@
                             <a href="04_pay_bill_1.html"><img src="images/ic_dark/ic-03.svg" alt="">Thanh toán hóa đơn</a>
                         </li>
                         <li>
-                            <a href="07.Credit_1.html"><img src="images/ic_dark/ic-47.svg" alt="">Thanh toán nợ tín dụng</a>
+                            <a href="06.Visa_diretc_1.html"><img src="images/ic_dark/ic-44.svg" alt="">Nạp tiền vào thẻ VISA</a>
                         </li>
                         <li>
                             <a href="15_insurance.html"><img src="images/ic_dark/ic-202.svg" alt="">Mua bảo hiểm</a>
                         </li>
+                        <li>
+                            <a href="07.Credit_1.html"><img src="images/ic_dark/ic-47.svg" alt="">Thanh toán nợ <span class="inline-block"> tín dụng</span></a>
+                        </li>
                     </ul>
                 </div>
             </div>
+            <div class="col-md-1 col-gap hidden-sm hidden-xs"></div>
             <div class="col-md-7">
                 <div class="section-body-middle">
-                    <form name="form_phone_email" action="vtvcab2.html" class="form_phone_email">
-                        <div class="section-body-middle-form-p1 no-border-top">                            
-                            <div class="form-group margin-big">
-                                <label for="" class="title sm-margin">
-                                    Số điện thoại hoặc email <span class="lightred">*</span>
-                                </label>
-                                <div class="form-group-wrap">
-                                    <input type="text" name="phone_email" class="form-control form-normal" placeholder="Nhập số điện thoại hoặc email">
-                                </div>
+                    <div class="section-body-middle-introduce text-center padding-sm">
+                        <div class="div-bigCheck"><img src="images/bigCheck.svg" class="bigCheck" alt="" width="100"></div>
+                        <h1 class="text-success">Giao dịch thành công!</h1>
+                    </div>
+                    <form action="vtvcab1.html" class="form_phone_email">
+                        <div class="section-body-middle-form-p1">
+                            <div class="form-group form-group-dashed row">
+                                <label class="col-xs-6 control-label">Mã thanh toán</label>
+                                <label class="col-xs-6 control-label control-label-result text-right">VN\SLSDBG</label>
                             </div>
-                            <div id="show-box">
-                                <div class="form-group margin-big">
-                                <label for="" class="title sm-margin">
-                                   Chọn gói cước
-                                </label>
-                                <div class="form-group-wrap">
-                                    <span class=" down-arrow-black arrow-big no-border"></span>
-                                    <select class="form-control select-pay-bill form-control-big form-blue" id="" placeholder="Chọn gói">
-                                        <option>Chọn gói cước</option>
-                                        <option>Gói on VIP</option>
-                                        <option>Gói on Option1</option>
-                                        <option>Gói on Option2</option>
-                                    </select>
-                                    <div class="note-style"><span class="darkblue"><em>Ghi chú:</em></span> <em>Xem 1 thiết bị đồng thời, đăng nhập trên 5 thiết bị, Gần 200 kênh truyền hình đặc sắc, bản quyền từ các đài truyền hình và kho video phong phú với trình độ Full HD, 4K. Các giải đấu thể thao hấp dẫn trên khắp thế giới. Hotline: 1900.1515</em>
+                            <div class="form-group form-group-dashed row">
+                                <label class="col-xs-6 control-label">Số điện thoại hoặc email</label>
+                                <label class="col-xs-6 control-label control-label-result text-right">0977.08.4686</label>
                             </div>
-                                </div>
+                            <div class="form-group form-group-dashed row">
+                                <label class="col-xs-6 control-label">Gói cước</label>
+                                <label class="col-xs-6 control-label control-label-result text-right">Gói on VIP</label>
                             </div>
-                            <div class="form-group">
-                                <label for="" class="title">
-                                    Chọn thời gian
-                                </label>
-                                <div class="row">
-                                    <ul class="form-group-radio grid3">
-                                        <li>
-                                            <div class="radio radio-btn">
-                                                <label class="touch">
-                                                    <input type="radio" name="optradio" checked="checked">
-                                                    <span class="name-time">1 tháng</span>
-                                                    <span class="name-price">66.000 VNĐ</span>         
-                                                    <span class="checkbox-custom"></span>
-                                                </label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="radio radio-btn">
-                                                <label class="touch">
-                                                    <input type="radio" name="optradio">
-                                                    <span class="name-time">3 tháng</span>
-                                                    <span class="name-price">198.000 VNĐ</span>  
-                                                    <span class="name-note">Tặng 1 tháng</span>       
-                                                    <span class="checkbox-custom"></span>
-                                                </label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="radio radio-btn">
-                                                <label class="touch">
-                                                    <input type="radio" name="optradio">
-                                                    <span class="name-time">6 tháng</span>
-                                                    <span class="name-price">396.000 VNĐ</span> 
-                                                    <span class="name-note">Tặng 2 tháng</span>        
-                                                    <span class="checkbox-custom"></span>
-                                                </label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="radio radio-btn">
-                                                <label class="touch">
-                                                    <input type="radio" name="optradio">
-                                                    <span class="name-time">12 tháng</span>
-                                                    <span class="name-price">792.000 VNĐ</span> 
-                                                    <span class="name-note">Tặng 4 tháng</span>        
-                                                    <span class="checkbox-custom"></span>
-                                                </label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="radio radio-btn">
-                                                <label class="touch">
-                                                    <input type="radio" name="optradio">
-                                                    <span class="name-time">24 tháng</span>
-                                                    <span class="name-price">1.584.000 VNĐ</span> 
-                                                    <span class="name-note">Tặng 8 tháng</span>        
-                                                    <span class="checkbox-custom"></span>
-                                                </label>
-                                            </div>
-                                        </li>
-                                        
-                                    </ul>
-                                </div>
+                            <div class="form-group form-group-dashed row">
+                                <label class="col-xs-6 control-label">Thời gian</label>
+                                <label class="col-xs-6 control-label control-label-result text-right">1 tháng</label>
                             </div>
-                            </div> 
-
+                            <div class="form-group form-group-dashed row">
+                                <label class="col-xs-6 control-label">Thanh toán</label>
+                                <label class="col-xs-6 control-label control-label-result text-right">Vietcombank</label>
                             </div>
+                            <div class="form-group form-group-dashed row">
+                                <label class="col-xs-6 control-label">Thời gian thanh toán</label>
+                                <label class="col-xs-6 control-label control-label-result text-right">15/04/2020 12:32</label>
+                            </div>
+                            <div class="form-group form-group-dashed row">
+                                <label class="col-xs-6 control-label">Số tiền thanh toán</label>
+                                <label class="col-xs-6 control-label control-label-result text-right"><span class="lightred">66.000 VNĐ</span></label>
+                            </div>
+                        </div>
                         <div class="section-body-middle-form-p2">
                             <div class="row">
-                                <div class="col-md-7">                                    
-                                </div>
-                                <div class="col-md-5 text-right">
-                                    <button id="btn-step1" class="button btn-custom btn-blue" type="button" onclick="check_vtvcab()">Tiếp tục</button>
-                                    <button id="btn-step2" class="button btn-custom btn-blue" type="submit">Thanh toán</button>
+                                <div class="col-md-12 text-center">
+                                    <button class="button btn-custom btn-blue btn-bg">Thực hiện giao dịch khác</button>
                                 </div>
                             </div>
-                        </div>                        
-                        <script type="text/javascript">
-                            function check_vtvcab()
-                                {
-                                var empt = document.forms["form_phone_email"]["phone_email"].value;
-                                if (empt == "")
-                                {
-                                $('#modal-phone-email').modal('show');
-                                return true;
-                                }
-                                else 
-                                {
-                                    $('#show-box').addClass('active'); 
-                                    $('#btn-step1').addClass('hidden-display'); 
-                                    $('#btn-step2').addClass('active');
-                                    $('.section-body-middle-form-p1').addClass('active');
-                                return true; 
-                                }
-                                }
-
-                        </script>     
-                                          
+                        </div>
                     </form>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="section-body-right hidden-xs hidden-sm">
-                    <ul>
-                        <li>
-                            <a class="social-media__banner"><img src="images/qc2.png" alt=""></a>
-                            <div class="social-media">
-                                <a class="social-media__link" href="">
-                                    <img src="images/social-fb.svg" alt=""> CHIA SẺ
-                                </a>
-                                <a class="social-media__link" href="">
-                                    <img src="images/social-gg.svg" alt=""> CHIA SẺ
-                                </a>
-                            </div>
-                            <div class="clearfix"></div>
-                        </li>
-                        <li>
-                            <a class="social-media__banner"><img src="images/qc3.png" alt=""></a>
-                            <div class="social-media">
-                                <a class="social-media__link" href="">
-                                    <img src="images/social-fb.svg" alt=""> CHIA SẺ
-                                </a>
-                                <a class="social-media__link" href="">
-                                    <img src="images/social-gg.svg" alt=""> CHIA SẺ
-                                </a>
-                            </div>
-                            <div class="clearfix"></div>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>

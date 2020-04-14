@@ -1,3 +1,41 @@
+/*hao css*/
+#show-box, #btn-step2 {height: 0; opacity: 0;overflow: hidden; -webkit-transition: opacity 0.5s ease-in-out; -moz-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;}
+#show-box.active, #btn-step2.active {height: auto; opacity: 1;overflow:inherit;}
+#btn-step1 {height: auto; opacity: 1;overflow: inherit; -webkit-transition: opacity 0.5s ease-in-out; -moz-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;}
+#btn-step1.hidden-display {height: 0; opacity: 0;overflow:hidden; display: none;}
+#show-box .form-group-radio .radio-btn label {
+    height: 5em;
+    line-height: 18px;
+}
+.form-group-radio>li:nth-child(1) .name-time{ padding-top: 17px; }
+.name-time {
+    font-size: 13px;
+    color: #2188C9; display: block;
+    padding-top: 9px;
+}
+.name-price {
+    font-size: 16px;
+    color: #023f88;display: block;
+}
+.name-note{
+    font-size: 13px; color: #646c78; font-weight: 400;
+}
+#show-box .grid4{
+    margin-top: -10px;
+}
+.note-style {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.form_phone_email .section-body-middle-form-p1 {border-bottom: none; padding-bottom: 0}
+.form_phone_email .section-body-middle-form-p1.active {border-bottom: 1px solid #e6e9ed; padding-bottom: 25px;}
+.form-group-radio>li .radio-btn label.touch:hover .name-note,.form-group-radio>li .radio-btn label.touch:hover .name-time, .form-group-radio>li .radio-btn label.touch:hover .name-price{color: #fff;}
+/*hao css*/
 @font-face {
     font-family: Helvetica Neue;
     src: url(../font/helveticaneue.ttf);
