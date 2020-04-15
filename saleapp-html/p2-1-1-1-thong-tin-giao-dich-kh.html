@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sale App</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link href="select2/css/select2.min.css" rel="stylesheet">
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <aside id="sidebar" class="nano">
+        <div class="nano-content">
+            <div class="logo-container">
+                <span class="logo"></span>
+            </div>
+            <menu class="menu-segment">
+                <ul>
+                    <li>
+                        <a href="chien-dich.html">
+                            <span class="ic ic_nav_1"></span>CHIẾN DỊCH</a>
+                    </li>
+                    <li>
+                        <a href="san-pham.html">
+                            <span class="ic ic_nav_2"></span>SẢN PHẨM</a>
+                    </li>
+                    <li class="active">
+                        <a href="p2-1-1-0-thong-tin-khach-hang.html">
+                            <span class="ic ic_nav_3"></span>QUẢN LÝ KH</a>
+                    </li>
+                    <li>
+                        <a href="p3-1-1-kich-ban-ban-hang.html">
+                            <span class="ic ic_nav_4"></span>KỊCH BẢN
+                            <br> BÁN HÀNG</a>
+                    </li>
+                    <li>
+                        <a href="p6-1-1-salebook.html">
+                            <span class="ic ic_nav_8"></span>SALES<br>PLAYBOOK</a>
+                    </li>
+                    <li>
+                        <a href="kpi-1.html">
+                            <span class="ic ic_nav_5"></span>KẾT QUẢ KPI</a>
+                    </li>
+<li>
+                        <a href="kpi-2.html">
+                            <span class="ic ic_nav_9"></span>KPI THỰC HIỆN</a>
+                    </li>
+					<li>
+                        <a href="thi-dua.html">
+                            <span class="ic ic_nav_10"></span>THI ĐUA<br>NỘI BỘ</a>
+                    </li>
+                    <li>
+                        <a href="p4-1-1-cong-cu-tinh.html">
+                            <span class="ic ic_nav_6"></span>CÔNG CỤ TÍNH</a>
+                    </li>
+                    <li>
+                        <a href="p5-1-1-ATM.html">
+                            <span class="ic ic_nav_7"></span>MẠNG LƯỚI</a>
+                    </li>
+                </ul>
+            </menu>
+        </div>
+    </aside>
+    <main id="main">
+        <div class="overlay"></div>
+        <header class="header">
+            <h1 class="page-title">
+                <a class="sidebar-toggle-btn trigger-toggle-sidebar">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </a><img src="images/saleapp.svg" alt="sale app">
+                <a></a>
+            </h1>
+            <div class="search-box">
+                <div class="search-box-cont">
+                    <input id="" class="autocomplete" placeholder="Tìm kiếm chiến dịch hoặc sản phẩm liên quan" spellcheck="false" title="type &quot;a&quot;">
+                    <div class="search-box-close">
+                        <div class="search-box-close-1"></div>
+                        <div class="search-box-close-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="user__wrap">
+                <div class="dropdown user">
+                    <div href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="user__image">
+                            <div class="user__image__notification">14</div>
+                            <div class="user__image__wrap"><img src="images/user.jpg" alt="" class=""></div>
+                        </div>
+                        <div class="user__info">
+                            <div class="user__info__name">Đỗ Tuệ Linh</div>
+                            <div class="user__info__branch">Chi nhánh Đống Đa, Hà Nội</div>
+                        </div>
+                    </div>
+                    <ul class=" nav dropdown-menu" aria-labelledby="dLabel">
+                        <li>
+                            <a href="p2-2-2-0-yeu-thich.html"><img src="images/user1.svg" alt="">
+                                <span>Yêu thích</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-1-0-thong-bao.html"><img src="images/user2.svg" alt="">
+                                <span class="user__notification">14</span>
+                                <span>Thông báo</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-4-0-thu.html"><img src="images/user3.svg" alt="">
+                                <span>Hòm thư</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-3-0-lich-su.html"><img src="images/user4.svg" alt="">
+                                <span>Lịch sử truy cập</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/user5.svg" alt="">
+                                <span>Đổi mật khẩu</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/user6.svg" alt="">
+                                <span>Đăng xuất</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div id="main-nano-wrapper" class="main-wrap main-wrap--kpi">
+            <div class="kpi-wrap">
+                <div class="kpi__top kpi__top--fixed">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="kpi__top__dropdown">
+                                <div class="ul">
+                                    <div class="li">
+                                        <div class="kpi__dropdown__label">
+                                            <span class="kpi__top__text-main">Khách hàng</span>
+                                            <span class="kpi__top__text-sub"><b>Lâm Gia Long</b></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="kpi__view-kpi">
+                                <div class="button button__view-kpi button__view-kpi--lg" data-toggle="modal" data-target="#modal-add">
+                                    <img src="images/p2/plus.svg"> Thêm mới giao dịch
+                                </div>
+                                <a href="p2-1-1-0-thong-tin-khach-hang.html" class="button button-white button-bordered position-right button__view-kpi button__view-kpi--lg">
+                                    <img src="images/p2/left-arrow-green.svg"> Về danh sách KH
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="kpi__tab__content nano nano2">
+                    <div class="nano-content">
+                        <div id="home" class="product-tab__content__pane in active">
+                            <div class="kpi">
+                                <div class="kpi__top">
+                                    <div class="kpi__top__check-box">
+                                        <label class="label--checkbox" tabindex="0">
+                                            <input id="" type="radio" name="radio1" class="checkbox" role="presentation" tabindex="-1" checked="">
+                                            <span class=" checkbox__custom1"></span>
+                                            <span class="checkbox__label checkbox__label--1">Đang giao dịch</span>
+                                        </label>
+                                        <label class="label--checkbox" tabindex="0">
+                                            <input id="" type="radio" name="radio1" class="checkbox" role="presentation" tabindex="-1">
+                                            <span class=" checkbox__custom1"></span>
+                                            <span class="checkbox__label checkbox__label--1">Đã hoàn thành</span>
+                                        </label>
+                                        <label class="label--checkbox" tabindex="0">
+                                            <input id="" type="radio" name="radio1" class="checkbox" role="presentation" tabindex="-1">
+                                            <span class=" checkbox__custom1"></span>
+                                            <span class="checkbox__label checkbox__label--1">Đã hủy</span>
+                                        </label>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <div class="kpi__top__dropdown">
+                                                <div class="ul">
+                                                    <div class="li">
+                                                        <div class="kpi__dropdown__wrap">
+                                                            <div class="kpi__dropdown__label">Mức độ quan tâm</div>
+                                                            <div class="kpi__dropdown__select">
+                                                                <select class="kpi__dropdown__input kpi__dropdown__input--lg" name="">
+                                                                    <option value="hn">Tất cả</option>
+                                                                    <option value="hn">Thời gian mới nhất 32</option>
+                                                                    <option value="hn">Thời gian mới nhất 94</option>
+                                                                    <option value="hn">Thời gian mới nhất 53</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="li">
+                                                        <div class="kpi__dropdown__wrap">
+                                                            <div class="kpi__dropdown__label">Sắp xếp</div>
+                                                            <div class="kpi__dropdown__select">
+                                                                <select class="kpi__dropdown__input kpi__dropdown__input--lg" name="">
+                                                                    <option value="hn">Thời gian mới nhất</option>
+                                                                    <option value="hn">Thời gian mới nhất 32</option>
+                                                                    <option value="hn">Thời gian mới nhất 94</option>
+                                                                    <option value="hn">Thời gian mới nhất 53</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="li">
+                                                        <div class="kpi__dropdown__wrap">
+                                                            <input type="text" class="search-bar-custom" name="" placeholder="Tìm kiếm giao dịch...">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="kpi__table">
+                                    <div class="kpi__table__header">Danh sách giao dịch</div>
+                                    <div class="table table--kpi">
+                                        <div class="table__header">
+                                            <div class="table__pager table__pager--kpi">
+                                                <span class="table__pager__text">Hiển thị</span>
+                                                <select class="table__pager__select">
+                                                    <option>10</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                                <span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+                                            </div>
+                                            <div class="table__excel table__excel--kpi">
+                                                <div class="button button--excel">
+                                                    <div class="button__icon button__icon--excel"><img src="images/excel.svg" alt=""></div>
+                                                    <div class="button__text button__text--excel">Xuất Excel</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="table__body">
+                                            <table class="table__body__table table__body__table--kpi">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">TT</th>
+                                                        <th>Ngày giao dịch</th>
+                                                        <th>Sản phẩm dịch vụ</th>
+                                                        <th>Số tiền</th>
+                                                        <th>Mức độ quan tâm</th>
+                                                        <th>Ghi chú</th>
+                                                        <th>Thao tác</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>10/03/2018</td>
+                                                        <td>Tiền gửi có kỳ hạn</td>
+                                                        <td>8.000.000</td>
+                                                        <td>Đang suy nghĩ</td>
+                                                        <td>Khách hàng tiềm năng</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <span class="text-tool__wrap text-purple" data-tooltip="tooltip" title="Cập nhật trạng thái" data-toggle="modal" data-target="#modal-status"><i class="icon icon-flag7"></i></span>
+                                                            <span class="text-tool__wrap text-danger" data-toggle="modal" data-target="#modal-cancel" data-tooltip="tooltip" title="Hủy giao dịch"><i class="icon icon-cancel-circle2"></i></span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>09/03/2018</td>
+                                                        <td>Tiền gửi có kỳ hạn</td>
+                                                        <td>8.000.000</td>
+                                                        <td>Đang suy nghĩ</td>
+                                                        <td>Khách hàng tiềm năng</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <span class="text-tool__wrap text-purple" data-tooltip="tooltip" title="Cập nhật trạng thái" data-toggle="modal" data-target="#modal-status"><i class="icon icon-flag7"></i></span>
+                                                            <span class="text-tool__wrap text-danger" data-toggle="modal" data-target="#modal-cancel" data-tooltip="tooltip" title="Hủy giao dịch"><i class="icon icon-cancel-circle2"></i></span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>08/03/2018</td>
+                                                        <td>Tiền gửi có kỳ hạn</td>
+                                                        <td>8.000.000</td>
+                                                        <td>Đang suy nghĩ</td>
+                                                        <td>Khách hàng tiềm năng</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <span class="text-tool__wrap text-purple" data-tooltip="tooltip" title="Cập nhật trạng thái" data-toggle="modal" data-target="#modal-status"><i class="icon icon-flag7"></i></span>
+                                                            <span class="text-tool__wrap text-danger" data-toggle="modal" data-target="#modal-cancel" data-tooltip="tooltip" title="Hủy giao dịch"><i class="icon icon-cancel-circle2"></i></span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>07/03/2018</td>
+                                                        <td>Tiền gửi có kỳ hạn</td>
+                                                        <td>8.000.000</td>
+                                                        <td>Đang suy nghĩ</td>
+                                                        <td>Khách hàng tiềm năng</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <span class="text-tool__wrap text-purple" data-tooltip="tooltip" title="Cập nhật trạng thái" data-toggle="modal" data-target="#modal-status"><i class="icon icon-flag7"></i></span>
+                                                            <span class="text-tool__wrap text-danger" data-toggle="modal" data-target="#modal-cancel" data-tooltip="tooltip" title="Hủy giao dịch"><i class="icon icon-cancel-circle2"></i></span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>06/03/2018</td>
+                                                        <td>Tiền gửi có kỳ hạn</td>
+                                                        <td>8.000.000</td>
+                                                        <td>Đang suy nghĩ</td>
+                                                        <td>Khách hàng tiềm năng</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <span class="text-tool__wrap text-purple" data-tooltip="tooltip" title="Cập nhật trạng thái" data-toggle="modal" data-target="#modal-status"><i class="icon icon-flag7"></i></span>
+                                                            <span class="text-tool__wrap text-danger" data-toggle="modal" data-target="#modal-cancel" data-tooltip="tooltip" title="Hủy giao dịch"><i class="icon icon-cancel-circle2"></i></span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>05/03/2018</td>
+                                                        <td>Tiền gửi có kỳ hạn</td>
+                                                        <td>8.000.000</td>
+                                                        <td>Đang suy nghĩ</td>
+                                                        <td>Khách hàng tiềm năng</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <span class="text-tool__wrap text-purple" data-tooltip="tooltip" title="Cập nhật trạng thái" data-toggle="modal" data-target="#modal-status"><i class="icon icon-flag7"></i></span>
+                                                            <span class="text-tool__wrap text-danger" data-toggle="modal" data-target="#modal-cancel" data-tooltip="tooltip" title="Hủy giao dịch"><i class="icon icon-cancel-circle2"></i></span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>7</td>
+                                                        <td>04/03/2018</td>
+                                                        <td>Tiền gửi có kỳ hạn</td>
+                                                        <td>8.000.000</td>
+                                                        <td>Đang suy nghĩ</td>
+                                                        <td>Khách hàng tiềm năng</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <span class="text-tool__wrap text-purple" data-tooltip="tooltip" title="Cập nhật trạng thái" data-toggle="modal" data-target="#modal-status"><i class="icon icon-flag7"></i></span>
+                                                            <span class="text-tool__wrap text-danger" data-toggle="modal" data-target="#modal-cancel" data-tooltip="tooltip" title="Hủy giao dịch"><i class="icon icon-cancel-circle2"></i></span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>8</td>
+                                                        <td>03/03/2018</td>
+                                                        <td>Tiền gửi có kỳ hạn</td>
+                                                        <td>8.000.000</td>
+                                                        <td>Đang suy nghĩ</td>
+                                                        <td>Khách hàng tiềm năng</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <span class="text-tool__wrap text-purple" data-tooltip="tooltip" title="Cập nhật trạng thái" data-toggle="modal" data-target="#modal-status"><i class="icon icon-flag7"></i></span>
+                                                            <span class="text-tool__wrap text-danger" data-toggle="modal" data-target="#modal-cancel" data-tooltip="tooltip" title="Hủy giao dịch"><i class="icon icon-cancel-circle2"></i></span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>9</td>
+                                                        <td>02/03/2018</td>
+                                                        <td>Tiền gửi có kỳ hạn</td>
+                                                        <td>8.000.000</td>
+                                                        <td>Đang suy nghĩ</td>
+                                                        <td>Khách hàng tiềm năng</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <span class="text-tool__wrap text-purple" data-tooltip="tooltip" title="Cập nhật trạng thái" data-toggle="modal" data-target="#modal-status"><i class="icon icon-flag7"></i></span>
+                                                            <span class="text-tool__wrap text-danger" data-toggle="modal" data-target="#modal-cancel" data-tooltip="tooltip" title="Hủy giao dịch"><i class="icon icon-cancel-circle2"></i></span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>10</td>
+                                                        <td>01/03/2018</td>
+                                                        <td>Tiền gửi có kỳ hạn</td>
+                                                        <td>8.000.000</td>
+                                                        <td>Đang suy nghĩ</td>
+                                                        <td>Khách hàng tiềm năng</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <span class="text-tool__wrap text-purple" data-tooltip="tooltip" title="Cập nhật trạng thái" data-toggle="modal" data-target="#modal-status"><i class="icon icon-flag7"></i></span>
+                                                            <span class="text-tool__wrap text-danger" data-toggle="modal" data-target="#modal-cancel" data-tooltip="tooltip" title="Hủy giao dịch"><i class="icon icon-cancel-circle2"></i></span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="table__footer table__footer--kpi text-right">
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="modal fade campain_detail" id="modal-add" role="dialog" tabindex="-1" aria-labelledby="demo-default-modal" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--Modal body-->
+                <div class="modal-body">
+                    <div class="modal__text-head">
+                        Thêm mới giao dịch
+                        <p class="input-note">
+                            Bắt buộc nhập cho các trường thông tin có dấu (<span class="text-danger">*</span>)
+                        </p>
+                    </div>
+                    <div class="modal__content">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Khách hàng</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <label for="" class="col-sm-8 col-form-label-main">Lâm Gia Long</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Ngày giao dịch
+                                            <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom datepicker"></input>
+                                                <div class="input-custom-icon">
+                                                    <i class="icon-calendar"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Sản phẩm dịch vụ
+                                            <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <select class="select2 input-custom">
+                                                    <option>Nhóm khách hàng</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-wrap-custom">
+                                                <select class="select2 input-custom">
+                                                    <option>Nhóm dịch vụ</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-wrap-custom">
+                                                <select class="select2 input-custom">
+                                                    <option>Nhóm sản phẩm</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-wrap-custom">
+                                                <select class="select2 input-custom">
+                                                    <option>Sản phẩm dịch vụ</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Số tiền</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="" placeholder="Số tiền"></input>
+                                                <p class="input-note">Lưu ý: Không bắt buộc với dịch vụ Ngân hàng điện tử</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Mức độ quan tâm
+                                            <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <select class="select2 input-custom">
+                                                    <option>Đang suy nghĩ</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Ghi chú</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <textarea class="input-custom" rows="4"></textarea>
+                                                <p class="input-note">Lưu ý: Tối đa nhập 125 ký tự</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal__footer">
+                        <div class="text-left">
+                            <button data-dismiss="modal" class="button button__view-kpi button__view-kpi--lg">Thêm mới
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade campain_detail" id="modal-status" role="dialog" tabindex="-1" aria-labelledby="demo-default-modal" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--Modal body-->
+                <div class="modal-body">
+                    <div class="modal__text-head">
+                        Thông báo
+                    </div>
+                    <div class="modal__content">
+                        <p>Bạn muốn cập nhật trạng thái giao dịch này sang
+                            <span class="text-success">“Hoàn thành”</span> |
+                            <span class="text-warning">“Đang giao dịch”</span>?</p>
+                    </div>
+                    <div class="modal__footer">
+                        <div class="text-left">
+                            <button data-dismiss="modal" class="button button__view-kpi button__view-kpi--lg">Đồng ý
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade campain_detail" id="modal-cancel" role="dialog" tabindex="-1" aria-labelledby="demo-default-modal" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--Modal body-->
+                <div class="modal-body">
+                    <div class="modal__text-head">
+                        Thông báo
+                    </div>
+                    <div class="modal__content">
+                        <p>Bạn muốn hủy giao dịch này không?</p>
+                    </div>
+                    <div class="modal__footer">
+                        <div class="text-left">
+                            <button data-dismiss="modal" class="button button__view-kpi button__view-kpi--lg">Đồng ý
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade campain_detail" id="modal-edit" role="dialog" tabindex="-1" aria-labelledby="demo-default-modal" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--Modal body-->
+                <div class="modal-body">
+                    <div class="modal__text-head">
+                        Chỉnh sửa giao dịch
+                        <p class="input-note">
+                            Bắt buộc nhập cho các trường thông tin có dấu (<span class="text-danger">*</span>)
+                        </p>
+                    </div>
+                    <div class="modal__content">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Khách hàng</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <select class="select2 input-custom">
+                                                    <option>Lâm Gia Long</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Ngày giao dịch
+                                            <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom datepicker"></input>
+                                                <div class="input-custom-icon">
+                                                    <i class="icon-calendar"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Sản phẩm dịch vụ
+                                            <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <select class="select2 input-custom">
+                                                    <option>Nhóm khách hàng</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-wrap-custom">
+                                                <select class="select2 input-custom">
+                                                    <option>Nhóm dịch vụ</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-wrap-custom">
+                                                <select class="select2 input-custom">
+                                                    <option>Nhóm sản phẩm</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-wrap-custom">
+                                                <select class="select2 input-custom">
+                                                    <option>Sản phẩm dịch vụ</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Số tiền</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="800000" placeholder=""></input>
+                                                <p class="input-note">Lưu ý: Không bắt buộc với dịch vụ Ngân hàng điện tử</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Mức độ quan tâm
+                                            <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <select class="select2 input-custom">
+                                                    <option>Đang suy nghĩ</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Ghi chú</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <textarea class="input-custom" rows="4"></textarea>
+                                                <p class="input-note">Lưu ý: Tối đa nhập 125 ký tự</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal__footer">
+                        <div class="text-left">
+                            <div data-dismiss="modal" class="button button__view-kpi button__view-kpi--lg">Cập nhật
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/highcharts.js"></script>
+    <script type="text/javascript" src="js/exporting.js"></script>
+    <script src="select2/js/select2.full.min.js"></script>
+    <script src="js/datepicker/moment-with-locales.js"></script>
+    <script src="js/datepicker/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

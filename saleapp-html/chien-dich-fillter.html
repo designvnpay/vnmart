@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sale App</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link href="select2/css/select2.min.css" rel="stylesheet">
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <aside id="sidebar" class="nano">
+        <div class="nano-content">
+            <div class="logo-container">
+                <span class="logo"></span>
+            </div>
+            <menu class="menu-segment">
+                <ul>
+                    <li class="active">
+                        <a href="#">
+                            <span class="ic ic_nav_1"></span>CHIẾN DỊCH</a>
+                    </li>
+                    <li>
+                        <a href="san-pham.html">
+                            <span class="ic ic_nav_2"></span>SẢN PHẨM</a>
+                    </li>
+                    <li>
+                        <a href="p2-1-1-0-thong-tin-khach-hang.html">
+                            <span class="ic ic_nav_3"></span>QUẢN LÝ KH</a>
+                    </li>
+                    <li>
+                        <a href="p3-1-1-kich-ban-ban-hang.html">
+                            <span class="ic ic_nav_4"></span>KỊCH BẢN
+                            <br> BÁN HÀNG</a>
+                    </li>
+                    <li>
+                        <a href="p6-1-1-salebook.html">
+                            </span>SALES<br>PLAYBOOK<</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ic ic_nav_5"></span>KẾT QUẢ KPI</a>
+                    </li>
+                    <li>
+                        <a href="p4-1-1-cong-cu-tinh.html">
+                            <span class="ic ic_nav_6"></span>CÔNG CỤ TÍNH</a>
+                    </li>
+                    <li>
+                        <a href="p5-1-1-ATM.html">
+                            <span class="ic ic_nav_7"></span>MẠNG LƯỚI</a>
+                    </li>
+                </ul>
+            </menu>
+        </div>
+    </aside>
+    <main id="main">
+        <div class="overlay"></div>
+        <header class="header">
+            <div class="search-box">
+                <div class="search-box-cont">
+                    <span class="icon icon-search"></span>
+                    <select class="txt_search">
+                        <option value=""></option>
+                        <option value="Chiến dịch">Vay tiêu dùng ưu đãi</option>
+                        <option value="Sản phẩm liên quan">Tiền vay</option>
+                        <option value="Chiến dịch">Vay tín chấp gấp 10 lần lương</option>
+                        <option value="Chiến dịch">Vay tiêu dùng ưu đãi hấp dẫn, không cần thế chấp</option>
+                    </select>
+                </div>
+            </div>
+            <ul class="fillter-tool">
+                <li class="unread"> <i class="glyphicon glyphicon-option-vertical"></i> </li>
+            </ul>
+            <h1 class="page-title">
+                <a class="sidebar-toggle-btn trigger-toggle-sidebar">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line line-angle1"></span>
+                    <span class="line line-angle2"></span>
+                </a><img src="images/saleapp.svg" alt="sale app">
+                <a></a>
+            </h1>
+            <div class="user">
+                <div class="dropdown">
+                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img src="images/user.png" width="44" height="44" alt="user" class="img-user"> <b>Đỗ Tuệ Linh</b>
+                        <br>
+                        <span class="name-brand">Chi nhánh Đống Đa, Hà Nội</span>
+                        <span class="caret"></span>
+                    </a>
+                    <ul class=" nav dropdown-menu" aria-labelledby="dLabel">
+                        <li>
+                            <a href="p2-2-2-0-yeu-thich.html"><img src="images/user1.svg" alt="">
+                                <span>Yêu thích</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-1-0-thong-bao.html"><img src="images/user2.svg" alt="">
+                                <span>Thông báo</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-4-0-thu.html"><img src="images/user3.svg" alt="">
+                                <span>Hòm thư</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-3-0-lich-su.html"><img src="images/user4.svg" alt="">
+                                <span>Lịch sử truy cập</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/user5.svg" alt="">
+                                <span>Đổi mật khẩu</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/user6.svg" alt="">
+                                <span>Đăng xuất</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div id="main-nano-wrapper" class="nano">
+            <div class="nano-content" style="right:0">
+                <div class="content clearfix">
+                    <div class="column-3 last">
+                        <div class="column-cont">
+                            <div id="box-filter">
+                                <div class="fillter">
+                                    <div class="box">
+                                        <div class="title">
+                                            <h3>
+                                                <a class="icon glyphicon glyphicon-remove trigger-message-close"></a> LỌC CHIẾN DỊCH</h3>
+                                        </div>
+                                        <div class="box-cont clearfix">
+                                            <div class="module">
+                                                <div class="title-module">
+                                                    <h3>SẮP XẾP CHIẾN DỊCH</h3>
+                                                </div>
+                                                <div class="module-cont clearfix">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item active">
+                                                            <div class="radio">
+                                                                <input id="form-radio1" class="magic-radio" type="radio" name="form-radio-button" checked>
+                                                                <label for="form-radio1">
+                                                                    <span>Thời gian hiệu lực gần nhất</span>
+                                                                </label>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="radio">
+                                                                <input id="form-radio2" class="magic-radio" type="radio" name="form-radio-button">
+                                                                <label for="form-radio2">
+                                                                    <span>Chiến dịch toàn hệ thống</span>
+                                                                </label>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="radio">
+                                                                <input id="form-radio3" class="magic-radio" type="radio" name="form-radio-button">
+                                                                <label for="form-radio3">
+                                                                    <span>Tên chiến dịch A - Z</span>
+                                                                </label>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="radio">
+                                                                <input id="demo-form-radio" class="magic-radio" type="radio" name="form-radio-button">
+                                                                <label for="demo-form-radio">
+                                                                    <span>Tên chiến dịch Z - A</span>
+                                                                </label>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="module">
+                                                <div class="title-module">
+                                                    <h3>NHÓM SẢN PHẨM</h3>
+                                                </div>
+                                                <div class="module-cont clearfix">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">
+                                                            <div class="checkbox">
+                                                                <input id="form-checkbox1" class="magic-checkbox" type="checkbox" checked>
+                                                                <label for="form-checkbox1">
+                                                                    <span>Tiền vay</span>
+                                                                </label>
+                                                                <span class="number">05</span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="checkbox">
+                                                                <input id="form-checkbox2" class="magic-checkbox" type="checkbox">
+                                                                <label for="form-checkbox2">
+                                                                    <span>Tiền gửi</span>
+                                                                </label>
+                                                                <span class="number">04</span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="checkbox">
+                                                                <input id="form-checkbox3" class="magic-checkbox" type="checkbox">
+                                                                <label for="form-checkbox3">
+                                                                    <span>Thẻ</span>
+                                                                </label>
+                                                                <span class="number">02</span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="module">
+                                                <div class="title-module">
+                                                    <h3>KHU VỰC</h3>
+                                                </div>
+                                                <div class="module-cont clearfix">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">
+                                                            <div class="checkbox">
+                                                                <input id="form-checkbox4" class="magic-checkbox" type="checkbox">
+                                                                <label for="form-checkbox4">
+                                                                    <span>Toàn hệ thống</span>
+                                                                </label>
+                                                                <span class="number">05</span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="checkbox">
+                                                                <input id="form-checkbox5" class="magic-checkbox" type="checkbox">
+                                                                <label for="form-checkbox5">
+                                                                    <span>Miền Bắc</span>
+                                                                </label>
+                                                                <span class="number">04</span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="checkbox">
+                                                                <input id="form-checkbox6" class="magic-checkbox" type="checkbox">
+                                                                <label for="form-checkbox6">
+                                                                    <span>CN Đống Đa</span>
+                                                                </label>
+                                                                <span class="number">02</span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-1">
+                        <div class="column-cont">
+                            <div class="slide_lever1">
+                                <div id="slide_lever1" class="owl-carousel owl-theme owl-loaded owl-drag">
+                                    <div class="item">
+                                        <a data-target="#campain_detail" data-toggle="modal" href="#" class="fancybox-gallery"> <img class="animate scale animated" src="images/1.png" alt="01">
+                                            <span class="image-title"><strong>Vay mua nhà ưu đãi lớn với lãi suất chỉ 10% trong vòng 2 năm</strong></span>
+                                            <span class="image-hover"></span>
+                                        </a>
+                                        <div class="action-tool">
+                                            <div class="relative">
+                                                <a href="#" class="ic_tool ic_tool1" data-toggle="tooltip" data-placement="left" title="Lưu vào yêu thích"></a>
+                                            </div>
+                                            <div class="clear"></div>
+                                            <div class="relative">
+                                                <a href="#" class="ic_tool ic_tool2" data-toggle="tooltip" data-placement="left" title="Tiêu đề trái"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide_lever3">
+                                <div id="slide_lever3" class="owl-carousel owl-theme owl-loaded owl-drag">
+                                    <div class="item">
+                                        <a data-target="#campain_detail" data-toggle="modal" href="#" class="fancybox-gallery"> <img class="animate scale animated" src="images/1.png" alt="01">
+                                            <span class="image-title"><strong>Vay mua nhà ưu đãi lớn với lãi suất chỉ 10% trong vòng 2 năm</strong></span>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a data-target="#campain_detail" data-toggle="modal" href="#" class="fancybox-gallery"> <img class="animate scale animated" src="images/2.png" alt="01">
+                                            <span class="image-title"><strong>Vay mua nhà ưu đãi lớn với lãi suất chỉ 10% trong vòng 2 năm</strong></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-2">
+                        <div class="column-cont">
+                            <div class="slide_lever2">
+                                <div class="scroll-pane">
+                                    <div class="item">
+                                        <a data-target="#campain_detail" data-toggle="modal" href="#" class="fancybox-gallery"> <img class="animate scale animated" src="images/1.png" alt="01">
+                                            <span class="image-title"><strong>Vay mua nhà ưu đãi lớn với lãi suất chỉ 10% trong vòng 2 năm</strong></span>
+                                        </a>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="modal fade" id="campain_detail" role="dialog" tabindex="-1" aria-labelledby="demo-default-modal" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--Modal body-->
+                <div class="modal-body">
+                    <div class="box-campain row">
+                        <div class="col-md-6">
+                            <div class="pic-campain"><img class="animate scale animated" src="images/1.png" alt="01"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="campain-cont">
+                                <h2 class="title1">Vay mua nhà ưu đãi lớn với lãi suất chỉ 10% trong vòng 2 năm.</h2>
+                                <div class="button clearfix">
+                                    <a href="#" class="btn btn-default"><img class="ic_button ic_button1" src="images/ic_button1.svg" alt="01"> Lưu vào yêu thích</a>
+                                    <a href="#" class="btn btn-default"><img class="ic_button ic_button2" src="images/ic_button2.svg" alt="01"> Lưu vào kịch bản bán hàng</a>
+                                    <a href="#" class="btn btn-default"><img class="ic_button ic_button3" src="images/ic_button3.svg" alt="01"> Gửi email</a>
+                                </div>
+                                <div class="decrip clearfix">
+                                    <p>Giảm 0,3% lãi suất vay
+                                        <br> Miễn phí 12 tháng chuyển khoản trong hệ thống trên Internet Banking
+                                        <br> Miễn phí thường niên thẻ tín dụng</p>
+                                </div>
+                                <div class="box">
+                                    <div class="title-default"><strong>Tài liệu chi tiết chiến dịch</strong></div>
+                                    <div class="box-cont">
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <a href="#"><img class="img_file" src="images/pdf.png" width="31" height="34" alt="pdf"> Thể lệ chi tiết chiến dịch bán hàng</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#"><img class="img_file" src="images/pdf.png" width="31" height="34" alt="pdf"> Tài liệu bổ sung</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-other">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="title_other">
+                                    <span>Sản phẩm <b>liên quan</b></span>
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="slide_other">
+                                    <div id="slide_other" class="owl-carousel owl-theme owl-loaded owl-drag">
+                                        <div class="item">
+                                            <a href="#" class="fancybox-gallery"> <img class="animate scale animated" src="images/1.png" alt="01">
+                                                <span class="image-title"><strong>Vay mua nhà ưu đãi lớn với lãi suất chỉ 10% trong vòng 2 năm</strong></span>
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="#" class="fancybox-gallery"> <img class="animate scale animated" src="images/2.png" alt="01">
+                                                <span class="image-title"><strong>Vay mua nhà ưu đãi lớn với lãi suất chỉ 10% trong vòng 2 năm</strong></span>
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="#" class="fancybox-gallery"> <img class="animate scale animated" src="images/1.png" alt="01">
+                                                <span class="image-title"><strong>Vay mua nhà ưu đãi lớn với lãi suất chỉ 10% trong vòng 2 năm</strong></span>
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="#" class="fancybox-gallery"> <img class="animate scale animated" src="images/2.png" alt="01">
+                                                <span class="image-title"><strong>Vay mua nhà ưu đãi lớn với lãi suất chỉ 10% trong vòng 2 năm</strong></span>
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="#" class="fancybox-gallery"> <img class="animate scale animated" src="images/1.png" alt="01">
+                                                <span class="image-title"><strong>Vay mua nhà ưu đãi lớn với lãi suất chỉ 10% trong vòng 2 năm</strong></span>
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="#" class="fancybox-gallery"> <img class="animate scale animated" src="images/2.png" alt="01">
+                                                <span class="image-title"><strong>Vay mua nhà ưu đãi lớn với lãi suất chỉ 10% trong vòng 2 năm</strong></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/highcharts.js"></script>
+    <script type="text/javascript" src="js/exporting.js"></script>
+    <script src="select2/js/select2.full.min.js"></script>
+    <script src="js/datepicker/moment-with-locales.js"></script>
+    <script src="js/datepicker/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('.select2').select2();
+        $('.scroll-pane').jScrollPane();
+    });
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        var owl = $('#slide_lever1');
+        owl.owlCarousel({
+            margin: 10,
+            loop: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            },
+            autoplay: true,
+        });
+        var owl = $('#slide_lever3');
+        owl.owlCarousel({
+            margin: 15,
+            loop: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            },
+            nav: true,
+            autoPlay: false,
+        });
+        var owl = $('#slide_other');
+        owl.owlCarousel({
+            margin: 15,
+            loop: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                },
+                1200: {
+                    items: 5
+                }
+            },
+            nav: false,
+            autoPlay: false,
+        });
+    });
+    </script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,7 +1,7 @@
 /*hao css*/
-#show-box, #btn-step2 {height: 0; opacity: 0;overflow: hidden; -webkit-transition: opacity 0.5s ease-in-out; -moz-transition: opacity 0.5s ease-in-out;
+#show-box, #btn-back {height: 0; opacity: 0;overflow: hidden; -webkit-transition: opacity 0.5s ease-in-out; -moz-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;}
-#show-box.active, #btn-step2.active {height: auto; opacity: 1;overflow:inherit;}
+#show-box.active, #btn-back.active {height: auto; opacity: 1;overflow:inherit;}
 #btn-step1 {height: auto; opacity: 1;overflow: inherit; -webkit-transition: opacity 0.5s ease-in-out; -moz-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;}
 #btn-step1.hidden-display {height: 0; opacity: 0;overflow:hidden; display: none;}

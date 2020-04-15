@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/select2.min.css">
     <link rel="stylesheet" href="css/style1.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/swiper.jquery.min.js"></script>
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
@@ -226,27 +226,31 @@
                                     Số điện thoại hoặc email <span class="lightred">*</span>
                                 </label>
                                 <div class="form-group-wrap">
-                                    <input type="text" name="phone_email" class="form-control form-normal" placeholder="Nhập số điện thoại hoặc email">
+                                    <input type="text" name="phone_email" class="form-control form-normal phone_email" placeholder="Nhập số điện thoại hoặc email">
                                 </div>
                             </div>
                             <div id="show-box">
-                                <div class="form-group margin-big">
+                                <div class="box-top">
+                                    <div class="form-group margin-big">
                                 <label for="" class="title sm-margin">
                                    Chọn gói cước
                                 </label>
                                 <div class="form-group-wrap">
-                                    <span class=" down-arrow-black arrow-big no-border"></span>
-                                    <select class="form-control select-pay-bill form-control-big form-blue" id="" placeholder="Chọn gói">
-                                        <option>Chọn gói cước</option>
-                                        <option>Gói on VIP</option>
-                                        <option>Gói on Option1</option>
-                                        <option>Gói on Option2</option>
+                                    <span class=" down-arrow-black arrow-big no-border"></span>                                    
+                                    <select class="form-control select-pay-bill form-control-big form-blue" id="target1" name="drop">
+                                        <option value="box1">Chọn gói cước</option>
+                                        <option value="box2">Gói on VIP</option>
+                                        <option value="box2">Gói on Option1</option>
+                                        <option value="box2">Gói on Option2</option>
                                     </select>
                                     <div class="note-style"><span class="darkblue"><em>Ghi chú:</em></span> <em>Xem 1 thiết bị đồng thời, đăng nhập trên 5 thiết bị, Gần 200 kênh truyền hình đặc sắc, bản quyền từ các đài truyền hình và kho video phong phú với trình độ Full HD, 4K. Các giải đấu thể thao hấp dẫn trên khắp thế giới. Hotline: 1900.1515</em>
                             </div>
                                 </div>
                             </div>
-                            <div class="form-group">
+                                </div>
+                                <div id="box1"></div>
+                                <div id="box2" style="display: none;">
+                                    <div class="form-group">
                                 <label for="" class="title">
                                     Chọn thời gian
                                 </label>
@@ -310,6 +314,8 @@
                                     </ul>
                                 </div>
                             </div>
+                                </div>
+                            
                             </div> 
 
                             </div>
@@ -319,31 +325,11 @@
                                 </div>
                                 <div class="col-md-5 text-right">
                                     <button id="btn-step1" class="button btn-custom btn-blue" type="button" onclick="check_vtvcab()">Tiếp tục</button>
-                                    <button id="btn-step2" class="button btn-custom btn-blue" type="submit">Thanh toán</button>
+                                    <button id="btn-back" class="button btn-custom btn-blue" type="button" onclick="back_vtvcab()">Quay lại</button>
+                                    <button id="btn-step2" class="button btn-custom btn-blue" type="submit" style="display: none;">Thanh toán</button>                                   
                                 </div>
                             </div>
-                        </div>                        
-                        <script type="text/javascript">
-                            function check_vtvcab()
-                                {
-                                var empt = document.forms["form_phone_email"]["phone_email"].value;
-                                if (empt == "")
-                                {
-                                $('#modal-phone-email').modal('show');
-                                return true;
-                                }
-                                else 
-                                {
-                                    $('#show-box').addClass('active'); 
-                                    $('#btn-step1').addClass('hidden-display'); 
-                                    $('#btn-step2').addClass('active');
-                                    $('.section-body-middle-form-p1').addClass('active');
-                                return true; 
-                                }
-                                }
-
-                        </script>     
-                                          
+                        </div>       
                     </form>
                 </div>
             </div>
@@ -438,5 +424,49 @@
     </div>
   </div>
 </div>
+<script type="text/javascript">
+                            function check_vtvcab() {
+                                var empt = document.forms["form_phone_email"]["phone_email"].value;
+                                if (empt == "")
+                                {
+                                $('#modal-phone-email').modal('show');
+                                return true;
+                                }
+                                else 
+                                {
+                                    $('#show-box').addClass('active');
+                                    $("input.phone_email").prop('disabled', true); 
+                                    $('#btn-step1').addClass('hidden-display'); 
+                                    $('#btn-back').addClass('active');
+                                    $('.section-body-middle-form-p1').addClass('active');
+                                return true; 
+                                }
+                                }; 
+                                function back_vtvcab() {
+                                $('#show-box').removeClass('active');
+                                    $("input.phone_email").prop('disabled', false); 
+                                    $('#btn-step1').removeClass('hidden-display'); 
+                                    $('#btn-back').removeClass('active');
+                                    $('.section-body-middle-form-p1').removeClass('active');
+                                };                               
 
+                        </script>     
+                          <script type="text/javascript">
+$(document).ready(function(){
+    $("#target1").change(function(){
+   if($(this).val()=="box1")
+   {    
+       $("div#box2").hide();
+       $("#btn-step2").hide();
+       $("#btn-back").show();
+   }
+        if($(this).val()=="box2")
+   {    
+       $("div#box2").show();
+       $("#btn-step2").show();
+       $("#btn-back").hide();
+   }
+});
+});
+</script> 
 </html>

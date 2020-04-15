@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sale App</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link href="select2/css/select2.min.css" rel="stylesheet">
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <aside id="sidebar" class="nano">
+        <div class="nano-content">
+            <div class="logo-container">
+                <span class="logo"></span>
+            </div>
+            <menu class="menu-segment">
+                <ul>
+                    <li>
+                        <a href="chien-dich.html">
+                            <span class="ic ic_nav_1"></span>CHIẾN DỊCH</a>
+                    </li>
+                    <li>
+                        <a href="san-pham.html">
+                            <span class="ic ic_nav_2"></span>SẢN PHẨM</a>
+                    </li>
+                    <li>
+                        <a href="p2-1-1-0-thong-tin-khach-hang.html">
+                            <span class="ic ic_nav_3"></span>QUẢN LÝ KH</a>
+                    </li>
+                    <li>
+                        <a href="p3-1-1-kich-ban-ban-hang.html">
+                            <span class="ic ic_nav_4"></span>KỊCH BẢN
+                            <br> BÁN HÀNG</a>
+                    </li>
+                    <li>
+                        <a href="p6-1-1-salebook.html">
+                            <span class="ic ic_nav_8"></span>SALES<br>PLAYBOOK</a>
+                    </li>
+                    <li>
+                        <a href="kpi-1.html">
+                            <span class="ic ic_nav_5"></span>KẾT QUẢ KPI</a>
+                    </li>
+<li>
+                        <a href="kpi-2.html">
+                            <span class="ic ic_nav_9"></span>KPI THỰC HIỆN</a>
+                    </li>
+					<li>
+                        <a href="thi-dua.html">
+                            <span class="ic ic_nav_10"></span>THI ĐUA<br>NỘI BỘ</a>
+                    </li>
+                    <li>
+                        <a href="p4-1-1-cong-cu-tinh.html">
+                            <span class="ic ic_nav_6"></span>CÔNG CỤ TÍNH</a>
+                    </li>
+                    <li>
+                        <a href="p5-1-1-ATM.html">
+                            <span class="ic ic_nav_7"></span>MẠNG LƯỚI</a>
+                    </li>
+                </ul>
+            </menu>
+        </div>
+    </aside>
+    <main id="main">
+        <div class="overlay"></div>
+        <header class="header">
+            <h1 class="page-title">
+                <a class="sidebar-toggle-btn trigger-toggle-sidebar">
+               <span class="line"></span>
+               <span class="line"></span>
+               <span class="line"></span>
+            </a>
+                <img src="images/saleapp.svg" alt="sale app">
+                <a></a>
+            </h1>
+            <div class="search-box">
+                <div class="search-box-cont">
+                    <input id="" class="autocomplete" placeholder="Tìm kiếm chiến dịch hoặc sản phẩm liên quan" spellcheck="false" title="type &quot;a&quot;">
+                    <div class="search-box-close">
+                        <div class="search-box-close-1"></div>
+                        <div class="search-box-close-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="user__wrap">
+                <div class="dropdown user">
+                    <div href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="user__image">
+                            <div class="user__image__notification">14</div>
+                            <div class="user__image__wrap">
+                                <img src="images/user.jpg" alt="" class="">
+                            </div>
+                        </div>
+                        <div class="user__info">
+                            <div class="user__info__name">Đỗ Tuệ Linh</div>
+                            <div class="user__info__branch">Chi nhánh Đống Đa, Hà Nội</div>
+                        </div>
+                    </div>
+                    <ul class=" nav dropdown-menu" aria-labelledby="dLabel">
+                        <li>
+                            <a href="#">
+                        <img src="images/user1.svg" alt="">
+                        <span>Yêu thích</span>
+                     </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-1-0-thong-bao.html">
+                        <img src="images/user2.svg" alt="">
+                        <span class="user__notification">14</span>
+                        <span>Thông báo</span>
+                     </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                        <img src="images/user3.svg" alt="">
+                        <span>Hòm thư</span>
+                     </a>
+                        </li>
+                        <li>
+                            <a href="p3-1-1-kich-ban-ban-hang.html">
+                        <img src="images/user4.svg" alt="">
+                        <span>Lịch sử truy cập</span>
+                     </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                        <img src="images/user5.svg" alt="">
+                        <span>Đổi mật khẩu</span>
+                     </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                        <img src="images/user6.svg" alt="">
+                        <span>Đăng xuất</span>
+                     </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div id="main-nano-wrapper" class="main-wrap main-wrap--kpi">
+            <div class="kpi-wrap">
+                <div class="product-tab__wrap">
+                    <div class="dragscroll">
+                        <ul class="product-tab__name">
+                            <li>
+                                <a href="p2-2-2-0-yeu-thich.html">Yêu thích </a>
+                            </li>
+                            <li>
+                                <a href="p2-2-1-0-thong-bao.html">Thông báo
+                           <span class="checkbox__notfication">(14)</span>
+                        </a>
+                            </li>
+                            <li class="active">
+                                <a href="p2-2-4-0-thu.html">Thư đã gửi</a>
+                            </li>
+                            <li>
+                                <a href="p2-2-3-0-lich-su.html">Lịch sử truy cập file</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="kpi__tab__content nano nano2">
+                    <div class="nano-content">
+                        <div id="home" class="product-tab__content__pane in active">
+                            <div class="kpi">
+                                <div class="kpi__top">
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <div class="header-text--kpi">Danh sách thư đã gửi</div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="kpi__view-kpi">
+                                                <input type="text" class="search-bar-top" placeholder="Tìm kiếm thông báo...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="kpi__table kpi__tab">
+                                    <div class="table table--kpi">
+                                        <div class="table__header">
+                                            <div class="table__pager table__pager--kpi">
+                                                <span class="table__pager__text">Hiển thị</span>
+                                                <select class="table__pager__select">
+                                                    <option>10</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                                <span class="table__pager__text">/tổng số
+                                       <b>100</b> bản ghi</span>
+                                            </div>
+                                            <div class="table__excel table__excel--kpi">
+                                                <div class="kpi__view-kpi">
+                                                    <div class="button button__view-kpi button__view-kpi--lg" data-toggle="modal" data-target="#modal-add">
+                                                        <img src="images/p2/plus.svg"> Tạo thư mới
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="table__body">
+                                            <table class="table__body__table table__body__table--noti table__body__table--mail">
+                                                <tbody>
+                                                    <tr class="" data-toggle="modal" data-target="#modal-detail">
+                                                        <td class="text-left noti-mailto">
+                                                            <div class="noti--block">
+                                                                <div class="noti__sub wraptext">
+                                                                    <span class="noti__header">Tới: </span> leminh@gmail.com, mailan@gmail.com,
+                                                                    <span class="inline-block">...(5)</span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-left noti-mail-content">
+                                                            <div class="noti--block">
+                                                                <div class="noti__header">
+                                                                    Khuyến mãi dịch vụ mở thẻ tín dụng VCB 1
+                                                                </div>
+                                                                <div class="noti__sub">
+                                                                    Chào bạn Minh - Mình gửi bạn thông tin chương trình vay ưu đãi tiêu dùng cá nhân tại Vietcombank Chào bạn Minh - Mình gửi bạn thông tin chương trình vay ưu đãi tiêu dùng cá nhân tại Vietcombank
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-right noti-mail-time">
+                                                            <div class="noti--block">
+                                                                <span class="noti__sub">CN, 25/10/2017, 16:35</span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="" class="" data-toggle="modal" data-target="#modal-detail">
+                                                        <td class="text-left noti-mailto">
+                                                            <div class="noti--block">
+                                                                <div class="noti__sub wraptext">
+                                                                    <span class="noti__header">Tới: </span> leminh@gmail.com, mailan@gmail.com,
+                                                                    <span class="inline-block">...(5)</span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-left noti-mail-content">
+                                                            <div class="noti--block">
+                                                                <div class="noti__header">
+                                                                    Khuyến mãi dịch vụ mở thẻ tín dụng VCB 2
+                                                                </div>
+                                                                <div class="noti__sub">
+                                                                    Chào bạn Minh - Mình gửi bạn thông tin chương trình vay ưu đãi tiêu dùng cá nhân tại Vietcombank Chào bạn Minh - Mình gửi bạn thông tin chương trình vay ưu đãi tiêu dùng cá nhân tại Vietcombank
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-right noti-mail-time">
+                                                            <div class="noti--block">
+                                                                <span class="noti__sub">Thứ 7, 25/10/2017, 16:35</span>
+                                                                <span data-tooltip="tooltip" title="Có tệp đính kèm">
+                                                   <span class="text-tool__wrap text-success">
+                                                      <i class="icon icon-link"></i>
+                                                   </span>
+                                                                </span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="" class="" data-toggle="modal" data-target="#modal-detail">
+                                                        <td class="text-left noti-mailto">
+                                                            <div class="noti--block">
+                                                                <div class="noti__sub wraptext">
+                                                                    <span class="noti__header">Tới: </span> leminh@gmail.com, mailan@gmail.com,
+                                                                    <span class="inline-block">...(5)</span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-left noti-mail-content">
+                                                            <div class="noti--block">
+                                                                <div class="noti__header">
+                                                                    Khuyến mãi dịch vụ mở thẻ tín dụng VCB 3
+                                                                </div>
+                                                                <div class="noti__sub">
+                                                                    Chào bạn Minh - Mình gửi bạn thông tin chương trình vay ưu đãi tiêu dùng cá nhân tại Vietcombank Chào bạn Minh - Mình gửi bạn thông tin chương trình vay ưu đãi tiêu dùng cá nhân tại Vietcombank
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-right noti-mail-time">
+                                                            <div class="noti--block">
+                                                                <span class="noti__sub">Thứ 7, 25/10/2017, 16:35</span>
+                                                                <span data-tooltip="tooltip" title="Có tệp đính kèm">
+                                                   <span class="text-tool__wrap text-success">
+                                                      <i class="icon icon-link"></i>
+                                                   </span>
+                                                                </span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="" class="" data-toggle="modal" data-target="#modal-detail">
+                                                        <td class="text-left noti-mailto">
+                                                            <div class="noti--block">
+                                                                <div class="noti__sub wraptext">
+                                                                    <span class="noti__header">Tới: </span> leminh@gmail.com, mailan@gmail.com,
+                                                                    <span class="inline-block">...(5)</span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-left noti-mail-content">
+                                                            <div class="noti--block">
+                                                                <div class="noti__header">
+                                                                    Khuyến mãi dịch vụ mở thẻ tín dụng VCB 4
+                                                                </div>
+                                                                <div class="noti__sub">
+                                                                    Chào bạn Minh - Mình gửi bạn thông tin chương trình vay ưu đãi tiêu dùng cá nhân tại Vietcombank Chào bạn Minh - Mình gửi bạn thông tin chương trình vay ưu đãi tiêu dùng cá nhân tại Vietcombank
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-right noti-mail-time">
+                                                            <div class="noti--block">
+                                                                <span class="noti__sub">Thứ 7, 25/10/2017, 16:35</span>
+                                                                <span data-tooltip="tooltip" title="Có tệp đính kèm">
+                                                   <span class="text-tool__wrap text-success">
+                                                      <i class="icon icon-link"></i>
+                                                   </span>
+                                                                </span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="" class="" data-toggle="modal" data-target="#modal-detail">
+                                                        <td class="text-left noti-mailto">
+                                                            <div class="noti--block">
+                                                                <div class="noti__sub wraptext">
+                                                                    <span class="noti__header">Tới: </span> leminh@gmail.com, mailan@gmail.com,
+                                                                    <span class="inline-block">...(5)</span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-left noti-mail-content">
+                                                            <div class="noti--block">
+                                                                <div class="noti__header">
+                                                                    Khuyến mãi dịch vụ mở thẻ tín dụng VCB 5
+                                                                </div>
+                                                                <div class="noti__sub">
+                                                                    Chào bạn Minh - Mình gửi bạn thông tin chương trình vay ưu đãi tiêu dùng cá nhân tại Vietcombank Chào bạn Minh - Mình gửi bạn thông tin chương trình vay ưu đãi tiêu dùng cá nhân tại Vietcombank
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-right noti-mail-time">
+                                                            <div class="noti--block">
+                                                                <span class="noti__sub">CN, 25/10/2017, 16:35</span>
+                                                                <span data-tooltip="tooltip" title="Có tệp đính kèm">
+                                                   <span class="text-tool__wrap text-success">
+                                                      <i class="icon icon-link"></i>
+                                                   </span>
+                                                                </span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="" class="" data-toggle="modal" data-target="#modal-detail">
+                                                        <td class="text-left noti-mailto">
+                                                            <div class="noti--block">
+                                                                <div class="noti__sub wraptext">
+                                                                    <span class="noti__header">Tới: </span> leminh@gmail.com, mailan@gmail.com,
+                                                                    <span class="inline-block">...(5)</span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-left noti-mail-content">
+                                                            <div class="noti--block">
+                                                                <div class="noti__header">
+                                                                    Khuyến mãi dịch vụ mở thẻ tín dụng VCB 6
+                                                                </div>
+                                                                <div class="noti__sub">
+                                                                    Chào bạn Minh - Mình gửi bạn thông tin chương trình vay ưu đãi tiêu dùng cá nhân tại Vietcombank Chào bạn Minh - Mình gửi bạn thông tin chương trình vay ưu đãi tiêu dùng cá nhân tại Vietcombank
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-right noti-mail-time">
+                                                            <div class="noti--block">
+                                                                <span class="noti__sub">CN, 25/10/2017, 16:35</span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="table__footer table__footer--kpi text-right">
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="modal fade campain_detail" id="modal-add" role="dialog" tabindex="-1" aria-labelledby="demo-default-modal" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content modal--mail">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--Modal body-->
+                <div class="modal-body">
+                    <div class="modal__text-mail">
+                        Thư mới
+                    </div>
+                    <div class="modal__mail">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mail-form">
+                                        <div class="mail-form__table">
+                                            <div class="tr">
+                                                <div class="td">Đến</div>
+                                                <div class="td">
+                                                    <input type="text" class="mail-form__input" id="" value="">
+                                                </div>
+                                                <div class="td mail-btn">
+                                                    <div class="btn btn-mail" id="cc-btn">Cc</div>
+                                                    <div class="btn btn-mail" id="bcc-btn">Bcc</div>
+                                                </div>
+                                            </div>
+                                            <div class="tr" id="mail-cc" style="display: none">
+                                                <div class="td">Cc</div>
+                                                <div class="td">
+                                                    <input type="text" class="mail-form__input" id="" value="">
+                                                </div>
+                                            </div>
+                                            <div class="tr" id="mail-bcc" style="display: none">
+                                                <div class="td">Bcc</div>
+                                                <div class="td">
+                                                    <input type="text" class="mail-form__input" id="" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mail-form__table no-margin">
+                                            <div class="tr">
+                                                <div class="td">Tiêu đề</div>
+                                                <div class="td">
+                                                    <input type="text" class="mail-form__input" id="" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mail-form__content mail-form__sticky">
+                                            <div class="row">
+                                                <div class="col-xs-6 mail-form__check">
+                                                    <div class="mail-form__sticky__header">
+                                                        Tệp đính kèm
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-6 mail-form__check text-right">
+                                                    <div class="mail-form__sticky__header mail-form__sticky-check no-select">
+                                                        <u>Chọn tất cả</u>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6 mail-form__check">
+                                                    <div class="radio radio-custom">
+                                                        <input id="form-checkbox1" class="magic-checkbox" type="checkbox" checked="">
+                                                        <label for="form-checkbox1" class="font-med no-select">
+                                                            <i class="icon-file-pdf"></i> CCTT_TinhPhi.pdf
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio radio-custom">
+                                                        <input id="form-checkbox2" class="magic-checkbox" type="checkbox" checked="">
+                                                        <label for="form-checkbox2" class="font-med no-select">
+                                                            <i class="icon-file-pdf"></i> CCTT_TinhPhi2.pdf
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="radio radio-custom">
+                                                        <input id="form-checkbox3" class="magic-checkbox" type="checkbox" checked="">
+                                                        <label for="form-checkbox3" class="font-med no-select">
+                                                            <i class="icon-file-pdf"></i> CCTT_TinhPhi3.pdf
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio radio-custom">
+                                                        <input id="form-checkbox4" class="magic-checkbox" type="checkbox" checked="">
+                                                        <label for="form-checkbox4" class="font-med no-select">
+                                                            <i class="icon-file-pdf"></i> CCTT_TinhPhi4.pdf
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mail-form__content mail-form__sticky no-padding">
+                                            <div class="row">
+                                                <div class="col-md-12 mail-form__check">
+                                                    <textarea name="" class="mail-form__textarea" placeholder="Nội dung thư" id="" rows="18"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mail-form__content mail-form__sticky">
+                                            <div class="row">
+                                                <div class="col-md-12 mail-form__check">
+                                                    <div class="mail-form__text-default">
+                                                        <b>Nguyễn Trường Anh (Mr.) </b>
+                                                        <br> Phòng Quản lý bán Sản phẩm bán lẻ - Vietcombank Trụ sở chính
+                                                        <br> Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank)
+                                                        <br> Tầng 9, Tòa nhà Vietcombank, 198 Trần Quang Khải, Hoàn Kiếm, Hà Nội
+                                                        <br> Di động:
+                                                        <a>(84) 984 121 986.</a> Cố định:
+                                                        <a>(84-24) 3 934 3137</a> Fax:
+                                                        <a href="">(84-24) 3 938 8513</a>
+                                                        <br>
+                                                        <img class="mail-form__logo" src="images/logo_vcb.svg" alt="" width="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal__footer modal__mail__footer">
+                        <div class="text-left">
+                            <div data-dismiss="modal" class="button button__view-kpi button__view-kpi--lg">Gửi
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade campain_detail" id="modal-detail" role="dialog" tabindex="-1" aria-labelledby="demo-default-modal" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content modal--mail">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--Modal body-->
+                <div class="modal-body">
+                    <div class="modal__text-mail">
+                        Chi tiết thư đã gửi
+                    </div>
+                    <div class="modal__mail">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mail-form">
+                                        <div class="mail-form__table">
+                                            <div class="tr">
+                                                <div class="td mail-form__title">Khuyến mãi dịch vụ mở thẻ tín dụng VCB</div>
+                                                <div class="td">
+                                                    <input type="text" class="mail-form__input" id="" value="">
+                                                </div>
+                                                <div class="td mail-btn">
+                                                    <div class="btn btn-mail">
+                                                        <i class="icon-forward text-primary"></i>
+                                                    </div>
+                                                    <div data-toggle="modal" data-target="#modal-delete" class="btn btn-mail">
+                                                        <i class="icon-trash text-danger"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mail-form__table no-margin">
+                                            <div class="tr">
+                                                <div class="td">Từ</div>
+                                                <div class="td">
+                                                    <div class="font-med">Vietcombank Sales</div>
+                                                </div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td">Đến</div>
+                                                <div class="td">
+                                                    <span class="font-med">Đỗ Đăng Khôi, nguyenvana@gmail.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td">Cc</div>
+                                                <div class="td">
+                                                    <span class="font-med">minhvu@gmail.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td">Bcc</div>
+                                                <div class="td">
+                                                    <span class="font-med">minhan@gmail.com</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mail-form__content mail-form__sticky">
+                                            <div class="row">
+                                                <div class="col-xs-6 mail-form__check">
+                                                    <div class="mail-form__sticky__header">
+                                                        Tệp đính kèm
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6 mail-form__check">
+                                                    <div class="radio-custom">
+                                                        <label class="font-med no-select">
+                                                            <i class="icon-file-pdf"></i> CCTT_TinhPhi.pdf
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio-custom">
+                                                        <label class="font-med no-select">
+                                                            <i class="icon-file-pdf"></i> CCTT_TinhPhi2.pdf
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="radio-custom">
+                                                        <label class="font-med no-select">
+                                                            <i class="icon-file-pdf"></i> CCTT_TinhPhi3.pdf
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio-custom">
+                                                        <label class="font-med no-select">
+                                                            <i class="icon-file-pdf"></i> CCTT_TinhPhi4.pdf
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mail-form__content mail-form__sticky no-padding">
+                                            <div class="row">
+                                                <div class="col-md-12 mail-form__check">
+                                                    <div class="mail-form__text-content">
+                                                        <b>Chào bạn Minh,</b>
+                                                        <br> Mình gửi bạn thông tin chương trình khuyến mãi dịch vụ mở thẻ tín dụng VCB với nhiều ưu đãi hấp dẫn chỉ trong tháng 03/2018. Bạn tham khảo nhé. ...
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mail-form__content mail-form__sticky">
+                                            <div class="row">
+                                                <div class="col-md-12 mail-form__check">
+                                                    <div class="mail-form__text-default">
+                                                        <b>Nguyễn Trường Anh (Mr.) </b>
+                                                        <br> Phòng Quản lý bán Sản phẩm bán lẻ - Vietcombank Trụ sở chính
+                                                        <br> Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank)
+                                                        <br> Tầng 9, Tòa nhà Vietcombank, 198 Trần Quang Khải, Hoàn Kiếm, Hà Nội
+                                                        <br> Di động:
+                                                        <a>(84) 984 121 986.</a> Cố định:
+                                                        <a>(84-24) 3 934 3137</a> Fax:
+                                                        <a href="">(84-24) 3 938 8513</a>
+                                                        <br>
+                                                        <img class="mail-form__logo" src="images/logo_vcb.svg" alt="" width="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal__footer modal__mail__footer">
+                        <div class="text-left">
+                            <div data-dismiss="modal" class="button button__view-kpi button__view-kpi--lg">Gửi
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade campain_detail" id="modal-delete" role="dialog" tabindex="-1" aria-labelledby="demo-default-modal" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--Modal body-->
+                <div class="modal-body">
+                    <div class="modal__text-head">
+                        Thông báo
+                    </div>
+                    <div class="modal__content">
+                        <p>Bạn chắc chắn muốn xóa thông báo này?</p>
+                    </div>
+                    <div class="modal__footer">
+                        <div class="text-left">
+                            <button data-dismiss="modal" class="button button__view-kpi button__view-kpi--lg">Đồng ý
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/highcharts.js"></script>
+    <script type="text/javascript" src="js/exporting.js"></script>
+    <script src="select2/js/select2.full.min.js"></script>
+    <script src="js/datepicker/moment-with-locales.js"></script>
+    <script src="js/datepicker/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('[name="radio1"]').each(function() {
+            if ($(this).is(':checked')) {
+                $('' + $(this).val()).css('display', 'block');
+            } else {
+                $($(this).val()).css('display', 'none');
+            };
+        });
+        $('#cc-btn').on('click', function() {
+            $('#mail-cc').css('display', 'table-row');
+            $(this).css('display', 'none');
+        })
+        $('#bcc-btn').on('click', function() {
+            $('#mail-bcc').css('display', 'table-row');
+            $(this).css('display', 'none');
+        })
+        $('[name="radio1"]').on('change', function() {
+            $('.kpi__tab').css('display', 'none');
+            $('' + $(this).val()).css('display', 'block');
+        })
+    })
+    </script>
+</body>
+
+</html>

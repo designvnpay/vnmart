@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sale App</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link href="select2/css/select2.min.css" rel="stylesheet">
+<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<aside id="sidebar" class="nano">
+  <div class="nano-content">
+    <div class="logo-container"><span class="logo"></span></div>
+    <menu class="menu-segment">
+      <ul>
+        <li> <a href="chien-dich.html"> <span class="ic ic_nav_1"></span>CHIẾN DỊCH</a> </li>
+        <li> <a href="san-pham.html"> <span class="ic ic_nav_2"></span>SẢN PHẨM</a> </li>
+        <li> <a href="p2-1-1-0-thong-tin-khach-hang.html"> <span class="ic ic_nav_3"></span>QUẢN LÝ KH</a> </li>
+        <li> <a href="p3-1-1-kich-ban-ban-hang.html"> <span class="ic ic_nav_4"></span>KỊCH BẢN <br>
+          BÁN HÀNG</a> </li>
+        <li> <a href="p6-1-1-salebook.html"> <span class="ic ic_nav_8"></span>SALES<br>
+          PLAYBOOK</a> </li>
+        <li> <a href="kpi-1.html"> <span class="ic ic_nav_5"></span>KẾT QUẢ KPI</a> </li>
+        <li class="active"> <a href="kpi-2.html"> <span class="ic ic_nav_9"></span>KPI THỰC HIỆN</a> </li>
+        <li> <a href="thi-dua.html"> <span class="ic ic_nav_10"></span>THI ĐUA<br>
+          NỘI BỘ</a> </li>
+        <li> <a href="p4-1-1-cong-cu-tinh.html"> <span class="ic ic_nav_6"></span>CÔNG CỤ TÍNH</a> </li>
+        <li> <a href="p5-1-1-ATM.html"> <span class="ic ic_nav_7"></span>MẠNG LƯỚI</a> </li>
+      </ul>
+    </menu>
+  </div>
+</aside>
+<main id="main">
+  <div class="overlay"></div>
+  <header class="header">
+    <h1 class="page-title"><a class="sidebar-toggle-btn trigger-toggle-sidebar"><span class="line"></span><span class="line"></span><span class="line"></span></a><img src="images/saleapp.svg" alt="sale app"><a></a></h1>
+	  <div class="search-box">
+                <div class="search-box-cont">
+                    
+                    <div class="search-box-close">
+                        <div class="search-box-close-1"></div>
+                        <div class="search-box-close-2"></div>
+                    </div>
+                </div>
+            </div>
+    <div class="user__wrap">
+      <div class="dropdown user">
+        <div href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="user__image">
+            <div class="user__image__notification">14</div>
+            <div class="user__image__wrap"><img src="images/user.jpg" alt="" class=""></div>
+          </div>
+          <div class="user__info">
+            <div class="user__info__name">Đỗ Tuệ Linh</div>
+            <div class="user__info__branch">Chi nhánh Đống Đa, Hà Nội</div>
+          </div>
+        </div>
+        <ul class=" nav dropdown-menu" aria-labelledby="dLabel">
+          <li> <a href="p2-2-2-0-yeu-thich.html"><img src="images/user1.svg" alt=""> <span>Yêu thích</span> </a> </li>
+          <li> <a href="p2-2-1-0-thong-bao.html"><img src="images/user2.svg" alt=""> <span class="user__notification">14</span> <span>Thông báo</span> </a> </li>
+          <li> <a href="p2-2-4-0-thu.html"><img src="images/user3.svg" alt=""> <span>Hòm thư</span> </a> </li>
+          <li> <a href="p2-2-3-0-lich-su.html"><img src="images/user4.svg" alt=""> <span>Lịch sử truy cập</span> </a> </li>
+          <li> <a href="#"><img src="images/user5.svg" alt=""> <span>Đổi mật khẩu</span> </a> </li>
+          <li> <a href="#"><img src="images/user6.svg" alt=""> <span>Đăng xuất</span> </a> </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div id="main-nano-wrapper" class="main-wrap main-wrap--kpi">
+    <div class="kpi-wrap">
+      <div class="kpi__top kpi__top--fixed">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="kpi__top__dropdown">
+              <div class="ul">
+                <div class="li">
+                  <div class="kpi__dropdown__label"> <span class="kpi__top__text-main"><b>Theo dõi KPI thực hiện</b></span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="kpi__tab__content nano nano2">
+        <div class="nano-content">
+          <div id="home" class="product-tab__content__pane in active">
+            <div class="kpi">
+              <div class="kpi__top">
+                <div class="kpi__top__check-box">
+                  <div class="row box_chooses">
+                    <div class="col-md-3 col-xs-3">
+                      <div class="radio">
+                        <input id="form-radio1" class="magic-radio" type="radio" name="form-radio-button" checked>
+                        <label for="form-radio1"><span>Quý 1</span></label>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-xs-3">
+                      <div class="radio">
+                        <input id="form-radio2" class="magic-radio" type="radio" name="form-radio-button">
+                        <label for="form-radio2"><span>Quý 2</span></label>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-xs-3">
+                      <div class="radio">
+                        <input id="form-radio3" class="magic-radio" type="radio" name="form-radio-button">
+                        <label for="form-radio3"><span>Quý 3</span></label>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-xs-3">
+                      <div class="radio">
+                        <input id="form-radio4" class="magic-radio" type="radio" name="form-radio-button">
+                        <label for="form-radio4"><span>Quý 4</span></label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="kpi__top__dropdown">
+                  <div class="ul">
+                    <div class="li">
+                      <div class="kpi__dropdown__wrap">
+                        <div class="kpi__dropdown__label">Loại</div>
+                        <div class="kpi__dropdown__select">
+                          <select class="kpi__dropdown__input" id="target1" name="drop">
+                            <option value="box1">Kế hoạch</option>
+                            <option value="box2" selected>Thực hiện</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="li">
+                      <div class="kpi__dropdown__wrap">
+                        <div class="kpi__dropdown__label">Đối tượng</div>
+                        <div class="kpi__dropdown__select">
+                          <select class="kpi__dropdown__input" name="">
+                            <option value="cbnv">CBNV</option>
+                            <option value="ph">Phòng</option>
+                            <option value="cn">chi nhánh</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="li">
+                      <div class="kpi__view-kpi text-left">
+                        <div class="button button__view-kpi"> Xem kết quả </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="box1" style="display: none;">
+                <div class="kpi__table">
+                  <div class="table table--kpi">
+                    <div class="table__body">
+                      <table class="table__body__table table__body__table--kpi">
+                        <thead>
+                          <tr>
+                            <th class="text-center">STT</th>
+                            <th>Tên chỉ tiêu</th>
+                            <th>Đơn vị</th>
+                            <th>Kế hoạch</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="text-center">1</td>
+                            <td>Dư nợ bán lẻ CK</td>
+                            <td>Tỷ VND</td>
+                            <td>30</td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">2</td>
+                            <td>HĐV bán lẻ cuối kỳ</td>
+                            <td>Tỷ VND</td>
+                            <td>1</td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">3</td>
+                            <td>Thẻ tín dụng quốc tế</td>
+                            <td>Thẻ</td>
+                            <td>2</td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">4</td>
+                            <td>Online Banking</td>
+                            <td>Khách hàng</td>
+                            <td>25</td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">5</td>
+                            <td>Bancas nhân thọ</td>
+                            <td>Triệu VND</td>
+                            <td>400</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="table__footer table__footer--kpi text-right">
+						<div class="table__pager table__pager--kpi"> <span class="table__pager__text">Hiển thị</span>
+                        <select class="table__pager__select">
+                          <option>10</option>
+                          <option>20</option>
+                          <option>30</option>
+                          <option>40</option>
+                        </select>
+                        <span class="table__pager__text">/tổng số <b>100</b> bản ghi</span> </div>
+                      <div class="table__footer__paging">
+                        <div class="table-paging">
+                          <div class="table-paging__first">Đầu</div>
+                          <div class="table-paging__prev">Trước</div>
+                          <div class="table-paging__number table-paging__number--active">1</div>
+                          <div class="table-paging__number">2</div>
+                          <div class="table-paging__number">3</div>
+                          <div class="table-paging__next">Sau</div>
+                          <div class="table-paging__last">Cuối</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="box2" style="display: block;">
+                <div class="kpi__table">
+                  <div class="table table--kpi">
+                    <div class="table__header">
+                      
+                      <div class="table__excel table__excel--kpi"> <a href="kpi-2-danh-sach1.html" class="button button__view-kpi button__view-kpi--lg"><img src="images/p2/ic_back.svg" alt=""> Xem danh sách</a> </div>
+                    </div>
+                    <div class="table__body">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="box_maps">
+                            <div class="title_maps"> <strong>Dư nợ thể nhân cuối kỳ</strong><span>(Tỷ VND)</span> </div>
+                            <div class="middle_maps text-center">
+                              <div id="chart1" class="pic_chart"></div>
+                            </div>
+                            <div class="bottom_maps">
+                              <table class="table_normal">
+                                <tr>
+                                  <td width="33.33%"><strong>Kế hoạch</strong><span>10</span></td>
+                                  <td width="33.33%"><strong>Thực hiện</strong><span>12</span></td>
+                                  <td width="33.33%"><strong>Tỷ lệ</strong><span>120%</span></td>
+                                </tr>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="box_maps">
+                            <div class="title_maps"> <strong>Thẻ tín dụng quốc tế</strong><span>(Thẻ)</span> </div>
+                            <div class="middle_maps text-center">
+                              <div id="chart2" class="pic_chart"></div>
+                            </div>
+                            <div class="bottom_maps">
+                              <table class="table_normal">
+                                <tr>
+                                  <td width="33.33%"><strong>Kế hoạch</strong><span>10</span></td>
+                                  <td width="33.33%"><strong>Thực hiện</strong><span>8</span></td>
+                                  <td width="33.33%"><strong>Tỷ lệ</strong><span>80%</span></td>
+                                </tr>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="box_maps">
+                            <div class="title_maps"> <strong>Khách hàng mới</strong><span>(Tỷ VND)</span> </div>
+                            <div class="middle_maps text-center">
+                              <div id="chart3" class="pic_chart"></div>
+                            </div>
+                            <div class="bottom_maps">
+                              <table class="table_normal">
+                                <tr>
+                                  <td width="33.33%"><strong>Kế hoạch</strong><span>10</span></td>
+                                  <td width="33.33%"><strong>Thực hiện</strong><span>4</span></td>
+                                  <td width="33.33%"><strong>Tỷ lệ</strong><span>40%</span></td>
+                                </tr>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+					  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<script src="js/jquery.min.js"></script> 
+<script src="js/jquery-ui.min.js"></script> 
+<script src="js/jquery.ui.touch-punch.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/owl.carousel.min.js"></script> 
+<script type="text/javascript" src="js/highcharts.js"></script> 
+<script type="text/javascript" src="js/exporting.js"></script> 
+<script src="js/highcharts-more.js"></script> 
+<script src="select2/js/select2.full.min.js"></script> 
+<script src="js/datepicker/moment-with-locales.js"></script> 
+<script src="js/datepicker/bootstrap-datetimepicker.min.js"></script> 
+<script src="js/index.js"></script> 
+<script src="js/custom.js"></script> 
+<script type="text/javascript">
+Highcharts.chart('chart1', {
+    chart: {
+        type: 'gauge',
+        plotBackgroundColor: null,
+        plotBackgroundImage: null,
+        plotBorderWidth: 0,
+        plotShadow: false
+    },
+
+    title: {
+        text: ''
+    },
+
+    pane: {
+        startAngle: -90,
+        endAngle: 90,
+		background: {
+            backgroundColor:
+                Highcharts.defaultOptions.legend.backgroundColor || '#f5f5f5',
+            innerRadius: '40%',
+            outerRadius: '100%',
+            shape: 'arc'
+        }
+    },
+	tooltip: {
+        enabled: false
+    },
+
+    // the value axis
+    yAxis: {
+        min: 0,
+        max: 100,
+
+        minorTickInterval: 'auto',
+        minorTickWidth: 1,
+        minorTickLength: 10,
+        minorTickPosition: 'inside',
+        minorTickColor: '#fff',
+        tickPixelInterval: 60,
+        tickWidth: 2,
+        tickPosition: 'inside',
+        tickLength:10,
+        tickColor: '#fff',
+        labels: {
+            step: 2,
+			distance: 10,
+            rotation: 'auto'
+			
+        },
+
+        plotBands: [{
+            from: 0,
+            to: 30,
+            color: '#DF5353' // green
+        }, {
+            from: 30,
+            to: 70,
+            color: '#DDDF0D' // yellow
+        }, {
+            from: 70,
+            to: 100,
+            color: '#55BF3B' // red
+        }]
+    },
+
+    series: [{
+        name: 'Speed',
+        data: [100],
+        tooltip: {
+            valueSuffix: ' km/h'
+        }
+    }]
+
+},
+// Add some life
+function (chart) {
+    if (!chart.renderer.forExport) {
+        setInterval(function () {
+
+        }, 3000);
+    }
+});
+		</script> 
+<script type="text/javascript">
+Highcharts.chart('chart2', {
+    chart: {
+        type: 'gauge',
+        plotBackgroundColor: null,
+        plotBackgroundImage: null,
+        plotBorderWidth: 0,
+        plotShadow: false
+    },
+
+    title: {
+        text: ''
+    },
+
+    pane: {
+        startAngle: -90,
+        endAngle: 90,
+		background: {
+            backgroundColor:
+                Highcharts.defaultOptions.legend.backgroundColor || '#f5f5f5',
+            innerRadius: '40%',
+            outerRadius: '100%',
+            shape: 'arc'
+        }
+    },
+	tooltip: {
+        enabled: false
+    },
+
+    // the value axis
+    yAxis: {
+        min: 0,
+        max: 100,
+
+        minorTickInterval: 'auto',
+        minorTickWidth: 1,
+        minorTickLength: 10,
+        minorTickPosition: 'inside',
+        minorTickColor: '#fff',
+        tickPixelInterval: 60,
+        tickWidth: 2,
+        tickPosition: 'inside',
+        tickLength:10,
+        tickColor: '#fff',
+        labels: {
+            step: 2,
+			distance: 10,
+            rotation: 'auto'
+			
+        },
+
+        plotBands: [{
+            from: 0,
+            to: 30,
+            color: '#DF5353' // green
+        }, {
+            from: 30,
+            to: 70,
+            color: '#DDDF0D' // yellow
+        }, {
+            from: 70,
+            to: 100,
+            color: '#55BF3B' // red
+        }]
+    },
+
+    series: [{
+        name: 'Speed',
+        data: [80],
+        tooltip: {
+            valueSuffix: ' km/h'
+        }
+    }]
+
+},
+// Add some life
+function (chart) {
+    if (!chart.renderer.forExport) {
+        setInterval(function () {
+
+        }, 3000);
+    }
+});
+		</script> 
+<script type="text/javascript">
+Highcharts.chart('chart3', {
+    chart: {
+        type: 'gauge',
+        plotBackgroundColor: null,
+        plotBackgroundImage: null,
+        plotBorderWidth: 0,
+        plotShadow: false
+    },
+
+    title: {
+        text: ''
+    },
+
+    pane: {
+        startAngle: -90,
+        endAngle: 90,
+		background: {
+            backgroundColor:
+                Highcharts.defaultOptions.legend.backgroundColor || '#f5f5f5',
+            innerRadius: '40%',
+            outerRadius: '100%',
+            shape: 'arc'
+        }
+    },
+	tooltip: {
+        enabled: false
+    },
+
+    // the value axis
+    yAxis: {
+        min: 0,
+        max: 100,
+
+        minorTickInterval: 'auto',
+        minorTickWidth: 1,
+        minorTickLength: 10,
+        minorTickPosition: 'inside',
+        minorTickColor: '#fff',
+        tickPixelInterval: 60,
+        tickWidth: 2,
+        tickPosition: 'inside',
+        tickLength:10,
+        tickColor: '#fff',
+        labels: {
+            step: 2,
+			distance: 10,
+            rotation: 'auto'
+			
+        },
+
+        plotBands: [{
+            from: 0,
+            to: 30,
+            color: '#DF5353' // green
+        }, {
+            from: 30,
+            to: 70,
+            color: '#DDDF0D' // yellow
+        }, {
+            from: 70,
+            to: 100,
+            color: '#55BF3B' // red
+        }]
+    },
+
+    series: [{
+        name: 'Speed',
+        data: [40],
+        tooltip: {
+            valueSuffix: ' km/h'
+        }
+    }]
+
+},
+// Add some life
+function (chart) {
+    if (!chart.renderer.forExport) {
+        setInterval(function () {
+
+        }, 3000);
+    }
+});
+		</script> 
+<script>
+$(document).ready(function(){
+    $("#target1").change(function(){
+   if($(this).val()=="box1")
+   {    
+       $("div#box1").show();
+	   $("div#box2").hide();
+   }
+		if($(this).val()=="box2")
+   {    
+       $("div#box1").hide();
+	   $("div#box2").show();
+   }
+});
+	$("#target2").change(function(){
+   if($(this).val()=="box3")
+   {    
+       $("div#box3").show();
+	   $("div#box4").hide();
+	   $("div#box5").hide();
+   }
+		if($(this).val()=="box4")
+   {    
+       $("div#box3").hide();
+	   $("div#box4").show();
+	   $("div#box5").hide();
+   }
+		if($(this).val()=="box5")
+   {    
+       $("div#box3").hide();
+	   $("div#box4").hide();
+	   $("div#box5").show();
+   }
+});
+});
+</script>
+</body>
+</html>

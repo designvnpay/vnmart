@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sale App</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link href="select2/css/select2.min.css" rel="stylesheet">
+<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<aside id="sidebar" class="nano">
+  <div class="nano-content">
+    <div class="logo-container"> <span class="logo"></span> </div>
+    <menu class="menu-segment">
+    <ul>
+      <li> <a href="chien-dich.html"> <span class="ic ic_nav_1"></span>CHIẾN DỊCH</a> </li>
+      <li> <a href="san-pham.html"> <span class="ic ic_nav_2"></span>SẢN PHẨM</a> </li>
+      <li> <a href="p2-1-1-0-thong-tin-khach-hang.html"> <span class="ic ic_nav_3"></span>QUẢN LÝ KH</a> </li>
+      <li> <a href="p3-1-1-kich-ban-ban-hang.html"> <span class="ic ic_nav_4"></span>KỊCH BẢN <br>
+        BÁN HÀNG</a> </li>
+      <li> <a href="p6-1-1-salebook.html"> <span class="ic ic_nav_8"></span>SALES<br>
+        PLAYBOOK</a> </li>
+      <li> <a href="kpi-1.html"> <span class="ic ic_nav_5"></span>KẾT QUẢ KPI</a> </li>
+      <li> <a href="p4-1-1-cong-cu-tinh.html"> <span class="ic ic_nav_6"></span>CÔNG CỤ TÍNH</a> </li>
+      <li class="active"> <a href="p5-1-1-ATM.html"> <span class="ic ic_nav_7"></span>MẠNG LƯỚI</a> </li>
+    </ul>
+    </menu> </div>
+</aside>
+<main id="main">
+  <div class="overlay"></div>
+  <header class="header">
+    <h1 class="page-title"> <a class="sidebar-toggle-btn trigger-toggle-sidebar"> <span class="line"></span> <span class="line"></span> <span class="line"></span> </a><img src="images/saleapp.svg" alt="sale app"><a></a></h1>
+    <div class="search-box">
+      <div class="search-box-cont">
+        <input id="" class="autocomplete" placeholder="Tìm kiếm chiến dịch hoặc sản phẩm liên quan" spellcheck="false" title="type &quot;a&quot;">
+        <div class="search-box-close">
+          <div class="search-box-close-1"></div>
+          <div class="search-box-close-2"></div>
+        </div>
+      </div>
+    </div>
+    <div class="user__wrap">
+      <div class="dropdown user">
+        <div href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="user__image">
+            <div class="user__image__notification">14</div>
+            <div class="user__image__wrap"><img src="images/user.jpg" alt="" class=""></div>
+          </div>
+          <div class="user__info">
+            <div class="user__info__name">Đỗ Tuệ Linh</div>
+            <div class="user__info__branch">Chi nhánh Đống Đa, Hà Nội</div>
+          </div>
+        </div>
+        <ul class=" nav dropdown-menu" aria-labelledby="dLabel">
+          <li> <a href="p2-2-2-0-yeu-thich.html"><img src="images/user1.svg" alt=""> <span>Yêu thích</span> </a> </li>
+          <li> <a href="p2-2-1-0-thong-bao.html"><img src="images/user2.svg" alt=""> <span class="user__notification">14</span> <span>Thông báo</span> </a> </li>
+          <li> <a href="p2-2-4-0-thu.html"><img src="images/user3.svg" alt=""> <span>Hòm thư</span> </a> </li>
+          <li> <a href="p2-2-3-0-lich-su.html"><img src="images/user4.svg" alt=""> <span>Lịch sử truy cập</span> </a> </li>
+          <li> <a href="#"><img src="images/user5.svg" alt=""> <span>Đổi mật khẩu</span> </a> </li>
+          <li> <a href="#"><img src="images/user6.svg" alt=""> <span>Đăng xuất</span> </a> </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div id="main-nano-wrapper" class="main-wrap main-wrap--kpi">
+    <div class="kpi-wrap">
+      <div class="kpi__top kpi__top--fixed">
+        <div class="row">
+          <div class="col-md-6 col-xs-7">
+            <div class="kpi__dropdown__label"> <span class="kpi__top__text-main"><b>Mạng lưới VCB</b></span> </div>
+          </div>
+          <div class="col-md-6 col-xs-5">
+            <ul class="fillter-tool">
+              <li class="unread">
+                <div class="user__image__notification">150</div>
+                <span class="unread__text">Kết quả</span> <img src="images/filter.svg" alt=""> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="kpi__top kpi___top_edit">
+          <div class="row">
+            <div class="col-md-10">
+              <div class="kpi__top__dropdown">
+                <div class="ul">
+                  <div class="li">
+                    <div class="kpi__dropdown__wrap">
+                      <div class="kpi__dropdown__label">Tỉnh thành</div>
+                      <div class="kpi__dropdown__select">
+                        <select class="kpi__dropdown__input kpi__dropdown__input--lg" name="">
+                          <option value="hn">Hà Nội</option>
+                          <option value="hn">Đà Nẵng</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="li">
+                    <div class="kpi__dropdown__wrap">
+                      <div class="kpi__dropdown__label">Quận huyện</div>
+                      <div class="kpi__dropdown__select">
+                        <select class="kpi__dropdown__input kpi__dropdown__input--lg" name="">
+                          <option value="hn">Đống Đa</option>
+                          <option value="hn">Cầu giấy</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="li">
+                    <div class="kpi__dropdown__wrap kpi___dropdown___wrap_edit">
+                      <div class="kpi__dropdown__label">Tìm kiếm theo:</div>
+                      <div class="kpi__dropdown__select">
+                        <div class="radio" onclick="javascript:window.location.href='p5-1-1-ATM.html'">
+                          <input checked="checked" id="form-radio1" class="magic-radio" type="radio" name="form-radio-button">
+                          <label for="form-radio1"><span>ATM</span></label>
+                        </div>
+                        <div class="radio" onclick="javascript:window.location.href='p5-1-1-PGD.html'">
+                          <input id="form-radio2" class="magic-radio" type="radio" name="form-radio-button">
+                          <label for="form-radio2"><span>Phòng giao dịch</span></label>
+                        </div>
+                        <div class="radio" onclick="javascript:window.location.href='p5-1-1-POS.html'">
+                          <input id="form-radio3" class="magic-radio" type="radio" name="form-radio-button">
+                          <label for="form-radio3"><span>Điểm chấp nhận thẻ</span></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="kpi__view-kpi">
+                <div class="button button__view-kpi"> Tìm </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-tab__content nano nano2">
+        <div class="nano-content">
+          <div id="home" class="product-tab__content__pane no-padding-top in active">
+            <div class="maps_cont">
+              <div class="row">
+                <div class="col-md-9">
+                  <div id="map-canvas" class="map"></div>
+                </div>
+                <div class="column-3 last">
+                  <div class="column-cont">
+                    <div id="box-filter">
+                      <div class="nano">
+                        <div class="fillter nano-content">
+                          <div class="box">
+                            <div class="title title_blue">
+                              <h3>Có <strong>150</strong> kết quả được tìm thấy</h3>
+                            </div>
+                            <div class="box-cont clearfix">
+                              <div class="module">
+                                <div class="module-cont clearfix">
+                                  <ul class="list-group list-group_maps">
+                                    <li class="list-group-item active">
+                                      <label>
+                                        <input type="hidden" name="">
+                                        <strong class="maps_name">VCB Bệnh viện Hữu Nghị Việt Xô</strong> <span class="maps_address">Số 1 Trần Khánh Dư - Q.Hai Bà Trưng - Hà Nội</span> <span class="maps_phone">Số lượng máy: 2    | Giờ phục vụ: 24h/7</span> </label>
+                                    </li>
+                                    <li class="list-group-item active">
+                                      <label>
+                                        <input type="hidden" name="">
+                                        <strong class="maps_name">VCB Bệnh viện Hữu Nghị Việt Xô</strong> <span class="maps_address">Số 1 Trần Khánh Dư - Q.Hai Bà Trưng - Hà Nội</span> <span class="maps_phone">Số lượng máy: 2    | Giờ phục vụ: 24h/7</span> </label>
+                                    </li>
+                                    <li class="list-group-item active">
+                                      <label>
+                                        <input type="hidden" name="">
+                                        <strong class="maps_name">VCB Bệnh viện Hữu Nghị Việt Xô</strong> <span class="maps_address">Số 1 Trần Khánh Dư - Q.Hai Bà Trưng - Hà Nội</span> <span class="maps_phone">Số lượng máy: 2    | Giờ phục vụ: 24h/7</span> </label>
+                                    </li>
+                                    <li class="list-group-item active">
+                                      <label>
+                                        <input type="hidden" name="">
+                                        <strong class="maps_name">VCB Bệnh viện Hữu Nghị Việt Xô</strong> <span class="maps_address">Số 1 Trần Khánh Dư - Q.Hai Bà Trưng - Hà Nội</span> <span class="maps_phone">Số lượng máy: 2    | Giờ phục vụ: 24h/7</span> </label>
+                                    </li>
+                                    <li class="list-group-item active">
+                                      <label>
+                                        <input type="hidden" name="">
+                                        <strong class="maps_name">VCB Bệnh viện Hữu Nghị Việt Xô</strong> <span class="maps_address">Số 1 Trần Khánh Dư - Q.Hai Bà Trưng - Hà Nội</span> <span class="maps_phone">Số lượng máy: 2    | Giờ phục vụ: 24h/7</span> </label>
+                                    </li>
+                                    <li class="list-group-item active">
+                                      <label>
+                                        <input type="hidden" name="">
+                                        <strong class="maps_name">VCB Bệnh viện Hữu Nghị Việt Xô</strong> <span class="maps_address">Số 1 Trần Khánh Dư - Q.Hai Bà Trưng - Hà Nội</span> <span class="maps_phone">Số lượng máy: 2    | Giờ phục vụ: 24h/7</span> </label>
+                                    </li>
+                                    <li class="list-group-item active">
+                                      <label>
+                                        <input type="hidden" name="">
+                                        <strong class="maps_name">VCB Bệnh viện Hữu Nghị Việt Xô</strong> <span class="maps_address">Số 1 Trần Khánh Dư - Q.Hai Bà Trưng - Hà Nội</span> <span class="maps_phone">Số lượng máy: 2    | Giờ phục vụ: 24h/7</span> </label>
+                                    </li>
+                                    <li class="list-group-item active">
+                                      <label>
+                                        <input type="hidden" name="">
+                                        <strong class="maps_name">VCB Bệnh viện Hữu Nghị Việt Xô</strong> <span class="maps_address">Số 1 Trần Khánh Dư - Q.Hai Bà Trưng - Hà Nội</span> <span class="maps_phone">Số lượng máy: 2    | Giờ phục vụ: 24h/7</span> </label>
+                                    </li>
+                                    
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</main>
+<script src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/owl.carousel.min.js"></script> 
+<script type="text/javascript" src="js/highcharts.js"></script> 
+<script type="text/javascript" src="js/exporting.js"></script> 
+<script src="select2/js/select2.full.min.js"></script> 
+<script src="js/datepicker/moment-with-locales.js"></script> 
+<script src="js/datepicker/bootstrap-datetimepicker.min.js"></script> 
+<script src="js/index.js"></script> 
+<script src="js/custom.js"></script> 
+<script src='https://maps.googleapis.com/maps/api/js'></script> 
+<script src="js/maps.js"></script>
+</body>
+</html>
