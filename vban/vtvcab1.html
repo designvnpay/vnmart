@@ -412,7 +412,7 @@
       <div class="modal-body">
         <form>
           <div class="form-group">
-            <p align="center" class="font-middle" style="font-size: 15px;">Số điện thoại hoặc email của quý khách không tồn tại hoặc không chính xác. Quý khách vui lòng nhập lại</p>
+            <p align="center" class="font-middle" style="font-size: 15px;">Số điện thoại hoặc email của Quý khách không tồn tại hoặc không chính xác. Quý khách vui lòng nhập lại</p>
           </div>
         </form>
       </div>
@@ -425,48 +425,48 @@
   </div>
 </div>
 <script type="text/javascript">
-                            function check_vtvcab() {
-                                var empt = document.forms["form_phone_email"]["phone_email"].value;
-                                if (empt == "")
-                                {
-                                $('#modal-phone-email').modal('show');
-                                return true;
-                                }
-                                else 
-                                {
-                                    $('#show-box').addClass('active');
-                                    $("input.phone_email").prop('disabled', true); 
-                                    $('#btn-step1').addClass('hidden-display'); 
-                                    $('#btn-back').addClass('active');
-                                    $('.section-body-middle-form-p1').addClass('active');
-                                return true; 
-                                }
-                                }; 
-                                function back_vtvcab() {
-                                $('#show-box').removeClass('active');
-                                    $("input.phone_email").prop('disabled', false); 
-                                    $('#btn-step1').removeClass('hidden-display'); 
-                                    $('#btn-back').removeClass('active');
-                                    $('.section-body-middle-form-p1').removeClass('active');
-                                };                               
+    function check_vtvcab() {
+        var empt = document.forms["form_phone_email"]["phone_email"].value;
+        if (empt == "")
+        {
+        $('#modal-phone-email').modal('show');
+        return true;
+        }
+        else 
+        {
+            $('#show-box').addClass('active');
+            $("input.phone_email").prop('disabled', true); 
+            $('#btn-step1').addClass('hidden-display'); 
+            $('#btn-back').addClass('active');
+            $('.section-body-middle-form-p1').addClass('active');
+        return true; 
+        }
+        }; 
+        function back_vtvcab() {
+        $('#show-box').removeClass('active');
+            $("input.phone_email").prop('disabled', false); 
+            $('#btn-step1').removeClass('hidden-display'); 
+            $('#btn-back').removeClass('active');
+            $('.section-body-middle-form-p1').removeClass('active');
+        };                               
 
-                        </script>     
-                          <script type="text/javascript">
-$(document).ready(function(){
-    $("#target1").change(function(){
-   if($(this).val()=="box1")
-   {    
-       $("div#box2").hide();
-       $("#btn-step2").hide();
-       $("#btn-back").show();
-   }
-        if($(this).val()=="box2")
-   {    
-       $("div#box2").show();
-       $("#btn-step2").show();
-       $("#btn-back").hide();
-   }
-});
-});
+</script>     
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#target1").change(function(){
+       if($(this).val()=="box1")
+       {    
+           $("div#box2").hide();
+           $("#btn-step2").hide();
+           $("#btn-back").show();
+       }
+            if($(this).val()=="box2")
+       {    
+           $("div#box2").show();
+           $("#btn-step2").show();
+           $("#btn-back").hide();
+       }
+    });
+    });
 </script> 
 </html>
