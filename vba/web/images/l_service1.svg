@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="l_service1" transform="translate(-1099 -1366)">
+    <rect id="Rectangle_4449" data-name="Rectangle 4449" width="40" height="40" transform="translate(1099 1366)" fill="none"/>
+    <g id="Group_9405" data-name="Group 9405" transform="translate(-57 22)">
+      <path id="Path_8723" data-name="Path 8723" d="M1165.762,1359.453v-1.272l11.285-4.531,10.782,4.531v1.55h-3.146v.954h-17.956v-.954Z" transform="translate(-0.123 -0.105)" fill="#e0562b"/>
+      <rect id="Rectangle_4450" data-name="Rectangle 4450" width="20" height="12" transform="translate(1167 1361)" fill="#fad869"/>
+      <path id="Path_8533" data-name="Path 8533" d="M901.371,1079.838l.009-10.443-1.218-.007-.009,10.46-17.87-.009.009-10.444-1.218-.007-.009,10.46-1.582-.009-.007,1.217h23.486l.007-1.21Z" transform="translate(285.523 293.148)"/>
+      <path id="Path_8534" data-name="Path 8534" d="M880.089,1066.46l3.787.009.007-1.219-3.193-.009.012-.58,10.525-4.507,10.53,4.517-.019.579-3.166-.009-.007,1.218h3.794a.6.6,0,0,0,.6-.6v-1.066a1.4,1.4,0,0,0-.847-1.288l-10.652-4.563a.639.639,0,0,0-.237-.05.62.62,0,0,0-.241.05l-10.653,4.563a1.4,1.4,0,0,0-.847,1.288v1.066A.6.6,0,0,0,880.089,1066.46Z" transform="translate(285.523 294.111)"/>
+      <path id="Path_8535" data-name="Path 8535" d="M891.571,1073.309v-1.124a1.88,1.88,0,0,0,1.708-1.838c0-.961-.562-1.523-1.675-1.977-.94-.388-1.34-.67-1.34-1.232,0-.431.313-.929,1.145-.929a2.62,2.62,0,0,1,1.362.366l.269-.713a2.873,2.873,0,0,0-1.4-.378v-1.049h-.67v1.092a1.772,1.772,0,0,0-1.632,1.739c0,.94.681,1.437,1.784,1.87.8.324,1.221.692,1.221,1.287,0,.615-.518,1.058-1.286,1.058a2.879,2.879,0,0,1-1.556-.464l-.26.725a3.143,3.143,0,0,0,1.654.475v1.092Z" transform="translate(285.467 297.977)" fill="#e0562b"/>
+      <line id="Line_637" data-name="Line 637" x2="15.942" transform="translate(1168.776 1359.964)" fill="none" stroke="#000" stroke-width="1.2"/>
+      <line id="Line_638" data-name="Line 638" y1="2.517" transform="translate(1167.207 1360.132)" fill="none" stroke="#000" stroke-width="1.2"/>
+      <line id="Line_639" data-name="Line 639" y1="2.517" transform="translate(1186.303 1360.132)" fill="none" stroke="#000" stroke-width="1.2"/>
+    </g>
+  </g>
+</svg>

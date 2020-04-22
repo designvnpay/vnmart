@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="r_service5" transform="translate(-83 -280)">
+    <rect id="Rectangle_151" data-name="Rectangle 151" width="40" height="40" transform="translate(83 280)" fill="none"/>
+    <g id="hotel" transform="translate(90 287.961)">
+      <g id="Group_3838" data-name="Group 3838" transform="translate(5.577 1.466)">
+        <rect id="Rectangle_3548" data-name="Rectangle 3548" width="2.78" height="3.243" transform="translate(0 6.197)"/>
+        <rect id="Rectangle_3560" data-name="Rectangle 3560" width="2.78" height="3.243" transform="translate(0 11.204)"/>
+        <rect id="Rectangle_3549" data-name="Rectangle 3549" width="2.78" height="3.243" transform="translate(5.038 6.197)"/>
+        <rect id="Rectangle_3561" data-name="Rectangle 3561" width="2.78" height="3.243" transform="translate(5.038 11.204)"/>
+        <rect id="Rectangle_3558" data-name="Rectangle 3558" width="3.779" height="5.47" transform="translate(4.068 16.634)" fill="#e0562b"/>
+        <rect id="Rectangle_3562" data-name="Rectangle 3562" width="5.997" height="11.015" transform="translate(9.613 11.089)" fill="#fad869"/>
+        <path id="Path_1910" data-name="Path 1910" d="M0,0H7.494V3.36H0Z" transform="translate(0)" fill="#e0562b"/>
+      </g>
+      <path id="Path_1908" data-name="Path 1908" d="M24.793,23.1H16.361V4.794a.472.472,0,0,0-.472-.472H13.27V1.511a.472.472,0,0,0-.472-.472h-7a.472.472,0,0,0-.472.472V4.323H2.713a.472.472,0,0,0-.472.472V23.1H.472a.472.472,0,0,0,0,.944H24.793a.472.472,0,0,0,0-.944Zm-21.608,0V5.266H8.422a.472.472,0,1,0,0-.944H6.275V1.983h6.052v2.34H11.038a.472.472,0,0,0,0,.944h4.379V23.1H3.185Z" stroke="#000" stroke-width="0.6"/>
+      <path id="Path_1909" data-name="Path 1909" d="M14.316,10.913h6.1V22.458" transform="translate(1.622 1.143)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>
