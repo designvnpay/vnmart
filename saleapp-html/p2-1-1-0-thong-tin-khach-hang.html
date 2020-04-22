@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sale App</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link href="select2/css/select2.min.css" rel="stylesheet">
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <aside id="sidebar" class="nano">
+        <div class="nano-content">
+            <div class="logo-container">
+                <span class="logo"></span>
+            </div>
+            <menu class="menu-segment">
+                <ul>
+                    <li>
+                        <a href="chien-dich.html">
+                            <span class="ic ic_nav_1"></span>CHIẾN DỊCH</a>
+                    </li>
+                    <li>
+                        <a href="san-pham.html">
+                            <span class="ic ic_nav_2"></span>SẢN PHẨM</a>
+                    </li>
+                    <li class="active">
+                        <a href="p2-1-1-0-thong-tin-khach-hang.html">
+                            <span class="ic ic_nav_3"></span>QUẢN LÝ KH</a>
+                    </li>
+                    <li>
+                        <a href="p3-1-1-kich-ban-ban-hang.html">
+                            <span class="ic ic_nav_4"></span>KỊCH BẢN
+                            <br> BÁN HÀNG</a>
+                    </li>
+                    <li>
+                        <a href="p6-1-1-salebook.html">
+                            <span class="ic ic_nav_8"></span>SALES<br>PLAYBOOK</a>
+                    </li>
+                    <li>
+                        <a href="kpi-1.html">
+                            <span class="ic ic_nav_5"></span>KẾT QUẢ KPI</a>
+                    </li>
+<li>
+                        <a href="kpi-2.html">
+                            <span class="ic ic_nav_9"></span>KPI THỰC HIỆN</a>
+                    </li>
+					<li>
+                        <a href="thi-dua.html">
+                            <span class="ic ic_nav_10"></span>THI ĐUA<br>NỘI BỘ</a>
+                    </li>
+                    <li>
+                        <a href="p4-1-1-cong-cu-tinh.html">
+                            <span class="ic ic_nav_6"></span>CÔNG CỤ TÍNH</a>
+                    </li>
+                    <li>
+                        <a href="p5-1-1-ATM.html">
+                            <span class="ic ic_nav_7"></span>MẠNG LƯỚI</a>
+                    </li>
+                </ul>
+            </menu>
+        </div>
+    </aside>
+    <main id="main">
+        <div class="overlay"></div>
+        <header class="header">
+            <h1 class="page-title">
+                <a class="sidebar-toggle-btn trigger-toggle-sidebar">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </a><img src="images/saleapp.svg" alt="sale app">
+                <a></a>
+            </h1>
+            <div class="search-box">
+                <div class="search-box-cont">
+                    <input id="" class="autocomplete" placeholder="Tìm kiếm chiến dịch hoặc sản phẩm liên quan" spellcheck="false" title="type &quot;a&quot;">
+                    <div class="search-box-close">
+                        <div class="search-box-close-1"></div>
+                        <div class="search-box-close-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="user__wrap">
+                <div class="dropdown user">
+                    <div href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="user__image">
+                            <div class="user__image__notification">14</div>
+                            <div class="user__image__wrap"><img src="images/user.jpg" alt="" class=""></div>
+                        </div>
+                        <div class="user__info">
+                            <div class="user__info__name">Đỗ Tuệ Linh</div>
+                            <div class="user__info__branch">Chi nhánh Đống Đa, Hà Nội</div>
+                        </div>
+                    </div>
+                    <ul class=" nav dropdown-menu" aria-labelledby="dLabel">
+                        <li>
+                            <a href="p2-2-2-0-yeu-thich.html"><img src="images/user1.svg" alt="">
+                                <span>Yêu thích</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-1-0-thong-bao.html"><img src="images/user2.svg" alt="">
+                                <span class="user__notification">14</span>
+                                <span>Thông báo</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-4-0-thu.html"><img src="images/user3.svg" alt="">
+                                <span>Hòm thư</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-3-0-lich-su.html"><img src="images/user4.svg" alt="">
+                                <span>Lịch sử truy cập</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/user5.svg" alt="">
+                                <span>Đổi mật khẩu</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/user6.svg" alt="">
+                                <span>Đăng xuất</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div id="main-nano-wrapper" class="main-wrap main-wrap--kpi">
+            <div class="kpi-wrap">
+                <div class="product-tab__wrap">
+                    <div class="dragscroll">
+                        <ul class="product-tab__name">
+                            <li class="active">
+                                <a href="p2-1-1-0-thong-tin-khach-hang.html">Thông tin khách hàng</a>
+                            </li>
+                            <li>
+                                <a href="p2-1-2-0-thong-tin-giao-dich.html">Thông tin giao dịch</a>
+                            </li>
+                            <li>
+                                <a href="p2-1-3-0-thong-tin-lich-hen.html">Thông tin lịch hẹn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="kpi__tab__content nano nano2">
+                    <div class="nano-content">
+                        <div id="home" class="product-tab__content__pane in active">
+                            <div class="kpi">
+                                <div class="kpi__top">
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <div class="kpi__top__dropdown">
+                                                <div class="ul">
+                                                    <div class="li">
+                                                        <div class="kpi__dropdown__wrap">
+                                                            <div class="kpi__dropdown__label">Sắp xếp</div>
+                                                            <div class="kpi__dropdown__select">
+                                                                <select class="kpi__dropdown__input kpi__dropdown__input--lg" name="">
+                                                                    <option value="hn">Thời gian mới nhất</option>
+                                                                    <option value="hn">Thời gian mới nhất 32</option>
+                                                                    <option value="hn">Thời gian mới nhất 94</option>
+                                                                    <option value="hn">Thời gian mới nhất 53</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="li">
+                                                        <div class="kpi__dropdown__wrap">
+                                                            <input type="text" class="search-bar-custom" name="" placeholder="Tìm kiếm khách hàng...">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="kpi__view-kpi">
+                                                <div class="button button__view-kpi button__view-kpi--lg" data-toggle="modal" data-target="#modal-add">
+                                                    <img src="images/p2/plus.svg"> Thêm mới khách hàng
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="kpi__table">
+                                    <div class="kpi__table__header">Thông tin khách hàng</div>
+                                    <div class="table table--kpi">
+                                        <div class="table__header">
+                                            <div class="table__pager table__pager--kpi">
+                                                <span class="table__pager__text">Hiển thị</span>
+                                                <select class="table__pager__select">
+                                                    <option>10</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                                <span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+                                            </div>
+                                            <div class="table__excel table__excel--kpi">
+                                                <div class="button button--excel">
+                                                    <div class="button__icon button__icon--excel"><img src="images/excel.svg" alt=""></div>
+                                                    <div class="button__text button__text--excel">Xuất Excel</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="table__body">
+                                            <table class="table__body__table table__body__table--kpi">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">TT</th>
+                                                        <th>Họ tên</th>
+                                                        <th>Điện thoại</th>
+                                                        <th>Ngày sinh</th>
+                                                        <th>Email</th>
+                                                        <th>CMND/HC</th>
+                                                        <th>CIF</th>
+                                                        <th>Công ty</th>
+                                                        <th>Địa chỉ</th>
+                                                        <th>Thao tác</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Lâm Gia Long</td>
+                                                        <td>0941968383</td>
+                                                        <td>15/07/1988</td>
+                                                        <td>lamgialong@gmail.com</td>
+                                                        <td>172775509</td>
+                                                        <td>123456</td>
+                                                        <td>Công ty Cổ phần ABC</td>
+                                                        <td> 24 Láng Hạ - Đống Đa - Hà Nội</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-success"><i data-toggle="modal" data-target="#modal-detail" data-tooltip="tooltip" title="Chi tiết" class="icon icon-info3"></i></span>
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <a href="p2-1-1-1-thong-tin-giao-dich-kh.html"><span data-tooltip="tooltip" title="Giao dịch" class="text-tool__wrap text-purple"><i class="icon  icon-file-text"></i></span></a>
+                                                            <a href="p2-1-1-2-ds-lich-hen-kh.html" data-tooltip="tooltip" title="Lịch hẹn"><span class="text-tool__wrap text-warning"><i class="icon icon-alarm"></i></span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Lâm Gia Long</td>
+                                                        <td>0941968383</td>
+                                                        <td>15/07/1988</td>
+                                                        <td>lamgialong@gmail.com</td>
+                                                        <td>172775509</td>
+                                                        <td>123456</td>
+                                                        <td>Công ty Cổ phần ABC</td>
+                                                        <td>24 Láng Hạ - Đống Đa - Hà Nội</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-success"><i data-toggle="modal" data-target="#modal-detail" data-tooltip="tooltip" title="Chi tiết" class="icon icon-info3"></i></span>
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <a href="p2-1-1-1-thong-tin-giao-dich-kh.html"><span data-tooltip="tooltip" title="Giao dịch" class="text-tool__wrap text-purple"><i class="icon  icon-file-text"></i></span></a>
+                                                            <a href="p2-1-1-2-ds-lich-hen-kh.html" data-tooltip="tooltip" title="Lịch hẹn"><span class="text-tool__wrap text-warning"><i class="icon icon-alarm"></i></span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Lâm Gia Long</td>
+                                                        <td>0941968383</td>
+                                                        <td>15/07/1988</td>
+                                                        <td>lamgialong@gmail.com</td>
+                                                        <td>172775509</td>
+                                                        <td>123456</td>
+                                                        <td>Công ty Cổ phần ABC</td>
+                                                        <td>24 Láng Hạ - Đống Đa - Hà Nội</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-success"><i data-toggle="modal" data-target="#modal-detail" data-tooltip="tooltip" title="Chi tiết" class="icon icon-info3"></i></span>
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <a href="p2-1-1-1-thong-tin-giao-dich-kh.html"><span data-tooltip="tooltip" title="Giao dịch" class="text-tool__wrap text-purple"><i class="icon  icon-file-text"></i></span></a>
+                                                            <a href="p2-1-1-2-ds-lich-hen-kh.html" data-tooltip="tooltip" title="Lịch hẹn"><span class="text-tool__wrap text-warning"><i class="icon icon-alarm"></i></span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Lâm Gia Long</td>
+                                                        <td>0941968383</td>
+                                                        <td>15/07/1988</td>
+                                                        <td>lamgialong@gmail.com</td>
+                                                        <td>172775509</td>
+                                                        <td>123456</td>
+                                                        <td>Công ty Cổ phần ABC</td>
+                                                        <td>24 Láng Hạ - Đống Đa - Hà Nội</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-success"><i data-toggle="modal" data-target="#modal-detail" data-tooltip="tooltip" title="Chi tiết" class="icon icon-info3"></i></span>
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <a href="p2-1-1-1-thong-tin-giao-dich-kh.html"><span data-tooltip="tooltip" title="Giao dịch" class="text-tool__wrap text-purple"><i class="icon  icon-file-text"></i></span></a>
+                                                            <a href="p2-1-1-2-ds-lich-hen-kh.html" data-tooltip="tooltip" title="Lịch hẹn"><span class="text-tool__wrap text-warning"><i class="icon icon-alarm"></i></span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Lâm Gia Long</td>
+                                                        <td>0941968383</td>
+                                                        <td>15/07/1988</td>
+                                                        <td>lamgialong@gmail.com</td>
+                                                        <td>172775509</td>
+                                                        <td>123456</td>
+                                                        <td>Công ty Cổ phần ABC</td>
+                                                        <td>24 Láng Hạ - Đống Đa - Hà Nội</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-success"><i data-toggle="modal" data-target="#modal-detail" data-tooltip="tooltip" title="Chi tiết" class="icon icon-info3"></i></span>
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <a href="p2-1-1-1-thong-tin-giao-dich-kh.html"><span data-tooltip="tooltip" title="Giao dịch" class="text-tool__wrap text-purple"><i class="icon  icon-file-text"></i></span></a>
+                                                            <a href="p2-1-1-2-ds-lich-hen-kh.html" data-tooltip="tooltip" title="Lịch hẹn"><span class="text-tool__wrap text-warning"><i class="icon icon-alarm"></i></span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>Lâm Gia Long</td>
+                                                        <td>0941968383</td>
+                                                        <td>15/07/1988</td>
+                                                        <td>lamgialong@gmail.com</td>
+                                                        <td>172775509</td>
+                                                        <td>123456</td>
+                                                        <td>Công ty Cổ phần ABC</td>
+                                                        <td>24 Láng Hạ - Đống Đa - Hà Nội</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-success"><i data-toggle="modal" data-target="#modal-detail" data-tooltip="tooltip" title="Chi tiết" class="icon icon-info3"></i></span>
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <a href="p2-1-1-1-thong-tin-giao-dich-kh.html"><span data-tooltip="tooltip" title="Giao dịch" class="text-tool__wrap text-purple"><i class="icon  icon-file-text"></i></span></a>
+                                                            <a href="p2-1-1-2-ds-lich-hen-kh.html" data-tooltip="tooltip" title="Lịch hẹn"><span class="text-tool__wrap text-warning"><i class="icon icon-alarm"></i></span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>7</td>
+                                                        <td>Lâm Gia Long</td>
+                                                        <td>0941968383</td>
+                                                        <td>15/07/1988</td>
+                                                        <td>lamgialong@gmail.com</td>
+                                                        <td>172775509</td>
+                                                        <td>123456</td>
+                                                        <td>Công ty Cổ phần ABC</td>
+                                                        <td>24 Láng Hạ - Đống Đa - Hà Nội</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-success"><i data-toggle="modal" data-target="#modal-detail" data-tooltip="tooltip" title="Chi tiết" class="icon icon-info3"></i></span>
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <a href="p2-1-1-1-thong-tin-giao-dich-kh.html"><span data-tooltip="tooltip" title="Giao dịch" class="text-tool__wrap text-purple"><i class="icon  icon-file-text"></i></span></a>
+                                                            <a href="p2-1-1-2-ds-lich-hen-kh.html" data-tooltip="tooltip" title="Lịch hẹn"><span class="text-tool__wrap text-warning"><i class="icon icon-alarm"></i></span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>8</td>
+                                                        <td>Lâm Gia Long</td>
+                                                        <td>0941968383</td>
+                                                        <td>15/07/1988</td>
+                                                        <td>lamgialong@gmail.com</td>
+                                                        <td>172775509</td>
+                                                        <td>123456</td>
+                                                        <td>Công ty Cổ phần ABC</td>
+                                                        <td>24 Láng Hạ - Đống Đa - Hà Nội</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-success"><i data-toggle="modal" data-target="#modal-detail" data-tooltip="tooltip" title="Chi tiết" class="icon icon-info3"></i></span>
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <a href="p2-1-1-1-thong-tin-giao-dich-kh.html"><span data-tooltip="tooltip" title="Giao dịch" class="text-tool__wrap text-purple"><i class="icon  icon-file-text"></i></span></a>
+                                                            <a href="p2-1-1-2-ds-lich-hen-kh.html" data-tooltip="tooltip" title="Lịch hẹn"><span class="text-tool__wrap text-warning"><i class="icon icon-alarm"></i></span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>9</td>
+                                                        <td>Lâm Gia Long</td>
+                                                        <td>0941968383</td>
+                                                        <td>15/07/1988</td>
+                                                        <td>lamgialong@gmail.com</td>
+                                                        <td>172775509</td>
+                                                        <td>123456</td>
+                                                        <td>Công ty Cổ phần ABC</td>
+                                                        <td>24 Láng Hạ - Đống Đa - Hà Nội</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-success"><i data-toggle="modal" data-target="#modal-detail" data-tooltip="tooltip" title="Chi tiết" class="icon icon-info3"></i></span>
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <a href="p2-1-1-1-thong-tin-giao-dich-kh.html"><span data-tooltip="tooltip" title="Giao dịch" class="text-tool__wrap text-purple"><i class="icon  icon-file-text"></i></span></a>
+                                                            <a href="p2-1-1-2-ds-lich-hen-kh.html" data-tooltip="tooltip" title="Lịch hẹn"><span class="text-tool__wrap text-warning"><i class="icon icon-alarm"></i></span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>10</td>
+                                                        <td>Lâm Gia Long</td>
+                                                        <td>0941968383</td>
+                                                        <td>15/07/1988</td>
+                                                        <td>lamgialong@gmail.com</td>
+                                                        <td>172775509</td>
+                                                        <td>123456</td>
+                                                        <td>Công ty Cổ phần ABC</td>
+                                                        <td>24 Láng Hạ - Đống Đa - Hà Nội</td>
+                                                        <td class="text-tool">
+                                                            <span class="text-tool__wrap text-success"><i data-toggle="modal" data-target="#modal-detail" data-tooltip="tooltip" title="Chi tiết" class="icon icon-info3"></i></span>
+                                                            <span class="text-tool__wrap text-primary" data-toggle="modal" data-target="#modal-edit" data-tooltip="tooltip" title="Chỉnh sửa"><i class="icon icon-pencil7"></i></span>
+                                                            <a href="p2-1-1-1-thong-tin-giao-dich-kh.html"><span data-tooltip="tooltip" title="Giao dịch" class="text-tool__wrap text-purple"><i class="icon  icon-file-text"></i></span></a>
+                                                            <a href="p2-1-1-2-ds-lich-hen-kh.html" data-tooltip="tooltip" title="Lịch hẹn"><span class="text-tool__wrap text-warning"><i class="icon icon-alarm"></i></span></a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="table__footer table__footer--kpi text-right">
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+    </main>
+    <div class="modal fade campain_detail" id="modal-add" role="dialog" tabindex="-1" aria-labelledby="demo-default-modal" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--Modal body-->
+                <div class="modal-body">
+                    <div class="modal__text-head">
+                        Thêm mới thông tin khách hàng
+                    </div>
+                    <div class="modal__content">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">CIF</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="2567890"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Họ tên</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="Lâm Gia Long"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Ngày sinh</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom datepicker"></input>
+                                                <div class="input-custom-icon">
+                                                    <i class="icon-calendar"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Giới tính</label>
+                                        <div class="col-sm-8">
+                                            <div class="radio-horizontal">
+                                                <div class="radio radio-custom">
+                                                    <input id="form-radio1" class="magic-radio" type="radio" name="form-radio-button" checked="">
+                                                    <label for="form-radio1">
+                                                        <span>Nam</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio radio-custom">
+                                                    <input id="form-radio2" class="magic-radio" type="radio" name="form-radio-button">
+                                                    <label for="form-radio2">
+                                                        <span>Nữ</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Điện thoại</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="0941968383"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Email</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value=""></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">CMND/Hộ chiếu</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="172775509"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">SPDV đang sử dụng</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="Tiền gửi có kỳ hạn"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Địa chỉ khách hàng</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="Số 8 Huỳnh Thúc Kháng, Đống Đa, Hà Nội"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Công ty</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="Công ty Cổ phần ABC"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Địa chỉ công ty</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="Số 22 Láng Hạ, Đống Đa, Hà Nội"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Ghi chú</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                            <textarea class="input-custom" rows="4"></textarea>
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal__footer">
+                        <div class="text-left">
+                            <div data-dismiss="modal" class="button button__view-kpi button__view-kpi--lg">Thêm mới
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade campain_detail" id="modal-detail" role="dialog" tabindex="-1" aria-labelledby="demo-default-modal" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--Modal body-->
+                <div class="modal-body">
+                    <div class="modal__text-head">
+                        Chi tiết khách hàng
+                    </div>
+                    <div class="modal__content">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">CIF</label>
+                                        <div class="col-sm-8">
+                                            <label for="" class="col-form-label-main">2421313</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Họ tên</label>
+                                        <div class="col-sm-8">
+                                            <label for="" class="col-form-label-main">Lâm Gia Long</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Ngày sinh</label>
+                                        <div class="col-sm-8">
+                                            <label for="" class="col-form-label-main">15/07/1988</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Giới tính</label>
+                                        <div class="col-sm-8">
+                                            <label for="" class="col-form-label-main">Nam</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Điện thoại</label>
+                                        <div class="col-sm-8">
+                                            <label for="" class="col-form-label-main">0941968383</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Email</label>
+                                        <div class="col-sm-8">
+                                            <label for="" class="col-form-label-main">lamgialong@gmail.com</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">CMND/Hộ chiếu</label>
+                                        <div class="col-sm-8">
+                                            <label for="" class="col-form-label-main">172775509</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">SPDV đang sử dụng</label>
+                                        <div class="col-sm-8">
+                                            <label for="" class="col-form-label-main">Tiền gửi có kỳ hạn</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Địa chỉ khách hàng</label>
+                                        <div class="col-sm-8">
+                                            <label for="" class="col-form-label-main">Số 8 Huỳnh Thúc Kháng, Đống Đa, Hà Nội</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Công ty</label>
+                                        <div class="col-sm-8">
+                                            <label for="" class="col-form-label-main">Công ty Cổ phần ABC
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Địa chỉ công ty</label>
+                                        <div class="col-sm-8">
+                                            <label for="" class="col-form-label-main">Số 22 Láng Hạ, Đống Đa, Hà Nội</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Ghi chú</label>
+                                        <div class="col-sm-8">
+                                            <label for="" class="col-form-label-main">KH đã từng dùng nhiều sản phẩm của VCB. Đã mở thẻ tại VCB và đang có Tài khoản tiết kiệm 500 triệu VND.</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade campain_detail" id="modal-edit" role="dialog" tabindex="-1" aria-labelledby="demo-default-modal" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--Modal body-->
+                <div class="modal-body">
+                    <div class="modal__text-head">
+                        Chỉnh sửa thông tin khách hàng
+                    </div>
+                    <div class="modal__content">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">CIF</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="2567890"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Họ tên</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="Lâm Gia Long"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Ngày sinh</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom datepicker"></input>
+                                                <div class="input-custom-icon">
+                                                    <i class="icon-calendar"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Giới tính</label>
+                                        <div class="col-sm-8">
+                                            <div class="radio-horizontal">
+                                                <div class="radio radio-custom">
+                                                    <input id="form-radio1" class="magic-radio" type="radio" name="form-radio-button" checked="">
+                                                    <label for="form-radio1">
+                                                        <span>Nam</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio radio-custom">
+                                                    <input id="form-radio2" class="magic-radio" type="radio" name="form-radio-button">
+                                                    <label for="form-radio2">
+                                                        <span>Nữ</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Điện thoại</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="0941968383"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Email</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value=""></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">CMND/Hộ chiếu</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="172775509"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">SPDV đang sử dụng</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="Tiền gửi có kỳ hạn"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Địa chỉ khách hàng</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="Số 8 Huỳnh Thúc Kháng, Đống Đa, Hà Nội"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Công ty</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="Công ty Cổ phần ABC"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Địa chỉ công ty</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <input class="input-custom" value="Số 22 Láng Hạ, Đống Đa, Hà Nội"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Ghi chú</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                            <textarea class="input-custom" rows="4"></textarea>
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal__footer">
+                        <div class="text-left">
+                            <button data-dismiss="modal" class="button button__view-kpi button__view-kpi--lg">Cập nhật
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/highcharts.js"></script>
+    <script type="text/javascript" src="js/exporting.js"></script>
+    <script src="select2/js/select2.full.min.js"></script>
+    <script src="js/datepicker/moment-with-locales.js"></script>
+    <script src="js/datepicker/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,2679 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sale App</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link href="select2/css/select2.min.css" rel="stylesheet">
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <aside id="sidebar" class="nano">
+        <div class="nano-content">
+            <div class="logo-container"><span class="logo"></span></div>
+            <menu class="menu-segment">
+                <ul>
+                    <li>
+                        <a href="chien-dich.html">
+                            <span class="ic ic_nav_1"></span>CHIẾN DỊCH</a>
+                    </li>
+                    <li>
+                        <a href="san-pham.html">
+                            <span class="ic ic_nav_2"></span>SẢN PHẨM</a>
+                    </li>
+                    <li>
+                        <a href="p2-1-1-0-thong-tin-khach-hang.html">
+                            <span class="ic ic_nav_3"></span>QUẢN LÝ KH</a>
+                    </li>
+                    <li>
+                        <a href="p3-1-1-kich-ban-ban-hang.html">
+                            <span class="ic ic_nav_4"></span>KỊCH BẢN
+                            <br> BÁN HÀNG</a>
+                    </li>
+                    <li>
+                        <a href="p6-1-1-salebook.html">
+                            <span class="ic ic_nav_8"></span>SALES<br>PLAYBOOK</a>
+                    </li>
+                    <li>
+                        <a href="kpi-1.html">
+                            <span class="ic ic_nav_5"></span>KẾT QUẢ KPI</a>
+                    </li>
+					<li class="active">
+                        <a href="ldcn-kpi-2.html">
+                            <span class="ic ic_nav_9"></span>KPI THỰC HIỆN</a>
+                    </li>
+					<li>
+                        <a href="thi-dua.html">
+                            <span class="ic ic_nav_10"></span>THI ĐUA<br>NỘI BỘ</a>
+                    </li>
+                    <li>
+                        <a href="p4-1-1-cong-cu-tinh.html">
+                            <span class="ic ic_nav_6"></span>CÔNG CỤ TÍNH</a>
+                    </li>
+                    <li>
+                        <a href="p5-1-1-ATM.html">
+                            <span class="ic ic_nav_7"></span>MẠNG LƯỚI</a>
+                    </li>
+                </ul>
+            </menu>
+        </div>
+    </aside>
+    <main id="main">
+        <div class="overlay"></div>
+        <header class="header">
+            <h1 class="page-title"><a class="sidebar-toggle-btn trigger-toggle-sidebar"><span class="line"></span><span class="line"></span><span class="line"></span></a><img src="images/saleapp.svg" alt="sale app"><a></a></h1>
+			<div class="search-box">
+                <div class="search-box-cont">
+                    
+                    <div class="search-box-close">
+                        <div class="search-box-close-1"></div>
+                        <div class="search-box-close-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="user__wrap">
+                <div class="dropdown user">
+                    <div href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="user__image">
+                            <div class="user__image__notification">14</div>
+                            <div class="user__image__wrap"><img src="images/user.jpg" alt="" class=""></div>
+                        </div>
+                        <div class="user__info">
+                            <div class="user__info__name">Đỗ Tuệ Linh</div>
+                            <div class="user__info__branch">Chi nhánh Đống Đa, Hà Nội</div>
+                        </div>
+                    </div>
+                    <ul class=" nav dropdown-menu" aria-labelledby="dLabel">
+                        <li>
+                            <a href="p2-2-2-0-yeu-thich.html"><img src="images/user1.svg" alt="">
+                                <span>Yêu thích</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-1-0-thong-bao.html"><img src="images/user2.svg" alt="">
+                                <span class="user__notification">14</span>
+                                <span>Thông báo</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-4-0-thu.html"><img src="images/user3.svg" alt="">
+                                <span>Hòm thư</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-3-0-lich-su.html"><img src="images/user4.svg" alt="">
+                                <span>Lịch sử truy cập</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/user5.svg" alt="">
+                                <span>Đổi mật khẩu</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/user6.svg" alt="">
+                                <span>Đăng xuất</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div id="main-nano-wrapper" class="main-wrap main-wrap--kpi">
+            <div class="kpi-wrap">
+				<div class="kpi__top kpi__top--fixed">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="kpi__top__dropdown">
+                                <div class="ul">
+                                    <div class="li">
+                                        <div class="kpi__dropdown__label">
+                                            <span class="kpi__top__text-main"><b>Theo dõi KPI thực hiện</b></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="kpi__tab__content nano nano2">
+                    <div class="nano-content">                        
+                        <div id="home" class="product-tab__content__pane in active">
+                            <div class="kpi">
+                                <div class="kpi__top">
+                                    <div class="kpi__top__check-box">
+										<div class="row box_chooses">
+										<div class="col-md-3 col-xs-3">
+											<div class="radio">
+												<input id="form-radio1" class="magic-radio" type="radio" name="form-radio-button" checked>
+												<label for="form-radio1"><span>Quý 1</span></label>
+											</div>
+											</div>
+											<div class="col-md-3 col-xs-3">
+											<div class="radio">
+												<input id="form-radio2" class="magic-radio" type="radio" name="form-radio-button">
+												<label for="form-radio2"><span>Quý 2</span></label>
+											</div>
+											</div>
+											<div class="col-md-3 col-xs-3">
+											<div class="radio">
+												<input id="form-radio3" class="magic-radio" type="radio" name="form-radio-button">
+												<label for="form-radio3"><span>Quý 3</span></label>
+											</div>
+											</div>
+											<div class="col-md-3 col-xs-3">
+											<div class="radio">
+												<input id="form-radio4" class="magic-radio" type="radio" name="form-radio-button">
+												<label for="form-radio4"><span>Quý 4</span></label>
+											</div>
+											</div>
+											
+										</div>
+										
+                                    </div>
+                                    <div class="kpi__top__dropdown">
+                                        <div class="ul">
+                                            <div class="li">
+                                                <div class="kpi__dropdown__wrap">
+                                                    <div class="kpi__dropdown__label">Loại</div>
+                                                    <div class="kpi__dropdown__select">
+														
+                                                        <select class="kpi__dropdown__input" id="target1" name="drop">
+                                                            <option value="box1">Kế hoạch</option>
+                                                            <option value="box2" selected>Thực hiện</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>	
+											<!-- Ke hoach filter -->
+                                            <div class="li box1-sub" style="display:none;">
+                                                <div class="kpi__dropdown__wrap">
+                                                    <div class="kpi__dropdown__label">Đối tượng</div>
+                                                    <div class="kpi__dropdown__select" style="width: 70px;">
+                                                        <select class="kpi__dropdown__input" id="target1-1" name="drop">
+                                                            <option value="box1-1">CBNV</option>
+                                                            <option value="box1-2">Phòng</option>
+                                                            <option value="box1-3" selected>Chi nhánh</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>	
+											<div class="li box1-2-phong" style="display: none;">
+                                                <div class="kpi__dropdown__wrap">
+                                                    <div class="kpi__dropdown__label">Phòng</div>
+                                                    <div class="kpi__dropdown__select" style="width: 80px;">
+														<select class="kpi__dropdown__input" id="target1-phong" name="drop">
+                                                            <option value="">Tất cả</option>
+                                                            <option value="">Phòng KD 1</option>
+															<option value="">Phòng KD 2</option>
+															<option value="">Phòng KD 3</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+											<div class="li box1-2-chitieu" style="display: none;">
+                                                <div class="kpi__dropdown__wrap">
+                                                    <div class="kpi__dropdown__label">Chỉ tiêu</div>
+                                                    <div class="kpi__dropdown__select" style="width: 80px;">
+														<select class="kpi__dropdown__input" id="target1-phong-chiteu" name="drop">
+                                                            <option value="box1-2-1">Tất cả</option>
+                                                            <option value="box1-2-2">Dư nợ bán lẻ cuối kỳ</option>
+															<option value="box1-2-3">Thẻ tín dụng quốc tế</option>
+															<option value="box1-2-4">Online Banking</option>
+															<option value="box1-2-5">Khách hàng mới</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+											<div class="li box1-1-fillter1" style="display: none;">
+                                                <div class="kpi__dropdown__wrap">
+                                                    <div class="kpi__dropdown__label" style="width: 80px;">Cán bộ</div>
+                                                    <div class="kpi__dropdown__select">
+                                                        <select class="kpi__dropdown__input" id="" name="drop">
+                                                            <option value="box1-2-cbnv-0">Tất cả</option>
+                                                            <option value="box1-2-cbnv-1">Nguyễn Văn A</option>
+															<option value="box1-2-cbnv-2">Nguyễn Văn B</option>
+															<option value="box1-2-cbnv-3">Nguyễn Văn C</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+											<div class="li box1-1-fillter2" style="display: none;">
+                                                <div class="kpi__dropdown__wrap">
+                                                    <div class="kpi__dropdown__label">Chỉ tiêu</div>
+                                                    <div class="kpi__dropdown__select" style="width: 80px;">
+														<select class="kpi__dropdown__input" id="target1-1-1" name="drop">
+                                                            <option value="box1-1-1">Tất cả</option>
+                                                            <option value="box1-1-2">Dư nợ bán lẻ cuối kỳ</option>
+															<option value="box1-1-3">Thẻ tín dụng quốc tế</option>
+															<option value="box1-1-4">Online Banking</option>
+															<option value="box1-1-5">Khách hàng mới</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+											<!-- End Ke hoach filter-->
+											<!-- End Thuc hien filter-->
+											<div class="li box2-sub" style="display: inline-block;">
+                                                <div class="kpi__dropdown__wrap">
+                                                    <div class="kpi__dropdown__label">Đối tượng</div>
+                                                    <div class="kpi__dropdown__select" style="width: 70px;">
+                                                        <select class="kpi__dropdown__input" id="target2-1" name="drop">
+                                                            <option value="box2-1" selected>CBNV</option>
+                                                            <option value="box2-2">Phòng</option>
+                                                            <option value="box2-3">Chi nhánh</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+											<div class="li box2-2-phong-cbnv" style="display: inline-block;">
+                                                <div class="kpi__dropdown__wrap">
+                                                    <div class="kpi__dropdown__label">Phòng</div>
+                                                    <div class="kpi__dropdown__select" style="width: 80px;">
+														<select class="kpi__dropdown__input" id="box2-2-phong-cbnv" name="drop">
+                                                            <option value="box2-2-phong-cbnv0">Tất cả</option>
+                                                            <option value="box2-2-phong-cbnv1">Phòng KD 1</option>
+															<option value="box2-2-phong-cbnv2">Phòng KD 2</option>
+															<option value="box2-2-phong-cbnv3">Phòng KD 3</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+											<div class="li box2-2-phong" style="display: none;">
+                                                <div class="kpi__dropdown__wrap">
+                                                    <div class="kpi__dropdown__label">Phòng</div>
+                                                    <div class="kpi__dropdown__select" style="width: 80px;">
+														<select class="kpi__dropdown__input" id="box2-2-phong" name="drop">
+                                                            <option value="box2-2-phong0">Tất cả</option>
+                                                            <option value="box2-2-phong1">Phòng KD 1</option>
+															<option value="box2-2-phong2">Phòng KD 2</option>
+															<option value="box2-2-phong3">Phòng KD 3</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+											<div class="li box2-2-chitieu" style="display: none;">
+                                                <div class="kpi__dropdown__wrap">
+                                                    <div class="kpi__dropdown__label">Chỉ tiêu</div>
+                                                    <div class="kpi__dropdown__select" style="width: 80px;">
+														<select class="kpi__dropdown__input" id="box2-2-chitieu" name="drop">
+                                                            <option value="box2-2-1">Tất cả</option>
+                                                            <option value="box2-2-2">Dư nợ bán lẻ cuối kỳ</option>
+															<option value="box2-2-3">Thẻ tín dụng quốc tế</option>
+															<option value="box2-2-4">Online Banking</option>
+															<option value="box2-2-5">Khách hàng mới</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+											<div class="li box2-2-phong-chitieu" style="display: none;">
+                                                <div class="kpi__dropdown__wrap">
+                                                    <div class="kpi__dropdown__label">Chỉ tiêu</div>
+                                                    <div class="kpi__dropdown__select" style="width: 80px;">
+														<select class="kpi__dropdown__input" id="box2-2-phong-chitieu" name="drop">
+                                                            <option value="box2-2-phong-chitieu0">Tất cả</option>
+                                                            <option value="box2-2-phong-chitieu1">Dư nợ bán lẻ cuối kỳ</option>
+															<option value="box2-2-phong-chitieu2">Thẻ tín dụng quốc tế</option>
+															<option value="box2-2-phong-chitieu3">Online Banking</option>
+															<option value="box2-2-phong-chitieu4">Khách hàng mới</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+											<div class="li box2-1-fillter1" style="display: inline-block;">
+                                                <div class="kpi__dropdown__wrap">
+                                                    <div class="kpi__dropdown__label">Cán bộ</div>
+                                                    <div class="kpi__dropdown__select" style="width: 70px;">
+														<select class="kpi__dropdown__input" id="box2-cbnv" name="drop">
+                                                            <option value="cbnv-0">Tất cả</option>
+                                                            <option value="cbnv-1" selected>Nguyễn Văn A</option>
+															<option value="cbnv-2">Nguyễn Văn B</option>
+															<option value="cbnv-3">Nguyễn Văn C</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+											<div class="li box2-1-fillter2" style="display: inline-block;">
+                                                <div class="kpi__dropdown__wrap">
+                                                    <div class="kpi__dropdown__label">Chỉ tiêu</div>
+                                                    <div class="kpi__dropdown__select" style="width: 70px;">
+														<select class="kpi__dropdown__input" id="target2-1-1" name="drop">
+                                                            <option value="box2-1-1">Tất cả</option>
+                                                            <option value="box2-1-2">Dư nợ bán lẻ cuối kỳ</option>
+															<option value="box2-1-3">Thẻ tín dụng quốc tế</option>
+															<option value="box2-1-4">Online Banking</option>
+															<option value="box2-1-5">Khách hàng mới</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+											<!-- End Thuc hien filter-->
+                                            <div class="li">
+                                                <div class="kpi__view-kpi text-left">
+                                                    <div class="button button__view-kpi">
+                                                        Xem kết quả
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+								<!-- Ke hoach -->
+							<div id="box1" style="display: none;">
+								<div id="box1-1" style="display: none;">
+									<div id="box1-1-1" style="display: block;">
+										<div class="kpi__table">
+											<div class="table table--kpi">
+												<div class="table__header">
+													
+													<div class="table__excel table__excel--kpi">
+												<button type="button" class="button button__view-kpi button__view-kpi--lg"><i class="icon-file-pdf"></i> Xuất excel
+												</button>
+                                            </div>
+												</div>
+												<div class="table__body">
+													<table class="table__body__table table__body__table--kpi">
+														<thead>
+															<tr>
+																<th class="text-center" width="10">STT</th>
+																<th>Tên phòng</th>
+																<th>Mã cán bộ</th>
+																<th>Tên cán bộ</th>
+																<th>Chỉ tiêu</th>
+																<th>Đơn vị</th>
+																<th class="text-center">Kế hoạch</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="text-center">1</td>
+																<td>Phòng KD1</td>
+																<td>NV001</td>
+																<td>Nguyễn Văn A</td>
+																<td>Dư nợ bản lẻ</td>
+																<td>Tỷ VND</td>
+																<td class="text-center">30</td>
+															</tr>
+															<tr>
+																<td class="text-center">2</td>
+																<td>Phòng KD2</td>
+																<td>NV002</td>
+																<td>Nguyễn Văn B</td>
+																<td>Dư nợ thể nhân cuối kỳ</td>
+																<td>Tỷ VND</td>
+																<td class="text-center">1</td>
+															</tr>
+															<tr>
+																<td class="text-center">3</td>
+																<td>Phòng KD3</td>
+																<td>NV003</td>
+																<td>Nguyễn Văn C</td>
+																<td>Khách hàng mới</td>
+																<td>Khách hàng</td>
+																<td class="text-center">400</td>
+															</tr>
+															<tr>
+																<td class="text-center">4</td>
+																<td>Phòng KD4</td>
+																<td>NV004</td>
+																<td>Nguyễn Văn D</td>
+																<td>Dư nợ bản lẻ</td>
+																<td>KTỷ VNĐ</td>
+																<td class="text-center">25</td>
+															</tr>
+
+														</tbody>
+													</table>
+												</div>
+												<div class="table__footer table__footer--kpi text-right">
+													<div class="table__pager table__pager--kpi">
+														<span class="table__pager__text">Hiển thị</span>
+														<select class="table__pager__select">
+															<option>10</option>
+															<option>20</option>
+															<option>30</option>
+															<option>40</option>
+														</select>
+														<span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+													</div>
+													<div class="table__footer__paging">
+														<div class="table-paging">
+															<div class="table-paging__first">Đầu</div>
+															<div class="table-paging__prev">Trước</div>
+															<div class="table-paging__number table-paging__number--active">1</div>
+															<div class="table-paging__number">2</div>
+															<div class="table-paging__number">3</div>
+															<div class="table-paging__next">Sau</div>
+															<div class="table-paging__last">Cuối</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										</div>
+									<div id="box1-1-2" style="display: none;">
+								<div class="kpi__table">
+											<div class="table table--kpi">
+												<div class="table__header">
+													
+													<div class="table__excel table__excel--kpi">
+												<button type="button" class="button button__view-kpi button__view-kpi--lg"><i class="icon-file-pdf"></i> Xuất excel
+												</button>
+                                            </div>
+												</div>
+												<div class="table__body">
+													<table class="table__body__table table__body__table--kpi">
+														<thead>
+															<tr>
+																<th class="text-center" width="10">STT</th>
+																<th>Tên phòng</th>
+																<th>Mã cán bộ</th>
+																<th>Tên cán bộ</th>
+																<th>Chỉ tiêu</th>
+																<th>Đơn vị</th>
+																<th class="text-center">Kế hoạch</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="text-center">1</td>
+																<td>Phòng KD1</td>
+																<td>NV001</td>
+																<td>Nguyễn Văn A</td>
+																<td>Dư nợ thể nhân cuối kỳ</td>
+																<td>Tỷ VND</td>
+																<td class="text-center">30</td>
+															</tr>
+															<tr>
+																<td class="text-center">2</td>
+																<td>Phòng KD2</td>
+																<td>NV002</td>
+																<td>Nguyễn Văn B</td>
+																<td>Dư nợ thể nhân cuối kỳ</td>
+																<td>Tỷ VND</td>
+																<td class="text-center">1</td>
+															</tr>
+															<tr>
+																<td class="text-center">3</td>
+																<td>Phòng KD3</td>
+																<td>NV003</td>
+																<td>Nguyễn Văn C</td>
+																<td>Dư nợ thể nhân cuối kỳ</td>
+																<td>Khách hàng</td>
+																<td class="text-center">400</td>
+															</tr>
+															<tr>
+																<td class="text-center">4</td>
+																<td>Phòng KD4</td>
+																<td>NV004</td>
+																<td>Nguyễn Văn D</td>
+																<td>Dư nợ thể nhân cuối kỳ</td>
+																<td>KTỷ VNĐ</td>
+																<td class="text-center">25</td>
+															</tr>
+
+														</tbody>
+													</table>
+												</div>
+												<div class="table__footer table__footer--kpi text-right">
+													<div class="table__pager table__pager--kpi">
+														<span class="table__pager__text">Hiển thị</span>
+														<select class="table__pager__select">
+															<option>10</option>
+															<option>20</option>
+															<option>30</option>
+															<option>40</option>
+														</select>
+														<span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+													</div>
+													<div class="table__footer__paging">
+														<div class="table-paging">
+															<div class="table-paging__first">Đầu</div>
+															<div class="table-paging__prev">Trước</div>
+															<div class="table-paging__number table-paging__number--active">1</div>
+															<div class="table-paging__number">2</div>
+															<div class="table-paging__number">3</div>
+															<div class="table-paging__next">Sau</div>
+															<div class="table-paging__last">Cuối</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="box1-2" style="display: none;">
+									<div id="box1-2-1" style="display: block;">
+										<div class="kpi__table">
+                                    <div class="table table--kpi">
+                                        <div class="table__header">
+											<div class="table__excel table__excel--kpi">
+												<button type="button" class="button button__view-kpi button__view-kpi--lg"><i class="icon-file-pdf"></i> Xuất excel
+												</button>
+                                            </div>
+                                        </div>
+                                        <div class="table__body">
+                                            <table class="table__body__table table__body__table--kpi">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center" width="10">STT</th>
+														<th>Mã phòng</th>
+														<th>Tên phòng</th>
+														<th>Chỉ tiêu</th>
+                                                        <th>Đơn vị</th>
+                                                        <th class="text-center">Kế hoạch</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+														<td>KD1</td>
+														<td>Phòng KD1</td>
+                                                        <td>Dư nợ bản lẻ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">30</td>
+
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">2</td>
+														<td>KD2</td>
+														<td>Phòng KD2</td>
+                                                        <td>Dư nợ thể nhân cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">1</td>
+
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">3</td>
+														<td>KD3</td>
+														<td>Phòng KD3</td>
+                                                        <td>Khách hàng mới</td>
+                                                        <td>Khách hàng</td>
+                                                        <td class="text-center">2</td>
+
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">4</td>
+														<td>KD4</td>
+														<td>Phòng KD4</td>
+                                                        <td>Dư nợ bản lẻ</td>
+                                                        <td>Tỷ VNĐ</td>
+                                                        <td class="text-center">25</td>
+
+                                                    </tr>                                                   
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="table__footer table__footer--kpi text-right">
+											<div class="table__pager table__pager--kpi">
+														<span class="table__pager__text">Hiển thị</span>
+														<select class="table__pager__select">
+															<option>10</option>
+															<option>20</option>
+															<option>30</option>
+															<option>40</option>
+														</select>
+														<span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+													</div>
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+										</div>
+									<div id="box1-2-2" style="display: none;">
+								<div class="kpi__table">
+
+                                    <div class="table table--kpi">
+                                        <div class="table__header">
+                                            
+											<div class="table__excel table__excel--kpi">
+												<button type="button" class="button button__view-kpi button__view-kpi--lg" data-toggle="modal" data-target="#modal-update-phong">
+                                                    Cập nhật kế hoạch
+                                                </button>
+												<button type="button" class="button button__view-kpi button__view-kpi--lg"><i class="icon-file-pdf"></i> Xuất excel
+												</button>
+                                            </div>
+                                        </div>
+                                        <div class="table__body">
+                                            <table class="table__body__table table__body__table--kpi">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center" width="10">STT</th>
+                                                        <th>Phòng</th>
+														<th>Chỉ tiêu</th>
+														<th>Đơn vị</th>
+														<th class="text-center">Kế hoạch</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+													<tr>
+                                                        <td class="text-center" colspan="2">&nbsp;</td>
+														<td><strong>Dư nợ bán lẻ</strong></td>
+                                                        <td><strong>Tỷ VND</strong></td>
+                                                        <td class="text-center"><strong>900</strong></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+                                                        <td>Phòng KD 1</td>
+														<td>Dư nợ bán lẻ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">30</td>
+                                                    </tr>													
+													<tr>
+                                                        <td class="text-center">2</td>
+                                                        <td>Phòng KD 2</td>
+														<td>Dư nợ bán lẻ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">1</td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">3</td>
+                                                        <td>Phòng KD 3</td>
+														<td>Dư nợ bán lẻ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">2</td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">4</td>
+                                                        <td>Phòng KD 4</td>
+														<td>Dư nợ bán lẻ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">25</td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">5</td>
+                                                        <td>Phòng KD 5</td>
+														<td>Dư nợ bán lẻ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">400</td>
+                                                    </tr>
+													                                                  
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="table__footer table__footer--kpi text-right">
+											<div class="table__pager table__pager--kpi">
+														<span class="table__pager__text">Hiển thị</span>
+														<select class="table__pager__select">
+															<option>10</option>
+															<option>20</option>
+															<option>30</option>
+															<option>40</option>
+														</select>
+														<span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+													</div>
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+									</div>
+								</div>
+								<div id="box1-3" style="display: block;">
+								<div class="kpi__table">
+                                    <div class="table table--kpi">
+                                        <div class="table__header">
+                                            
+											<div class="table__excel table__excel--kpi">
+												<button type="button" class="button button__view-kpi button__view-kpi--lg"><i class="icon-file-pdf"></i> Xuất excel
+												</button>
+                                            </div>
+                                        </div>
+                                        <div class="table__body">
+                                            <table class="table__body__table table__body__table--kpi">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center" width="10">STT</th>
+                                                        <th>Tên chỉ tiêu</th>
+                                                        <th>Đơn vị</th>
+                                                        <th class="text-center">Kế hoạch</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+                                                        <td>Dư nợ bán lẻ CK</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">30</td>
+
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">2</td>
+                                                        <td>HĐV bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">1</td>
+
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">3</td>
+                                                        <td>Thẻ tín dụng quốc tế</td>
+                                                        <td>Thẻ</td>
+                                                        <td class="text-center">2</td>
+
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">4</td>
+                                                        <td>Online Banking</td>
+                                                        <td>Khách hàng</td>
+                                                        <td class="text-center">25</td>
+
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">5</td>
+                                                        <td>Bancas nhân thọ</td>
+                                                        <td>Triệu VND</td>
+                                                        <td class="text-center">400</td>
+
+                                                    </tr>                                                   
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="table__footer table__footer--kpi text-right">
+											<div class="table__pager table__pager--kpi">
+														<span class="table__pager__text">Hiển thị</span>
+														<select class="table__pager__select">
+															<option>10</option>
+															<option>20</option>
+															<option>30</option>
+															<option>40</option>
+														</select>
+														<span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+													</div>
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>								
+								</div>								
+							</div>
+							<!-- End Ke hoach -->
+								<!-- Thuc hien -->
+								<div id="box2" style="display: block;">
+								<div id="box2-1" style="display: block;">
+									<div id="box2-1-1" style="display: block;">
+										<div id="cbnv-0" style="display: block;">										
+										<div class="kpi__table">
+                                    <div class="table table--kpi">
+                                        <div class="table__header">
+                                            
+											<div class="table__excel table__excel--kpi">
+												<a href="ldcn-kpi-2.html" class="button button__view-kpi button__view-kpi--lg"><img src="images/p2/ic_back.svg" alt=""> Xem danh sách</a>
+                                            </div>
+                                        </div>
+                                        <div class="table__body">											
+											<div class="row">
+											<div class="col-md-4">
+												<div class="box_maps">
+												<div class="title_maps">
+													<strong>Dư nợ thể nhân cuối kỳ</strong><span>(Tỷ VND)</span>
+												  </div>
+												<div class="middle_maps text-center">
+													<div id="chart1" class="pic_chart"></div>
+												</div>
+												<div class="bottom_maps">
+													<table class="table_normal">
+													<tr>
+														<td width="33.33%"><strong>Kế hoạch</strong><span>10</span></td>
+														<td width="33.33%"><strong>Thực hiện</strong><span>12</span></td>
+														<td width="33.33%"><strong>Tỷ lệ</strong><span>120%</span></td>
+													</tr>
+													</table>
+													
+												  </div>
+												</div>	
+											</div>
+											<div class="col-md-4">
+												<div class="box_maps">
+												<div class="title_maps">
+													<strong>Thẻ tín dụng quốc tế</strong><span>(Thẻ)</span>
+												  </div>
+												<div class="middle_maps text-center">
+													<div id="chart2" class="pic_chart"></div>
+												</div>
+												<div class="bottom_maps">
+													<table class="table_normal">
+													<tr>
+														<td width="33.33%"><strong>Kế hoạch</strong><span>10</span></td>
+														<td width="33.33%"><strong>Thực hiện</strong><span>8</span></td>
+														<td width="33.33%"><strong>Tỷ lệ</strong><span>80%</span></td>
+													</tr>
+													</table>
+													
+												  </div>
+												</div>	
+											</div>
+											<div class="col-md-4">
+												<div class="box_maps">
+												<div class="title_maps">
+													<strong>Khách hàng mới</strong><span>(Tỷ VND)</span>
+												  </div>
+												<div class="middle_maps text-center">
+													<div id="chart3" class="pic_chart"></div>
+												</div>
+												<div class="bottom_maps">
+													<table class="table_normal">
+													<tr>
+														<td width="33.33%"><strong>Kế hoạch</strong><span>10</span></td>
+														<td width="33.33%"><strong>Thực hiện</strong><span>4</span></td>
+														<td width="33.33%"><strong>Tỷ lệ</strong><span>40%</span></td>
+													</tr>
+													</table>
+													
+												  </div>
+												</div>	
+											</div>
+											</div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+										</div>
+										<div id="cbnv-1" style="display: none;">										
+										<div class="kpi__table">
+                                    <div class="table table--kpi">
+                                        <div class="table__header">
+                                            
+											<div class="table__excel table__excel--kpi">
+												<a href="ldcn-kpi-2.html" class="button button__view-kpi button__view-kpi--lg"><img src="images/p2/ic_back.svg" alt=""> Xem danh sách</a>
+                                            </div>
+                                        </div>
+                                        <div class="table__body">											
+											<div class="row">
+											<div class="col-md-4">
+												<div class="box_maps">
+												<div class="title_maps">
+													<strong>Dư nợ thể nhân cuối kỳ</strong><span>(Tỷ VND)</span>
+												  </div>
+												<div class="middle_maps text-center">
+													<div id="chart1" class="pic_chart"></div>
+												</div>
+												<div class="bottom_maps">
+													<table class="table_normal">
+													<tr>
+														<td width="33.33%"><strong>Kế hoạch</strong><span>10</span></td>
+														<td width="33.33%"><strong>Thực hiện</strong><span>12</span></td>
+														<td width="33.33%"><strong>Tỷ lệ</strong><span>120%</span></td>
+													</tr>
+													</table>
+													
+												  </div>
+												</div>	
+											</div>
+											<div class="col-md-4">
+												<div class="box_maps">
+												<div class="title_maps">
+													<strong>Thẻ tín dụng quốc tế</strong><span>(Thẻ)</span>
+												  </div>
+												<div class="middle_maps text-center">
+													<div id="chart2" class="pic_chart"></div>
+												</div>
+												<div class="bottom_maps">
+													<table class="table_normal">
+													<tr>
+														<td width="33.33%"><strong>Kế hoạch</strong><span>10</span></td>
+														<td width="33.33%"><strong>Thực hiện</strong><span>8</span></td>
+														<td width="33.33%"><strong>Tỷ lệ</strong><span>80%</span></td>
+													</tr>
+													</table>
+													
+												  </div>
+												</div>	
+											</div>
+											<div class="col-md-4">
+												<div class="box_maps">
+												<div class="title_maps">
+													<strong>Khách hàng mới</strong><span>(Tỷ VND)</span>
+												  </div>
+												<div class="middle_maps text-center">
+													<div id="chart3" class="pic_chart"></div>
+												</div>
+												<div class="bottom_maps">
+													<table class="table_normal">
+													<tr>
+														<td width="33.33%"><strong>Kế hoạch</strong><span>10</span></td>
+														<td width="33.33%"><strong>Thực hiện</strong><span>4</span></td>
+														<td width="33.33%"><strong>Tỷ lệ</strong><span>40%</span></td>
+													</tr>
+													</table>
+													
+												  </div>
+												</div>	
+											</div>
+											</div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+										</div>
+										</div>
+									<div id="box2-1-2" style="display: none;">
+								<div class="kpi__table">
+                                    <div class="table table--kpi">
+                                        <div class="table__header">
+                                            
+											<div class="table__excel table__excel--kpi">
+												<button type="button" class="button button__view-kpi button__view-kpi--lg" data-toggle="modal" data-target="#modal-update-thuc-hien">
+                                                    Cập nhật thực hiện
+                                                </button>
+												<button type="button" class="button button__view-kpi button__view-kpi--lg"><i class="icon-file-pdf"></i> Xuất excel
+												</button>
+                                            </div>
+                                        </div>
+                                        <div class="table__body">
+                                            <table class="table__body__table table__body__table--kpi">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center" width="10">STT</th>
+                                                        <th>Tên phòng</th>
+														<th>Mã cán bộ</th>
+                                                        <th>Tên cán bộ</th>
+														<th>Chỉ tiêu</th>
+														<th>Đơn vị</th>
+														<th class="text-center">Kế hoạch</th>
+														<th class="text-center">Thực hiện</th>
+														<th class="text-right">% Hoàn thành</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+													<tr>
+                                                        <td class="text-center" colspan="4">&nbsp;</td>	
+														<td><strong>Dư nợ bán lẻ cuối kỳ</strong></td>
+                                                        <td><strong>Tỷ VND</strong></td>
+                                                        <td class="text-center"><strong>900</strong></td>
+														<td class="text-center"><strong>900</strong></td>
+														<td class="text-right"><strong>100%</strong></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+                                                        <td>Phòng KD 1</td>
+														<td>NV001</td>
+														<td>Nguyễn Văn A</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">20</td>
+														<td class="text-center">40</td>
+														<td class="text-right">200%</td>
+                                                    </tr>													
+													<tr>
+                                                        <td class="text-center">2</td>
+														<td>Phòng KD 2</td>
+                                                        <td>NV002</td>
+														<td>Nguyễn Văn B</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">1</td>
+														<td class="text-center">1.5</td>
+														<td class="text-right">150%</td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">3</td>
+														<td>Phòng KD 3</td>
+                                                        <td>NV003</td>
+														<td>Nguyễn Văn C</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">2</td>
+														<td class="text-center">1</td>
+														<td class="text-right">50%</td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">4</td>
+														<td>Phòng KD 4</td>
+                                                        <td>NV005</td>
+														<td>Nguyễn Văn E</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">30</td>
+														<td class="text-center">15</td>
+														<td class="text-right">50%</td>
+                                                    </tr>
+													                                                  
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="table__footer table__footer--kpi text-right">
+											<div class="table__pager table__pager--kpi">
+														<span class="table__pager__text">Hiển thị</span>
+														<select class="table__pager__select">
+															<option>10</option>
+															<option>20</option>
+															<option>30</option>
+															<option>40</option>
+														</select>
+														<span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+													</div>
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+									</div>
+								</div>
+                                <div id="box2-2" style="display: none;">
+									<div id="box2-2-phong0" style="display: block;">
+									<div id="box2-2-1" style="display: block;">
+									<div class="kpi__table">
+                                    <div class="table table--kpi">
+                                        <div class="table__header">
+                                            
+											<div class="table__excel table__excel--kpi">										<button type="button" class="button button__view-kpi button__view-kpi--lg"><i class="icon-file-pdf"></i> Xuất excel
+												</button>
+												<a href="ldcn-kpi-2-bieu-do2.html" class="button button__view-kpi button__view-kpi--lg"><img src="images/p2/ic_chart.svg" alt=""> Xem biểu đồ</a>
+                                            </div>
+											
+                                        </div>
+                                        <div class="table__body">
+                                            <table class="table__body__table table__body__table--kpi">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center" width="10">STT</th>
+														<th>Tên phòng</th>
+														<th>Chỉ tiêu</th>
+														<th>Đơn vị</th>
+														<th class="text-center">Kế hoạch</th>
+														<th class="text-center">Thực hiện</th>
+														<th class="text-right">% Hoàn thành</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+														<td>Phòng KD1</td>
+														<td>Dư nợ bản lẻ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">20</td>
+														<td class="text-center">40</td>
+														<td class="text-right">200%</td>
+                                                    </tr>													
+													<tr>
+                                                        <td class="text-center">2</td>
+														<td>Phòng KD2</td>
+														<td>Dư nợ thể nhân cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">1</td>
+														<td class="text-center">1.5</td>
+														<td class="text-right">150%</td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">3</td>
+														<td>Phòng KD3</td>
+														<td>Khách hàng mới</td>
+                                                        <td>Khách hàng</td>
+                                                        <td class="text-center">2</td>
+														<td class="text-center">1</td>
+														<td class="text-right">50%</td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">4</td>
+														<td>Phòng KD4</td>
+														<td>Dư nợ bản lẻ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">30</td>
+														<td class="text-center">15</td>
+														<td class="text-right">50%</td>
+                                                    </tr>                                                
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="table__footer table__footer--kpi text-right">
+											<div class="table__pager table__pager--kpi">
+														<span class="table__pager__text">Hiển thị</span>
+														<select class="table__pager__select">
+															<option>10</option>
+															<option>20</option>
+															<option>30</option>
+															<option>40</option>
+														</select>
+														<span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+													</div>
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+									</div>
+									<div id="box2-2-2" style="display: none;">
+									<div class="kpi__table">
+                                    <div class="table table--kpi">
+                                        <div class="table__header">
+                                            
+											<div class="table__excel table__excel--kpi">										<button type="button" class="button button__view-kpi button__view-kpi--lg"><i class="icon-file-pdf"></i> Xuất excel
+												</button>
+												
+                                            </div>
+                                        </div>
+                                        <div class="table__body">
+                                            <table class="table__body__table table__body__table--kpi">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center" width="10">STT</th>
+														<th>Tên phòng</th>
+														<th>Chỉ tiêu</th>
+														<th>Đơn vị</th>
+														<th class="text-center">Kế hoạch</th>
+														<th class="text-center">Thực hiện</th>
+														<th class="text-right">% Hoàn thành</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>                                                    
+													<tr>
+														<td>&nbsp;</td>
+														<td>&nbsp;</td>
+														<td><strong>Dư nợ bán lẻ cuối kỳ</strong></td>
+                                                        <td><strong>Tỷ VND</strong></td>
+                                                        <td class="text-center"><strong>900</strong></td>
+														<td class="text-center"><strong>900</strong></td>
+														<td class="text-right"><strong>100%</strong></td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">1</td>
+														<td>Phòng KD1</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">20</td>
+														<td class="text-center">40</td>
+														<td class="text-right">200%</td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">2</td>
+														<td>Phòng KD2</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">1</td>
+														<td class="text-center">1.5</td>
+														<td class="text-right">150%</td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">3</td>
+														<td>Phòng KD3</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">2</td>
+														<td class="text-center">1</td>
+														<td class="text-right">50%</td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">4</td>
+														<td>Phòng KD4</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">30</td>
+														<td class="text-center">15</td>
+														<td class="text-right">50%</td>
+                                                    </tr>
+													 <tr>
+                                                        <td class="text-center">5</td>
+														 <td>Phòng KD5</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">30</td>
+														<td class="text-center">15</td>
+														<td class="text-right">50%</td>
+                                                    </tr>                                                 
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="table__footer table__footer--kpi text-right">
+											<div class="table__pager table__pager--kpi">
+														<span class="table__pager__text">Hiển thị</span>
+														<select class="table__pager__select">
+															<option>10</option>
+															<option>20</option>
+															<option>30</option>
+															<option>40</option>
+														</select>
+														<span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+													</div>
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>								
+								</div>
+									</div>
+									
+									<div id="box2-2-phong1" style="display: none;">
+									<div id="box2-2-phong1-1" style="display: block;">
+										<div class="kpi__table">
+                                    <div class="table table--kpi">
+                                        <div class="table__header">
+                                            
+											<div class="table__excel table__excel--kpi">										<button type="button" class="button button__view-kpi button__view-kpi--lg"><i class="icon-file-pdf"></i> Xuất excel
+												</button>
+												
+                                            </div>
+                                        </div>
+                                        <div class="table__body">
+                                            <table class="table__body__table table__body__table--kpi">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center" width="10">STT</th>
+														<th>Tên phòng</th>
+														<th>Chỉ tiêu</th>
+														<th>Đơn vị</th>
+														<th class="text-center">Kế hoạch</th>
+														<th class="text-center">Thực hiện</th>
+														<th class="text-right">% Hoàn thành</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+														<td>Phòng KD1</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">20</td>
+														<td class="text-center">40</td>
+														<td class="text-right">200%</td>
+                                                    </tr>													
+													<tr>
+                                                        <td class="text-center">2</td>
+														<td>Phòng KD1</td>
+														<td>Thẻ tín dụng quốc tế</td>
+                                                        <td>Thẻ</td>
+                                                        <td class="text-center">1</td>
+														<td class="text-center">1.5</td>
+														<td class="text-right">150%</td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">3</td>
+														<td>Phòng KD1</td>
+														<td>Online Banking</td>
+                                                        <td>Khách hàng</td>
+                                                        <td class="text-center">2</td>
+														<td class="text-center">1</td>
+														<td class="text-right">50%</td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">4</td>
+														<td>Phòng KD1</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">30</td>
+														<td class="text-center">15</td>
+														<td class="text-right">50%</td>
+                                                    </tr>
+													 <tr>
+                                                        <td class="text-center">5</td>
+														 <td>Phòng KD1</td>
+														<td>Bancas nhân thọ</td>
+                                                        <td>Triệu VND</td>
+                                                        <td class="text-center">30</td>
+														<td class="text-center">15</td>
+														<td class="text-right">50%</td>
+                                                    </tr>                                                 
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="table__footer table__footer--kpi text-right">
+											<div class="table__pager table__pager--kpi">
+														<span class="table__pager__text">Hiển thị</span>
+														<select class="table__pager__select">
+															<option>10</option>
+															<option>20</option>
+															<option>30</option>
+															<option>40</option>
+														</select>
+														<span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+													</div>
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>									
+									</div>
+									<div id="box2-2-phong1-2" style="display: none;">
+									<div class="kpi__table">
+                                    <div class="table table--kpi">
+                                        <div class="table__header">
+                                            
+											<div class="table__excel table__excel--kpi">										<button type="button" class="button button__view-kpi button__view-kpi--lg"><i class="icon-file-pdf"></i> Xuất excel
+												</button>
+												
+                                            </div>
+                                        </div>
+                                        <div class="table__body">
+                                            <table class="table__body__table table__body__table--kpi">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center" width="10">STT</th>
+														<th>Tên phòng</th>
+														<th>Chỉ tiêu</th>
+														<th>Đơn vị</th>
+														<th class="text-center">Kế hoạch</th>
+														<th class="text-center">Thực hiện</th>
+														<th class="text-right">% Hoàn thành</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+													<tr>
+														<td>&nbsp;</td>
+														<td>&nbsp;</td>
+														<td><strong>Dư nợ bán lẻ cuối kỳ</strong></td>
+                                                        <td><strong>Tỷ VND</strong></td>
+                                                        <td class="text-center"><strong>900</strong></td>
+														<td class="text-center"><strong>900</strong></td>
+														<td class="text-right"><strong>100%</strong></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+														<td>Phòng KD1</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">20</td>
+														<td class="text-center">40</td>
+														<td class="text-right">200%</td>
+                                                    </tr>													
+													<tr>
+                                                        <td class="text-center">2</td>
+														<td>Phòng KD1</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">1</td>
+														<td class="text-center">1.5</td>
+														<td class="text-right">150%</td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">3</td>
+														<td>Phòng KD1</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">2</td>
+														<td class="text-center">1</td>
+														<td class="text-right">50%</td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">4</td>
+														<td>Phòng KD1</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">30</td>
+														<td class="text-center">15</td>
+														<td class="text-right">50%</td>
+                                                    </tr>
+													 <tr>
+                                                        <td class="text-center">5</td>
+														 <td>Phòng KD1</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">30</td>
+														<td class="text-center">15</td>
+														<td class="text-right">50%</td>
+                                                    </tr>                                                 
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="table__footer table__footer--kpi text-right">
+											<div class="table__pager table__pager--kpi">
+														<span class="table__pager__text">Hiển thị</span>
+														<select class="table__pager__select">
+															<option>10</option>
+															<option>20</option>
+															<option>30</option>
+															<option>40</option>
+														</select>
+														<span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+													</div>
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>								
+								</div>
+									</div>
+								</div>
+								
+								<div id="box2-3" style="display: none;">
+								<div class="kpi__table">
+                                    <div class="table table--kpi">
+                                        <div class="table__header">
+                                            
+											<div class="table__excel table__excel--kpi">										<button type="button" class="button button__view-kpi button__view-kpi--lg"><i class="icon-file-pdf"></i> Xuất excel
+												</button>	
+												<a href="ldcn-kpi-2-bieu-do1.html" class="button button__view-kpi button__view-kpi--lg"><img src="images/p2/ic_chart.svg" alt=""> Xem biểu đồ</a>
+												
+                                            </div>
+                                        </div>
+                                        <div class="table__body">
+                                            <table class="table__body__table table__body__table--kpi">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center" width="10">STT</th>
+														<th>Tên chỉ tiêu</th>
+														<th>Đơn vị</th>
+														<th class="text-center">Kế hoạch</th>
+														<th class="text-center">Thực hiện</th>
+														<th class="text-right">% Hoàn thành</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">20</td>
+														<td class="text-center">40</td>
+														<td class="text-right">200%</td>
+                                                    </tr>													
+													<tr>
+                                                        <td class="text-center">2</td>
+														<td>Thẻ tín dụng quốc tế</td>
+                                                        <td>Thẻ</td>
+                                                        <td class="text-center">1</td>
+														<td class="text-center">1.5</td>
+														<td class="text-right">150%</td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">3</td>
+														<td>Online Banking</td>
+                                                        <td>Khách hàng</td>
+                                                        <td class="text-center">2</td>
+														<td class="text-center">1</td>
+														<td class="text-right">50%</td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">4</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">30</td>
+														<td class="text-center">15</td>
+														<td class="text-right">50%</td>
+                                                    </tr>
+													 <tr>
+                                                        <td class="text-center">5</td>
+														<td>Bancas nhân thọ</td>
+                                                        <td>Triệu VND</td>
+                                                        <td class="text-center">30</td>
+														<td class="text-center">15</td>
+														<td class="text-right">50%</td>
+                                                    </tr>                                                 
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="table__footer table__footer--kpi text-right">
+											<div class="table__pager table__pager--kpi">
+														<span class="table__pager__text">Hiển thị</span>
+														<select class="table__pager__select">
+															<option>10</option>
+															<option>20</option>
+															<option>30</option>
+															<option>40</option>
+														</select>
+														<span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+													</div>
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>								
+								</div>								
+							</div>
+							<!--END Thuc hien -->	
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+			</div>
+    </main>	
+	
+	<div class="modal fade campain_detail" id="modal-update" role="dialog" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+        <div class="modal-dialog" style="width: 800px; max-width: 96%;">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--Modal body-->
+                <div class="modal-body">
+                    <div class="modal__text-head">
+                        Cập nhật kế hoạch
+                    </div>
+                    <div class="modal__content">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label" style="padding-top: 0;">Thời gian</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <strong>Quý 1</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+								</div>
+								<div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-6 col-form-label" style="padding-top: 0;">Đối tượng</label>
+                                        <div class="col-sm-6">
+                                            <div class="input-wrap-custom">
+                                                <strong>CBNV</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+								</div>
+							</div>
+							<div class="row">
+							<div class="col-md-12">
+								<div class="kpi__table">
+								<div class="table table--kpi">
+									<div class="table__header">
+                                           
+                                        </div>
+								<div class="table__body">
+								<table class="table__body__table table__body__table--kpi" style="margin-bottom: 0;">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center" width="10">STT</th>
+                                                        <th>Mã cán bộ</th>
+                                                        <th>Tên cán bộ</th>
+														<th>Tên chỉ tiêu</th>
+														<th>Đơn vị</th>
+														<th class="text-center" width="90">Kế hoạch</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+													<tr>
+                                                        <td class="text-center" colspan="3">&nbsp;</td>
+														<td><strong>Dư nợ bán lẻ cuối kỳ</strong></td>
+                                                        <td><strong>Tỷ VND</strong></td>
+                                                        <td class="text-center"><strong>900</strong></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+                                                        <td>NV001</td>
+														<td>Nguyễn Văn A</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center"><input type="text" class="form-control" value="30" /></td>
+                                                    </tr>													
+													<tr>
+                                                        <td class="text-center">2</td>
+                                                        <td>NV002</td>
+														<td>Nguyễn Văn B</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center"><input type="text" class="form-control" value="1" /></td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">3</td>
+                                                        <td>NV003</td>
+														<td>Nguyễn Văn C</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center"><input type="text" class="form-control" value="2" /></td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">4</td>
+                                                        <td>NV004</td>
+														<td>Nguyễn Văn D</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center"><input type="text" class="form-control" value="25" /></td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">5</td>
+                                                        <td>NV005</td>
+														<td>Nguyễn Văn E</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center"><input type="text" class="form-control" value="400" /></td>
+                                                    </tr>
+													                                                  
+                                                </tbody>
+                                            </table>	
+								</div>
+									<div class="table__footer table__footer--kpi text-right" style="padding-top: 10px;">
+										<div class="table__pager table__pager--kpi">
+														<span class="table__pager__text">Hiển thị</span>
+														<select class="table__pager__select">
+															<option>10</option>
+															<option>20</option>
+															<option>30</option>
+															<option>40</option>
+														</select>
+														<span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+													</div>
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+							</div>
+								</div>
+								</div>
+							</div>
+                        </form>
+                    </div>
+                    <div class="modal__footer">
+                        <div class="text-center">
+                            <button type="button" data-toggle="modal" data-target="#modal-notify"  data-dismiss="modal" aria-label="Close" class="button button__view-kpi button__view-kpi--lg">Cập nhật
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="modal fade campain_detail" id="modal-update-phong" role="dialog" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+        <div class="modal-dialog" style="width: 800px; max-width: 96%;">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--Modal body-->
+                <div class="modal-body">
+                    <div class="modal__text-head">
+                        Cập nhật kế hoạch
+                    </div>
+                    <div class="modal__content">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label" style="padding-top: 0;">Thời gian</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <strong>Quý 1</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+								</div>
+								<div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-6 col-form-label" style="padding-top: 0;">Đối tượng</label>
+                                        <div class="col-sm-6">
+                                            <div class="input-wrap-custom">
+                                                <strong>CBNV</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+								</div>
+							</div>
+							<div class="row">
+							<div class="col-md-12">
+								<div class="kpi__table">
+								<div class="table table--kpi">
+									<div class="table__header">
+                                            
+                                        </div>
+								<div class="table__body">
+								<table class="table__body__table table__body__table--kpi" style="margin-bottom: 0;">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center" width="10">STT</th>
+                                                        <th>Mã phòng</th>
+                                                        <th>Tên phòng</th>
+														<th>Tên chỉ tiêu</th>
+														<th>Đơn vị</th>
+														<th class="text-center" width="90">Kế hoạch</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+													<tr>
+                                                        <td class="text-center" colspan="3">&nbsp;</td>
+														<td><strong>Dư nợ bán lẻ CK</strong></td>
+                                                        <td><strong>Tỷ VND</strong></td>
+                                                        <td class="text-center"><strong>900</strong></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+                                                        <td>KD1</td>
+														<td>Phòng KD 1</td>
+														<td>Dư nợ bán lẻ CK</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center"><input type="text" class="form-control" value="30" /></td>
+                                                    </tr>													
+													<tr>
+                                                        <td class="text-center">2</td>
+                                                        <td>KD2</td>
+														<td>Phòng KD 2</td>
+														<td>Dư nợ bán lẻ CK</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center"><input type="text" class="form-control" value="1" /></td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">3</td>
+                                                        <td>KD3</td>
+														<td>Phòng KD 3</td>
+														<td>Dư nợ bán lẻ CK</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center"><input type="text" class="form-control" value="2" /></td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">4</td>
+                                                        <td>KD4</td>
+														<td>Phòng KD 4</td>
+														<td>Dư nợ bán lẻ CK</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center"><input type="text" class="form-control" value="25" /></td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">5</td>
+                                                        <td>KD5</td>
+														<td>Phòng KD 5</td>
+														<td>Dư nợ bán lẻ CK</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center"><input type="text" class="form-control" value="400" /></td>
+                                                    </tr>
+													                                                  
+                                                </tbody>
+                                            </table>	
+								</div>
+									<div class="table__footer table__footer--kpi text-right" style="padding-top: 10px;">
+										<div class="table__pager table__pager--kpi">
+														<span class="table__pager__text">Hiển thị</span>
+														<select class="table__pager__select">
+															<option>10</option>
+															<option>20</option>
+															<option>30</option>
+															<option>40</option>
+														</select>
+														<span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+													</div>
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+							</div>
+								</div>
+								</div>
+							</div>
+                        </form>
+                    </div>
+                    <div class="modal__footer">
+                        <div class="text-center">
+                            <button type="button" data-toggle="modal" data-target="#modal-notify"  data-dismiss="modal" aria-label="Close" class="button button__view-kpi button__view-kpi--lg">Cập nhật
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="modal fade campain_detail" id="modal-update-thuc-hien" role="dialog" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+        <div class="modal-dialog" style="width: 800px; max-width: 96%;">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--Modal body-->
+                <div class="modal-body">
+                    <div class="modal__text-head">
+                        Cập nhật thực hiện
+                    </div>
+                    <div class="modal__content">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label" style="padding-top: 0;">Thời gian</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-custom">
+                                                <strong>Quý 1</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+								</div>
+								<div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-6 col-form-label" style="padding-top: 0;">Đối tượng</label>
+                                        <div class="col-sm-6">
+                                            <div class="input-wrap-custom">
+                                                <strong>CBNV</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+								</div>
+							</div>
+							<div class="row">
+							<div class="col-md-12">
+								<div class="kpi__table">
+								<div class="table table--kpi">
+									<div class="table__header">
+                                            
+                                        </div>
+								<div class="table__body">
+								<table class="table__body__table table__body__table--kpi" style="margin-bottom: 0;">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center" width="10">STT</th>
+                                                        <th>Mã cán bộ</th>
+                                                        <th>Tên cán bộ</th>
+														<th>Tên chỉ tiêu</th>
+														<th>Đơn vị</th>
+														<th class="text-center">Kế hoạch</th>
+														<th class="text-center" width="90">Thực hiện</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+													<tr>
+                                                        <td class="text-center" colspan="3">&nbsp;</td>
+														<td><strong>Dư nợ bán lẻ cuối kỳ</strong></td>
+                                                        <td><strong>Tỷ VND</strong></td>
+                                                        <td class="text-center"><strong>900</strong></td>
+														<td class="text-center">&nbsp;</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+                                                        <td>NV001</td>
+														<td>Nguyễn Văn A</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+														<td class="text-center">20</td>
+                                                        <td class="text-center"><input type="text" class="form-control" value="30" /></td>
+                                                    </tr>													
+													<tr>
+                                                        <td class="text-center">2</td>
+                                                        <td>NV002</td>
+														<td>Nguyễn Văn B</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">1</td>
+                                                        <td class="text-center"><input type="text" class="form-control" value="1" /></td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">3</td>
+                                                        <td>NV003</td>
+														<td>Nguyễn Văn C</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">2</td>
+                                                        <td class="text-center"><input type="text" class="form-control" value="2" /></td>
+                                                    </tr>
+													<tr>
+                                                        <td class="text-center">4</td>
+                                                        <td>NV004</td>
+														<td>Nguyễn Văn D</td>
+														<td>Dư nợ bán lẻ cuối kỳ</td>
+                                                        <td>Tỷ VND</td>
+                                                        <td class="text-center">30</td>
+                                                        <td class="text-center"><input type="text" class="form-control" value="30" /></td>
+                                                    </tr>
+													                                                  
+                                                </tbody>
+                                            </table>	
+								</div>
+									<div class="table__footer table__footer--kpi text-right" style="padding-top: 10px;">
+										<div class="table__pager table__pager--kpi">
+														<span class="table__pager__text">Hiển thị</span>
+														<select class="table__pager__select">
+															<option>10</option>
+															<option>20</option>
+															<option>30</option>
+															<option>40</option>
+														</select>
+														<span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+													</div>
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+							</div>
+								</div>
+								</div>
+							</div>
+                        </form>
+                    </div>
+                    <div class="modal__footer">
+                        <div class="text-center">
+                            <button type="button" data-toggle="modal" data-target="#modal-notify"  data-dismiss="modal" aria-label="Close" class="button button__view-kpi button__view-kpi--lg">Cập nhật
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="modal fade campain_detail" id="modal-notify" role="dialog" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--Modal body-->
+                <div class="modal-body">
+                    <div class="modal__text-head text-center">
+                        THÔNG BÁO
+                    </div>
+                    <div class="modal__content">
+                        <p align="center">Cập nhật thành công.</p>
+                    </div>
+                    <div class="modal__footer">
+                        <div class="text-center">
+                            <button type="button" data-dismiss="modal" class="button button__view-kpi button__view-kpi--lg">Đóng lại
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/highcharts.js"></script>
+    <script type="text/javascript" src="js/exporting.js"></script>
+    <script src="js/highcharts-more.js"></script>
+    <script src="select2/js/select2.full.min.js"></script>
+    <script src="js/datepicker/moment-with-locales.js"></script>
+    <script src="js/datepicker/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/custom.js"></script>
+	
+	<script type="text/javascript">
+Highcharts.chart('chart1', {
+    chart: {
+        type: 'gauge',
+        plotBackgroundColor: null,
+        plotBackgroundImage: null,
+        plotBorderWidth: 0,
+        plotShadow: false
+    },
+
+    title: {
+        text: ''
+    },
+
+    pane: {
+        startAngle: -90,
+        endAngle: 90,
+		background: {
+            backgroundColor:
+                Highcharts.defaultOptions.legend.backgroundColor || '#f5f5f5',
+            innerRadius: '40%',
+            outerRadius: '100%',
+            shape: 'arc'
+        }
+    },
+	tooltip: {
+        enabled: false
+    },
+
+    // the value axis
+    yAxis: {
+        min: 0,
+        max: 100,
+
+        minorTickInterval: 'auto',
+        minorTickWidth: 1,
+        minorTickLength: 10,
+        minorTickPosition: 'inside',
+        minorTickColor: '#fff',
+        tickPixelInterval: 60,
+        tickWidth: 2,
+        tickPosition: 'inside',
+        tickLength:10,
+        tickColor: '#fff',
+        labels: {
+            step: 2,
+			distance: 10,
+            rotation: 'auto'
+			
+        },
+
+        plotBands: [{
+            from: 0,
+            to: 30,
+            color: '#DF5353' // green
+        }, {
+            from: 30,
+            to: 70,
+            color: '#DDDF0D' // yellow
+        }, {
+            from: 70,
+            to: 100,
+            color: '#55BF3B' // red
+        }]
+    },
+
+    series: [{
+        name: 'Speed',
+        data: [100],
+        tooltip: {
+            valueSuffix: ' km/h'
+        }
+    }]
+
+},
+// Add some life
+function (chart) {
+    if (!chart.renderer.forExport) {
+        setInterval(function () {
+
+        }, 3000);
+    }
+});
+		</script>
+	<script type="text/javascript">
+Highcharts.chart('chart2', {
+    chart: {
+        type: 'gauge',
+        plotBackgroundColor: null,
+        plotBackgroundImage: null,
+        plotBorderWidth: 0,
+        plotShadow: false
+    },
+
+    title: {
+        text: ''
+    },
+
+    pane: {
+        startAngle: -90,
+        endAngle: 90,
+		background: {
+            backgroundColor:
+                Highcharts.defaultOptions.legend.backgroundColor || '#f5f5f5',
+            innerRadius: '40%',
+            outerRadius: '100%',
+            shape: 'arc'
+        }
+    },
+	tooltip: {
+        enabled: false
+    },
+
+    // the value axis
+    yAxis: {
+        min: 0,
+        max: 100,
+
+        minorTickInterval: 'auto',
+        minorTickWidth: 1,
+        minorTickLength: 10,
+        minorTickPosition: 'inside',
+        minorTickColor: '#fff',
+        tickPixelInterval: 60,
+        tickWidth: 2,
+        tickPosition: 'inside',
+        tickLength:10,
+        tickColor: '#fff',
+        labels: {
+            step: 2,
+			distance: 10,
+            rotation: 'auto'
+			
+        },
+
+        plotBands: [{
+            from: 0,
+            to: 30,
+            color: '#DF5353' // green
+        }, {
+            from: 30,
+            to: 70,
+            color: '#DDDF0D' // yellow
+        }, {
+            from: 70,
+            to: 100,
+            color: '#55BF3B' // red
+        }]
+    },
+
+    series: [{
+        name: 'Speed',
+        data: [80],
+        tooltip: {
+            valueSuffix: ' km/h'
+        }
+    }]
+
+},
+// Add some life
+function (chart) {
+    if (!chart.renderer.forExport) {
+        setInterval(function () {
+
+        }, 3000);
+    }
+});
+		</script>
+	<script type="text/javascript">
+Highcharts.chart('chart3', {
+    chart: {
+        type: 'gauge',
+        plotBackgroundColor: null,
+        plotBackgroundImage: null,
+        plotBorderWidth: 0,
+        plotShadow: false
+    },
+
+    title: {
+        text: ''
+    },
+
+    pane: {
+        startAngle: -90,
+        endAngle: 90,
+		background: {
+            backgroundColor:
+                Highcharts.defaultOptions.legend.backgroundColor || '#f5f5f5',
+            innerRadius: '40%',
+            outerRadius: '100%',
+            shape: 'arc'
+        }
+    },
+	tooltip: {
+        enabled: false
+    },
+
+    // the value axis
+    yAxis: {
+        min: 0,
+        max: 100,
+
+        minorTickInterval: 'auto',
+        minorTickWidth: 1,
+        minorTickLength: 10,
+        minorTickPosition: 'inside',
+        minorTickColor: '#fff',
+        tickPixelInterval: 60,
+        tickWidth: 2,
+        tickPosition: 'inside',
+        tickLength:10,
+        tickColor: '#fff',
+        labels: {
+            step: 2,
+			distance: 10,
+            rotation: 'auto'
+			
+        },
+
+        plotBands: [{
+            from: 0,
+            to: 30,
+            color: '#DF5353' // green
+        }, {
+            from: 30,
+            to: 70,
+            color: '#DDDF0D' // yellow
+        }, {
+            from: 70,
+            to: 100,
+            color: '#55BF3B' // red
+        }]
+    },
+
+    series: [{
+        name: 'Speed',
+        data: [40],
+        tooltip: {
+            valueSuffix: ' km/h'
+        }
+    }]
+
+},
+// Add some life
+function (chart) {
+    if (!chart.renderer.forExport) {
+        setInterval(function () {
+
+        }, 3000);
+    }
+});
+		</script>
+	
+	
+	<script>
+$(document).ready(function(){
+    $("#target1").change(function(){
+   if($(this).val()=="box1")
+   {    
+	   $("div#box1").show();
+	   $("div#box2").hide();
+	   $("div.box1-sub").show();
+	   $("div.box2-sub").hide(); 
+	   $("div.box2-2-phong-cbnv").hide();
+	   $("div.box2-2-phong").hide();
+	   $("div.box2-2-chitieu").hide();
+	   $("div.box2-2-phong-chitieu").hide();
+	   $("div.box2-1-fillter1").hide();
+	   $("div.box2-1-fillter2").hide();
+       	   
+   }
+		if($(this).val()=="box2")
+   {    
+       $("div#box1").hide();
+	   $("div#box2").show();
+	   $("div.box1-sub").hide();
+	   $("div.box2-sub").show();
+	   $("div.box2-2-chitieu").show();
+	   $("div.box1-1-fillter2").hide();
+	   $("div.box1-2-phong").hide();
+	   $("div.box1-2-chitieu").hide();
+	   $("div.box1-1-fillter1").hide();
+	   $("div.box1-1-fillter2").hide();   
+	   
+   }
+});
+	$("#target1-1").change(function(){
+   if($(this).val()=="box1-1")
+   {    
+       $("div#box1-1").show();	
+	   $("div.box1-1-fillter1").show();
+	   $("div.box1-1-fillter2").show();
+	   $("div.box2-1-fillter1").hide();
+	   $("div.box2-1-fillter2").hide();
+	   $("div#box1-2").hide();
+	   $("div#box1-3").hide();
+	   $("div.box1-2-phong").show();
+	   $("div.box1-2-chitieu").hide();
+	   $("div.box2-2-chitieu").hide();
+	   
+	   $("div.box2-2-phong-cbnv").hide();	   
+   }
+   if($(this).val()=="box1-2")
+   {   
+       $("div#box1-1").hide();
+	   $("div.box1-1-fillter1").hide();
+	   $("div.box1-1-fillter2").hide();
+	   $("div.box2-1-fillter1").hide();
+	   $("div.box2-1-fillter2").hide();
+	   $("div#box1-2").show();
+	   $("div.box1-2-phong").show();
+	   $("div.box1-2-chitieu").show();
+	   $("div#box1-3").hide();
+	   $("div.box2-2-phong-cbnv").hide();
+   }
+		if($(this).val()=="box1-3")
+   {   
+	   $("div#box1-1").hide();
+	   $("div.box1-1-fillter1").hide();
+	   $("div.box1-1-fillter2").hide();
+	   $("div.box2-1-fillter1").hide();
+	   $("div.box2-1-fillter2").hide();
+	   $("div#box1-2").hide();
+	   $("div#box1-3").show();
+	   $("div.box1-2-phong").hide();
+	   $("div.box1-2-chitieu").hide();
+	   $("div.box1-2-phong").hide();
+	   $("div.box2-2-phong-cbnv").hide(); 
+   }
+});
+$("#target1-1-1").change(function(){
+   if($(this).val()=="box1-1-1")
+	   {    
+		   $("div#box1-1-1").show();
+		   $("div#box1-1-2").hide();
+		   
+	   }
+	if($(this).val()=="box1-1-2") 
+	   {    
+		   $("div#box1-1-1").hide();
+		   $("div#box1-1-2").show();
+	   }
+	if($(this).val()=="box1-1-3") 
+	   {    
+		   $("div#box1-1-1").hide();
+		   $("div#box1-1-2").show();
+	   }
+	if($(this).val()=="box1-1-4") 
+	   {    
+		  $("div#box1-1-1").hide();
+		   $("div#box1-1-2").show();
+	   }
+	if($(this).val()=="box1-1-5") 
+	   {  
+		   $("div#box1-1-1").hide();
+		   $("div#box1-1-2").show();
+	   }
+});
+$("#target1-phong-chiteu").change(function(){
+   if($(this).val()=="box1-2-1")
+	   {    
+		   $("div#box1-2-1").show();
+		   $("div#box1-2-2").hide();
+		   
+	   }
+	if($(this).val()=="box1-2-2") 
+	   {    
+		   $("div#box1-2-1").hide();
+		   $("div#box1-2-2").show();
+	   }
+	if($(this).val()=="box1-2-3") 
+	   {    
+		   $("div#box1-2-1").hide();
+		   $("div#box1-2-2").show();
+	   }
+	if($(this).val()=="box1-2-4") 
+	   {    
+		  $("div#box1-2-1").hide();
+		   $("div#box1-2-2").show();
+	   }
+	if($(this).val()=="box1-2-5") 
+	   {  
+		   $("div#box1-2-1").hide();
+		   $("div#box1-2-2").show();
+	   }
+});	
+	//box2
+	
+$("#target2-1").change(function(){
+   if($(this).val()=="box2-1")
+   {    
+       $("div#box2-1").show();	
+	   $("div.box2-1-fillter1").show();
+	   $("div.box2-1-fillter2").show();
+	   $("div.box1-1-fillter1").hide();
+	   $("div.box1-1-fillter2").hide();
+	   $("div#box2-2").hide();
+	   $("div#box2-3").hide();
+	   $(".box2-2-phong-cbnv").show();
+	   $(".box2-2-phong").hide();
+	   $(".box2-2-chitieu").hide();
+	   $(".box2-2-phong-chitieu").hide();
+	   
+	   
+   }
+   if($(this).val()=="box2-2")
+   {   
+       $("div#box2-1").hide();
+	   $("div.box2-1-fillter1").hide();
+	   $("div.box2-1-fillter2").hide();
+	   $("div.box1-1-fillter1").hide();
+	   $("div.box1-1-fillter2").hide();
+	   $("div#box2-2").show();
+	   $("div#box2-3").hide();
+	   $(".box2-2-phong").show();
+	   $(".box2-2-phong-cbnv").hide();
+	   $(".box2-2-chitieu").show();
+	   
+   }
+		if($(this).val()=="box2-3")
+   {   
+	   $("div#box2-1").hide();
+	   $("div.box2-1-fillter1").hide();
+	   $("div.box2-1-fillter2").hide();
+	   $("div.box1-1-fillter1").hide();
+	   $("div.box1-1-fillter2").hide();
+	   $(".box2-2-phong-cbnv").hide();
+	   $("div#box2-2").hide();
+	   $("div#box2-3").show();
+	   $(".box2-2-chitieu").show();
+	   $(".box2-2-phong").hide();
+   }
+});
+$("#target2-1-1").change(function(){
+   if($(this).val()=="box2-1-1")
+	   {    
+		   $("div#box2-1-1").show();
+		   $("div#box2-1-2").hide();
+		   
+	   }
+	if($(this).val()=="box2-1-2") 
+	   {    
+		   $("div#box2-1-1").hide();
+		   $("div#box2-1-2").show();
+	   }
+	if($(this).val()=="box2-1-3") 
+	   {    
+		   $("div#box2-1-1").hide();
+		   $("div#box2-1-2").show();
+	   }
+	if($(this).val()=="box2-1-4") 
+	   {    
+		  $("div#box2-1-1").hide();
+		   $("div#box2-1-2").show();
+	   }
+	if($(this).val()=="box2-1-5") 
+	   {  
+		   $("div#box2-1-1").hide();
+		   $("div#box2-1-2").show();
+	   }
+});
+	
+$("#box2-cbnv").change(function(){
+   if($(this).val()=="cbnv-0")
+	   {    
+		   $("div#cbnv-0").show();
+		   $("div#cbnv-1").hide();
+		   $("div#box2-1-2").hide();
+		   $("div#box2-1-1").show();
+		   
+	   }
+	if($(this).val()=="cbnv-1") 
+	   {    
+		   $("div#cbnv-0").hide();
+		   $("div#cbnv-1").show();
+		   $("div#box2-1-1").show();
+		   $("div#box2-1-2").hide();
+	   }
+	if($(this).val()=="cbnv-2") 
+		{
+		$("div#cbnv-0").hide();
+		   $("div#cbnv-1").show();
+			$("div#box2-1-1").show();
+		   $("div#box2-1-2").hide();
+
+	   }
+	if($(this).val()=="cbnv-3") 
+	   {    
+		   $("div#cbnv-0").hide();
+		   $("div#cbnv-1").show();
+		   $("div#box2-1-1").show();
+		   $("div#box2-1-2").hide();
+
+	   }
+	if($(this).val()=="cbnv-4") 
+	   {  
+		   $("div#cbnv-0").hide();
+		   $("div#cbnv-1").show();
+		   $("div#box2-1-1").show();
+		   $("div#box2-1-2").hide();
+
+	   }
+});
+
+$("#box2-2-phong").change(function(){
+   if($(this).val()=="box2-2-phong0")
+	   {    
+		   $("div#box2-2-phong0").show();
+		   $("div#box2-2-phong1").hide();
+		   $("div.box2-2-phong-chitieu").hide();
+		   $("div.box2-2-chitieu").show();
+		   
+	   }
+	if($(this).val()=="box2-2-phong1") 
+	   {    
+		   $("div#box2-2-phong0").hide();
+		   $("div#box2-2-phong1").show();
+		   $("div.box2-2-phong-chitieu").show();
+		   $("div.box2-2-chitieu").hide();
+	   }
+	if($(this).val()=="box2-2-phong2") 
+	   {    
+		   $("div#box2-2-phong0").hide();
+		   $("div#box2-2-phong1").show();
+		   $("div.box2-2-phong-chitieu").show();
+		   $("div.box2-2-chitieu").hide();
+	   }
+	if($(this).val()=="box2-2-phong3") 
+	   {    
+		  $("div#box2-2-phong0").hide();
+		   $("div#box2-2-phong1").show();
+		   $("div.box2-2-phong-chitieu").show();
+		   $("div.box2-2-chitieu").hide();
+	   }
+	if($(this).val()=="box2-2-phong4") 
+	   {  
+		   $("div#box2-2-phong0").hide();
+		   $("div#box2-2-phong1").show();
+		   $("div.box2-2-phong-chitieu").show();
+		   $("div.box2-2-chitieu").hide();
+	   }
+});
+	
+$("#box2-2-chitieu").change(function(){
+   if($(this).val()=="box2-2-1")
+	   {    
+		   $("div#box2-2-1").show();
+		   $("div#box2-2-2").hide();
+		   
+	   }
+	if($(this).val()=="box2-2-2") 
+	   {    
+		   $("div#box2-2-1").hide();
+		   $("div#box2-2-2").show();
+	   }
+	if($(this).val()=="box2-2-3") 
+	   {    
+		   $("div#box2-2-1").hide();
+		   $("div#box2-2-2").show();
+	   }
+	if($(this).val()=="box2-2-4") 
+	   {    
+		  $("div#box2-2-1").hide();
+		   $("div#box2-2-2").show();
+	   }
+	if($(this).val()=="box2-2-5") 
+	   {  
+		   $("div#box2-2-1").hide();
+		   $("div#box2-2-2").show();
+	   }
+});
+$("#box2-2-phong-chitieu").change(function(){
+   if($(this).val()=="box2-2-phong-chitieu0")
+	   {    
+		   $("div#box2-2-phong1-1").show();
+		   $("div#box2-2-phong1-2").hide();
+		   
+	   }
+	if($(this).val()=="box2-2-phong-chitieu1") 
+	   {    
+		   $("div#box2-2-phong1-1").hide();
+		   $("div#box2-2-phong1-2").show();
+	   }
+	if($(this).val()=="box2-2-phong-chitieu2") 
+	   {    
+		   $("div#box2-2-phong1-1").hide();
+		   $("div#box2-2-phong1-2").show();
+	   }
+	if($(this).val()=="box2-2-phong-chitieu3") 
+	   {    
+		  $("div#box2-2-phong1-1").hide();
+		   $("div#box2-2-phong1-2").show();
+	   }
+	if($(this).val()=="box2-2-phong-chitieu4") 
+	   {  
+		   $("div#box2-2-phong1-1").hide();
+		   $("div#box2-2-phong1-2").show();
+	   }
+});
+});
+</script>
+</body>
+</html>

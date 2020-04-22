@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sale App</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link href="select2/css/select2.min.css" rel="stylesheet">
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <aside id="sidebar" class="nano">
+        <div class="nano-content">
+            <div class="logo-container"><span class="logo"></span></div>
+            <menu class="menu-segment">
+                <ul>
+                    <li>
+                        <a href="chien-dich.html">
+                            <span class="ic ic_nav_1"></span>CHIẾN DỊCH</a>
+                    </li>
+                    <li>
+                        <a href="san-pham.html">
+                            <span class="ic ic_nav_2"></span>SẢN PHẨM</a>
+                    </li>
+                    <li>
+                        <a href="p2-1-1-0-thong-tin-khach-hang.html">
+                            <span class="ic ic_nav_3"></span>QUẢN LÝ KH</a>
+                    </li>
+                    <li>
+                        <a href="p3-1-1-kich-ban-ban-hang.html">
+                            <span class="ic ic_nav_4"></span>KỊCH BẢN
+                            <br> BÁN HÀNG</a>
+                    </li>
+                    <li>
+                        <a href="p6-1-1-salebook.html">
+                            <span class="ic ic_nav_8"></span>SALES<br>PLAYBOOK</a>
+                    </li>
+                    <li class="active">
+                        <a href="kpi-1.html">
+                            <span class="ic ic_nav_5"></span>KẾT QUẢ KPI</a>
+                    </li>
+					<li>
+                        <a href="kpi-2.html">
+                            <span class="ic ic_nav_9"></span>KPI THỰC HIỆN</a>
+                    </li>
+					<li>
+                        <a href="thi-dua.html">
+                            <span class="ic ic_nav_10"></span>THI ĐUA<br>NỘI BỘ</a>
+                    </li>
+                    <li>
+                        <a href="p4-1-1-cong-cu-tinh.html">
+                            <span class="ic ic_nav_6"></span>CÔNG CỤ TÍNH</a>
+                    </li>
+                    <li>
+                        <a href="p5-1-1-ATM.html">
+                            <span class="ic ic_nav_7"></span>MẠNG LƯỚI</a>
+                    </li>
+                </ul>
+            </menu>
+        </div>
+    </aside>
+    <main id="main">
+        <div class="overlay"></div>
+        <header class="header">
+            <h1 class="page-title"><a class="sidebar-toggle-btn trigger-toggle-sidebar"><span class="line"></span><span class="line"></span><span class="line"></span></a><img src="images/saleapp.svg" alt="sale app"><a></a></h1>
+			<div class="search-box">
+                <div class="search-box-cont">
+                    
+                    <div class="search-box-close">
+                        <div class="search-box-close-1"></div>
+                        <div class="search-box-close-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="user__wrap">
+                <div class="dropdown user">
+                    <div href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="user__image">
+                            <div class="user__image__notification">14</div>
+                            <div class="user__image__wrap"><img src="images/user.jpg" alt="" class=""></div>
+                        </div>
+                        <div class="user__info">
+                            <div class="user__info__name">Đỗ Tuệ Linh</div>
+                            <div class="user__info__branch">Chi nhánh Đống Đa, Hà Nội</div>
+                        </div>
+                    </div>
+                    <ul class=" nav dropdown-menu" aria-labelledby="dLabel">
+                        <li>
+                            <a href="p2-2-2-0-yeu-thich.html"><img src="images/user1.svg" alt="">
+                                <span>Yêu thích</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-1-0-thong-bao.html"><img src="images/user2.svg" alt="">
+                                <span class="user__notification">14</span>
+                                <span>Thông báo</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-4-0-thu.html"><img src="images/user3.svg" alt="">
+                                <span>Hòm thư</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-3-0-lich-su.html"><img src="images/user4.svg" alt="">
+                                <span>Lịch sử truy cập</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/user5.svg" alt="">
+                                <span>Đổi mật khẩu</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/user6.svg" alt="">
+                                <span>Đăng xuất</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div id="main-nano-wrapper" class="main-wrap main-wrap--kpi">
+            <div class="kpi-wrap">
+                <div class="product-tab__wrap">
+                    <div class="dragscroll">
+                        <ul class="product-tab__name">
+                            <li class="active">
+                                <div data-toggle="tab" href="#home"> KPI so với mục tiêu</div>
+                            </li>
+                            <li>
+                                <div data-toggle="tab" href="#tab1"> KPI so sánh</div>
+                            </li>
+                            <li>
+                                <div data-toggle="tab" href="#tab2">KPI phòng</div>
+                            </li>
+                            <li>
+                                <div data-toggle="tab" href="#tab3">KPI nhân viên</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="kpi__tab__content nano nano2">
+                    <div class="nano-content">
+                        <div id="home" class="product-tab__content__pane in active">
+                            <div class="kpi">
+                                <div class="kpi__top">
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <div class="kpi__subtext">
+                                                KPI so với mục tiêu: là biểu đồ so sánh chỉ tiêu KPI giữa kết quả thực tế của Chi nhánh tính theo 12 tháng trong năm hiện tại.
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="kpi__view-kpi">
+                                                <div class="button button__view-kpi">
+                                                    Xem kết quả
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="graph1" class="kpi__graph"></div>
+                            </div>
+                        </div>
+                        <div id="tab1" class="product-tab__content__pane">
+                            <div class="kpi">
+                                <div class="kpi__top">
+                                    <div class="kpi__top__check-box">
+                                        <label class="label--checkbox" tabindex="0">
+                                            <input id="" type="checkbox" class="checkbox" role="presentation" tabindex="-1"> <span class=" checkbox__custom1"></span> <span class="checkbox__label checkbox__label--1">Theo chi nhánh</span></label>
+                                        <label class="label--checkbox" tabindex="0">
+                                            <input id="" type="checkbox" class="checkbox" role="presentation" tabindex="-1"> <span class=" checkbox__custom1"></span> <span class="checkbox__label checkbox__label--1">Theo phòng</span></label>
+                                        <label class="label--checkbox" tabindex="0">
+                                            <input id="" type="checkbox" class="checkbox" role="presentation" tabindex="-1"> <span class=" checkbox__custom1"></span> <span class="checkbox__label checkbox__label--1">Theo nhân viên</span></label>
+                                    </div>
+                                    <div class="kpi__subtext">
+                                        KPI so sánh theo chi nhánh: là biểu đồ so sánh chỉ tiêu KPI giữa các chi nhánh trong khu vực, toàn hệ thống
+                                    </div>
+                                    <div class="kpi__top__dropdown">
+                                        <div class="ul">
+                                            <div class="li">
+                                                <div class="kpi__dropdown__wrap">
+                                                    <div class="kpi__dropdown__label">Chỉ tiêu</div>
+                                                    <div class="kpi__dropdown__select">
+                                                        <select class="kpi__dropdown__input" name="">
+                                                            <option value="hn">Huy động bình quân trực tiếp</option>
+                                                            <option value="hcm">Huy động bình quân trực tiếp 2</option>
+                                                            <option value="hcm">Tín dụng</option>
+                                                            <option value="hcm">Huy động bình quân trực tiếp 42</option>
+                                                            <option value="hcm">Huy động bình quân trực tiếp 23</option>
+                                                            <option value="hcm">Huy động bình quân trực tiếp 42</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="li">
+                                                <div class="kpi__dropdown__wrap">
+                                                    <div class="kpi__dropdown__label">Cấp độ so sánh</div>
+                                                    <div class="kpi__dropdown__select">
+                                                        <select class="kpi__dropdown__input" name="">
+                                                            <option value="hn">Khu vực</option>
+                                                            <option value="hcm">Khu vực 2</option>
+                                                            <option value="hcm">Khu vực 3</option>
+                                                            <option value="hcm">Khu vực 42</option>
+                                                            <option value="hcm">Khu vực 23</option>
+                                                            <option value="hcm">Khu vực 42</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="li">
+                                                <div class="kpi__dropdown__wrap">
+                                                    <div class="kpi__dropdown__label">Tháng</div>
+                                                    <div class="kpi__dropdown__select">
+                                                        <select class="kpi__dropdown__input" name="">
+                                                            <option value="hn">01/2017</option>
+                                                            <option value="hcm">02/2017</option>
+                                                            <option value="hcm">03/2017</option>
+                                                            <option value="hcm">04/2017</option>
+                                                            <option value="hcm">05/2017</option>
+                                                            <option value="hcm">06/2017</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="li">
+                                                <div class="kpi__view-kpi text-left">
+                                                    <div class="button button__view-kpi">
+                                                        Xem kết quả
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="graph2" class="kpi__graph"></div>
+                            </div>
+                        </div>
+                        <div id="tab2" class="product-tab__content__pane">
+                            <div class="kpi">
+                                <div class="kpi__top kpi__top--border">
+                                    <div class="row">
+                                        <div class="col-lg-5">
+                                            <div class="kpi__subtext"> KPI chi tiết phòng: Là bảng dữ liệu theo chỉ tiêu KPI của từng Phòng trong Chi nhánh.
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-7 text-right">
+                                            <div class="kpi__top__dropdown">
+                                                <div class="ul">
+                                                    <div class="li">
+                                                        <div class="kpi__dropdown__wrap">
+                                                            <div class="kpi__dropdown__label">Chỉ tiêu</div>
+                                                            <div class="kpi__dropdown__select kpi__dropdown__select--sm">
+                                                                <select class="kpi__dropdown__input" name="">
+                                                                    <option value="hn">Huy động bình quân trực tiếp</option>
+                                                                    <option value="hcm">Huy động bình quân trực tiếp 2</option>
+                                                                    <option value="hcm">Hoạt động Ngoài trời</option>
+                                                                    <option value="hcm">Huy động bình quân trực tiếp 42</option>
+                                                                    <option value="hcm">Huy động bình quân trực tiếp 23</option>
+                                                                    <option value="hcm">Huy động bình quân trực tiếp 42</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="li">
+                                                        <div class="kpi__dropdown__wrap">
+                                                            <div class="kpi__dropdown__label">Tháng</div>
+                                                            <div class="kpi__dropdown__select kpi__dropdown__select--sm">
+                                                                <select class="kpi__dropdown__input" name="">
+                                                                    <option value="hn">01/2017</option>
+                                                                    <option value="hcm">02/2017</option>
+                                                                    <option value="hcm">03/2017</option>
+                                                                    <option value="hcm">04/2017</option>
+                                                                    <option value="hcm">05/2017</option>
+                                                                    <option value="hcm">06/2017</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="li">
+                                                        <div class="kpi__view-kpi text-left">
+                                                            <div class="button button__view-kpi">
+                                                                Xem kết quả
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="kpi__table">
+                                    <div class="kpi__table__header">Bảng kết quả KPI Phòng - Chỉ tiêu Tổng điểm KPI</div>
+                                    <div class="table table--kpi">
+                                        <div class="table__header">
+                                            
+                                            <div class="table__excel table__excel--kpi">
+                                                <div class="button button--excel">
+                                                    <div class="button__icon button__icon--excel"><img src="images/excel.svg" alt=""></div>
+                                                    <div class="button__text button__text--excel">Xuất Excel</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="table__body">
+                                            <table class="table__body__table table__body__table--kpi">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">STT</th>
+                                                        <th>Mã CN</th>
+                                                        <th>Tên CN</th>
+                                                        <th>Mã phòng</th>
+                                                        <th>Tên phòng</th>
+                                                        <th>Tỷ trọng KPI</th>
+                                                        <th>Điểm KPI</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+                                                        <td>CN001</td>
+                                                        <td>Chi nhánh Andorra</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>98%</td>
+                                                        <td>152</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2</td>
+                                                        <td>CN002</td>
+                                                        <td>Chi nhánh Ghana</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>94%</td>
+                                                        <td>160</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">3</td>
+                                                        <td>CN003</td>
+                                                        <td>Chi nhánh Serbia</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>72%</td>
+                                                        <td>131</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">4</td>
+                                                        <td>CN004</td>
+                                                        <td>Chi nhánh Bolivia</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>74%</td>
+                                                        <td>120</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">5</td>
+                                                        <td>CN005</td>
+                                                        <td>Chi nhánh Kyrgyzstan</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>76%</td>
+                                                        <td>147</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">6</td>
+                                                        <td>CN006</td>
+                                                        <td>Chi nhánh Grenada</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>95%</td>
+                                                        <td>150</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">7</td>
+                                                        <td>CN007</td>
+                                                        <td>Chi nhánh Lesotho</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>85%</td>
+                                                        <td>111</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">8</td>
+                                                        <td>CN008</td>
+                                                        <td>Chi nhánh Liechtenstein</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>85%</td>
+                                                        <td>140</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">9</td>
+                                                        <td>CN009</td>
+                                                        <td>Chi nhánh Macedonia</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>73%</td>
+                                                        <td>125</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">10</td>
+                                                        <td>CN0010</td>
+                                                        <td>Chi nhánh United Arab Emirates</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>85%</td>
+                                                        <td>126</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="table__footer table__footer--kpi text-right">
+											<div class="table__pager table__pager--kpi">
+                                                <span class="table__pager__text">Hiển thị</span>
+                                                <select class="table__pager__select">
+                                                    <option>10</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                                <span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+                                            </div>
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab3" class="product-tab__content__pane">
+                            <div class="kpi">
+                                <div class="kpi__top kpi__top--border">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="kpi__subtext">KPI chi tiết Nhân viên: Là bảng dữ liệu theo chỉ tiêu KPI của từng CBNV trong các phòng thuộc Chi nhánh.
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 text-right">
+                                            <div class="kpi__top__dropdown">
+                                                <div class="ul">
+                                                    <div class="li">
+                                                        <div class="kpi__dropdown__wrap">
+                                                            <div class="kpi__dropdown__label">Chỉ tiêu</div>
+                                                            <div class="kpi__dropdown__select kpi__dropdown__select--sm">
+                                                                <select class="kpi__dropdown__input" name="">
+                                                                    <option value="hn">Huy động bình quân trực tiếp</option>
+                                                                    <option value="hcm">Huy động bình quân trực tiếp 2</option>
+                                                                    <option value="hcm">Hoạt động Ngoài trời</option>
+                                                                    <option value="hcm">Huy động bình quân trực tiếp 42</option>
+                                                                    <option value="hcm">Huy động bình quân trực tiếp 23</option>
+                                                                    <option value="hcm">Huy động bình quân trực tiếp 42</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="li">
+                                                        <div class="kpi__dropdown__wrap">
+                                                            <div class="kpi__dropdown__label">Phòng</div>
+                                                            <div class="kpi__dropdown__select kpi__dropdown__select--sm">
+                                                                <select class="kpi__dropdown__input" name="">
+                                                                    <option value="hn">Tất cả</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="li">
+                                                        <div class="kpi__dropdown__wrap">
+                                                            <div class="kpi__dropdown__label">Tháng</div>
+                                                            <div class="kpi__dropdown__select kpi__dropdown__select--sm">
+                                                                <select class="kpi__dropdown__input" name="">
+                                                                    <option value="hn">01/2017</option>
+                                                                    <option value="hcm">02/2017</option>
+                                                                    <option value="hcm">03/2017</option>
+                                                                    <option value="hcm">04/2017</option>
+                                                                    <option value="hcm">05/2017</option>
+                                                                    <option value="hcm">06/2017</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="li">
+                                                        <div class="kpi__view-kpi text-left">
+                                                            <div class="button button__view-kpi">
+                                                                Xem kết quả
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="kpi__table">
+                                    <div class="kpi__table__header">Bảng kết quả KPI Nhân Viên - Chỉ tiêu Huy động vốn</div>
+                                    <div class="table table--kpi">
+                                        <div class="table__header">
+                                            
+                                            <div class="table__excel table__excel--kpi">
+                                                <div class="button button--excel">
+                                                    <div class="button__icon button__icon--excel"><img src="images/excel.svg" alt=""></div>
+                                                    <div class="button__text button__text--excel">Xuất Excel</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="table__body">
+                                            <table class="table__body__table table__body__table--kpi">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">STT</th>
+                                                        <th>Mã CN</th>
+                                                        <th>Tên CN</th>
+                                                        <th>Mã phòng</th>
+                                                        <th>Tên phòng</th>
+                                                        <th>Mã cán bộ</th>
+                                                        <th>Tên cán bộ</th>
+                                                        <th>Tên chỉ tiêu KPI</th>
+                                                        <th>Tỷ trọng KPI</th>
+                                                        <th>Sổ kế hoạch</th>
+                                                        <th> Số thực hiện</th>
+                                                        <th>Điểm KPI</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+                                                        <td>CN001</td>
+                                                        <td>Chi nhánh Andorra</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>NV001</td>
+                                                        <td>Shantae Hohney</td>
+                                                        <td>Huy động vốn</td>
+                                                        <td>98%</td>
+                                                        <td>213</td>
+                                                        <td>170</td>
+                                                        <td>152</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2</td>
+                                                        <td>CN002</td>
+                                                        <td>Chi nhánh Ghana</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>NV002</td>
+                                                        <td>Kyle Shebby</td>
+                                                        <td>Huy động vốn</td>
+                                                        <td>94%</td>
+                                                        <td>243</td>
+                                                        <td>170</td>
+                                                        <td>160</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">3</td>
+                                                        <td>CN003</td>
+                                                        <td>Chi nhánh Serbia</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>NV003</td>
+                                                        <td>Maurice Boniol</td>
+                                                        <td>Huy động vốn</td>
+                                                        <td>72%</td>
+                                                        <td>202</td>
+                                                        <td>170</td>
+                                                        <td>131</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">4</td>
+                                                        <td>CN004</td>
+                                                        <td>Chi nhánh Bolivia</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>NV004</td>
+                                                        <td>Gerry Anderberg</td>
+                                                        <td>Huy động vốn</td>
+                                                        <td>74%</td>
+                                                        <td>224</td>
+                                                        <td>170</td>
+                                                        <td>120</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">5</td>
+                                                        <td>CN005</td>
+                                                        <td>Chi nhánh Kyrgyzstan</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>NV005</td>
+                                                        <td>Celestine Coran</td>
+                                                        <td>Huy động vốn</td>
+                                                        <td>76%</td>
+                                                        <td>226</td>
+                                                        <td>170</td>
+                                                        <td>147</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">6</td>
+                                                        <td>CN006</td>
+                                                        <td>Chi nhánh Grenada</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>NV006</td>
+                                                        <td>Rory Vestal</td>
+                                                        <td>Huy động vốn</td>
+                                                        <td>95%</td>
+                                                        <td>230</td>
+                                                        <td>170</td>
+                                                        <td>150</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">7</td>
+                                                        <td>CN007</td>
+                                                        <td>Chi nhánh Lesotho</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>NV007</td>
+                                                        <td>Gertha Gonterman</td>
+                                                        <td>Huy động vốn</td>
+                                                        <td>85%</td>
+                                                        <td>233</td>
+                                                        <td>170</td>
+                                                        <td>111</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">8</td>
+                                                        <td>CN008</td>
+                                                        <td>Chi nhánh Liechtenstein</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>NV008</td>
+                                                        <td>Micki Brighi</td>
+                                                        <td>Huy động vốn</td>
+                                                        <td>85%</td>
+                                                        <td>238</td>
+                                                        <td>170</td>
+                                                        <td>140</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">9</td>
+                                                        <td>CN009</td>
+                                                        <td>Chi nhánh Macedonia</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>NV009</td>
+                                                        <td>Marisela Tradup</td>
+                                                        <td>Huy động vốn</td>
+                                                        <td>73%</td>
+                                                        <td>212</td>
+                                                        <td>170</td>
+                                                        <td>125</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">10</td>
+                                                        <td>CN0010</td>
+                                                        <td>Chi nhánh United Arab Emirates</td>
+                                                        <td>P1234</td>
+                                                        <td>Phòng KH Thể nhân</td>
+                                                        <td>NV0010</td>
+                                                        <td>Jerry Koehler</td>
+                                                        <td>Huy động vốn</td>
+                                                        <td>85%</td>
+                                                        <td>245</td>
+                                                        <td>170</td>
+                                                        <td>126</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="table__footer table__footer--kpi text-right">
+											<div class="table__pager table__pager--kpi">
+                                                <span class="table__pager__text">Hiển thị</span>
+                                                <select class="table__pager__select">
+                                                    <option>10</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                                <span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+                                            </div>
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/highcharts.js"></script>
+    <script type="text/javascript" src="js/exporting.js"></script>
+    <script src="select2/js/select2.full.min.js"></script>
+    <script src="js/datepicker/moment-with-locales.js"></script>
+    <script src="js/datepicker/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

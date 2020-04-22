@@ -1,0 +1,26 @@
+<svg width="17" height="17" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-8550 3647)">
+<g id="Group">
+<g id="Rectangle 7">
+<use xlink:href="#path0_fill" transform="translate(8550.18 -3646.41)" fill="#31AE27"/>
+</g>
+<g id="Line">
+<use xlink:href="#path1_stroke" transform="translate(8553.95 -3636.19)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path2_stroke" transform="translate(8553.95 -3634.22)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(8561.42 -3644.45)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 2.14089C 0 0.958509 1.17014 0 2.61358 0L 11.2929 0C 11.9388 0 12.5619 0.195947 13.0419 0.550042L 15.6881 2.50218C 16.2385 2.90817 16.5527 3.48636 16.5527 4.09303L 16.5527 13.559C 16.5527 14.7413 15.3825 15.6999 13.9391 15.6999L 2.61358 15.6999C 1.17014 15.6999 0 14.7413 0 13.559L 0 2.14089Z"/>
+<path id="path1_stroke" d="M 0 0L 8.48116 0L 8.48116 -1L 0 -1L 0 0Z"/>
+<path id="path2_stroke" d="M 0 0.5L 4.71176 0.5L 4.71176 -0.5L 0 -0.5L 0 0.5Z"/>
+<path id="path3_fill" d="M -7.2164e-07 1.50021C -7.2164e-07 1.77932 0.28376 1.98865 0.662107 1.98865L 2.69572 1.98865L -7.2164e-07 0L -7.2164e-07 1.50021Z"/>
+</defs>
+</svg>

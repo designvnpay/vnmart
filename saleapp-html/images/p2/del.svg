@@ -1,0 +1,20 @@
+<svg id="del" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="delete" transform="translate(-13.379 3)">
+    <g id="Group_611" data-name="Group 611" transform="translate(17.379 2.577)">
+      <g id="Group_610" data-name="Group 610">
+        <g id="Group_609" data-name="Group 609">
+          <path id="Path_928" data-name="Path 928" d="M306.442,175.105l-1.344-.049-.291,7.955,1.344.049Z" transform="translate(-295.171 -171.764)" fill="rgba(214,0,0,0.99)"/>
+          <rect id="Rectangle_52" data-name="Rectangle 52" width="1.345" height="7.955" transform="translate(7.328 3.317)" fill="rgba(214,0,0,0.99)"/>
+          <path id="Path_929" data-name="Path 929" d="M160.054,183l-.291-7.955-1.344.049.291,7.955Z" transform="translate(-153.691 -171.757)" fill="rgba(214,0,0,0.99)"/>
+          <path id="Path_930" data-name="Path 930" d="M17.379,76.867v1.345h1.4l1.111,12.63a.672.672,0,0,0,.67.613h9.613a.672.672,0,0,0,.67-.614l1.111-12.63h1.424V76.867Zm12.18,13.244H21.177l-1.047-11.9H30.606Z" transform="translate(-17.379 -76.867)" fill="rgba(214,0,0,0.99)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_613" data-name="Group 613" transform="translate(22.062)">
+      <g id="Group_612" data-name="Group 612">
+        <path id="Path_931" data-name="Path 931" d="M162.589,0H158.2a1.122,1.122,0,0,0-1.12,1.12V3.249h1.345v-1.9h3.944v1.9h1.345V1.12A1.122,1.122,0,0,0,162.589,0Z" transform="translate(-157.076)" fill="rgba(214,0,0,0.99)"/>
+      </g>
+    </g>
+  </g>
+  <rect id="Rectangle_53" data-name="Rectangle 53" width="24" height="24" fill="none"/>
+</svg>

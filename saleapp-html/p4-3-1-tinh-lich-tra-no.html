@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sale App</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link href="select2/css/select2.min.css" rel="stylesheet">
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <aside id="sidebar" class="nano">
+        <div class="nano-content">
+            <div class="logo-container">
+                <span class="logo"></span>
+            </div>
+            <menu class="menu-segment">
+                <ul>
+                    <li>
+                        <a href="chien-dich.html">
+                            <span class="ic ic_nav_1"></span>CHIẾN DỊCH</a>
+                    </li>
+                    <li>
+                        <a href="san-pham.html">
+                            <span class="ic ic_nav_2"></span>SẢN PHẨM</a>
+                    </li>
+                    <li>
+                        <a href="p2-1-1-0-thong-tin-khach-hang.html">
+                            <span class="ic ic_nav_3"></span>QUẢN LÝ KH</a>
+                    </li>
+                    <li>
+                        <a href="p3-1-1-kich-ban-ban-hang.html">
+                            <span class="ic ic_nav_4"></span>KỊCH BẢN
+                            <br> BÁN HÀNG</a>
+                    </li>
+                    <li>
+                        <a href="p6-1-1-salebook.html">
+                            <span class="ic ic_nav_8"></span>SALES<br>PLAYBOOK</a>
+                    </li>
+                    <li>
+                        <a href="kpi-1.html">
+                            <span class="ic ic_nav_5"></span>KẾT QUẢ KPI</a>
+                    </li>
+<li>
+                        <a href="kpi-2.html">
+                            <span class="ic ic_nav_9"></span>KPI THỰC HIỆN</a>
+                    </li>
+					<li>
+                        <a href="thi-dua.html">
+                            <span class="ic ic_nav_10"></span>THI ĐUA<br>NỘI BỘ</a>
+                    </li>
+                    <li class="active">
+                        <a href="p4-1-1-cong-cu-tinh.html">
+                            <span class="ic ic_nav_6"></span>CÔNG CỤ TÍNH</a>
+                    </li>
+                    <li>
+                        <a href="p5-1-1-ATM.html">
+                            <span class="ic ic_nav_7"></span>MẠNG LƯỚI</a>
+                    </li>
+                </ul>
+            </menu>
+        </div>
+    </aside>
+    <main id="main">
+        <div class="overlay"></div>
+        <header class="header">
+            <h1 class="page-title">
+                <a class="sidebar-toggle-btn trigger-toggle-sidebar">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </a><img src="images/saleapp.svg" alt="sale app"><a></a></h1>
+            <div class="search-box">
+                <div class="search-box-cont">
+                    <input id="" class="autocomplete" placeholder="Tìm kiếm chiến dịch hoặc sản phẩm liên quan" spellcheck="false" title="type &quot;a&quot;">
+                    <div class="search-box-close">
+                        <div class="search-box-close-1"></div>
+                        <div class="search-box-close-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="user__wrap">
+                <div class="dropdown user">
+                    <div href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="user__image">
+                            <div class="user__image__notification">14</div>
+                            <div class="user__image__wrap"><img src="images/user.jpg" alt="" class=""></div>
+                        </div>
+                        <div class="user__info">
+                            <div class="user__info__name">Đỗ Tuệ Linh</div>
+                            <div class="user__info__branch">Chi nhánh Đống Đa, Hà Nội</div>
+                        </div>
+                    </div>
+                    <ul class=" nav dropdown-menu" aria-labelledby="dLabel">
+                        <li>
+                            <a href="p2-2-2-0-yeu-thich.html"><img src="images/user1.svg" alt="">
+                                <span>Yêu thích</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-1-0-thong-bao.html"><img src="images/user2.svg" alt="">
+                                <span class="user__notification">14</span>
+                                <span>Thông báo</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-4-0-thu.html"><img src="images/user3.svg" alt="">
+                                <span>Hòm thư</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="p2-2-3-0-lich-su.html"><img src="images/user4.svg" alt="">
+                                <span>Lịch sử truy cập</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/user5.svg" alt="">
+                                <span>Đổi mật khẩu</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/user6.svg" alt="">
+                                <span>Đăng xuất</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="fillter-tool">
+                <li class="unread"> <img src="images/file.svg" alt="">
+                    <div class="unread__text">Danh sách</div>
+                </li>
+            </ul>
+        </header>
+        <div id="main-nano-wrapper" class="main-wrap main-wrap--kpi">
+            <div class="kpi-wrap">
+                <div class="kpi__top kpi__top--fixed">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="kpi__dropdown__label">
+                                <span class="kpi__top__text-main"><b>Tính lịch trả nợ</b></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="kpi__view-kpi"><a href="p4-1-1-cong-cu-tinh.html" class="button button-white button-bordered position-right button__view-kpi button__view-kpi--lg"><img src="images/p2/left-arrow-green.svg"> Về công cụ tính</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-tab__wrap">
+                    <div class="dragscroll">
+                        <ul class="product-tab__name">
+                            <li>
+                                <div data-toggle="tab" href="#home">Ân hạn</div>
+                            </li>
+                            <li>
+                                <div data-toggle="tab" href="#tab1">Lãi suất khác nhau</div>
+                            </li>
+                            <li>
+                                <div data-toggle="tab" href="#tab2">Lịch trả nợ không đều</div>
+                            </li>
+							<li class="active">
+                                <div data-toggle="tab" href="#tab3">Giải ngân nhiều lần</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-tab__content nano nano2">
+                    <div class="nano-content">
+                        <div id="home" class="product-tab__content__pane">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Khách hàng</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Số tiền vay</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">VND</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Lãi suất ưu đãi</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">%/năm</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Thời gian ưu đãi lãi suất</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">Tháng</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <button class="button button__view-kpi button__view-kpi--lg" data-toggle="modal" data-target="#modal-add"><i class="icon-calendar2"></i> Tính lịch trả nợ
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Thời gian ân hạn gốc</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">Tháng</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Thời gian vay</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">Tháng</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label two-lines">Lãi suất sau thời gian ưu đãi</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">%/năm</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Ngày giải ngân</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom datepicker">
+                                                    <div class="input-custom-icon">
+                                                        <i class="icon-calendar"></i>
+                                                    </div>
+                                                </div>
+                                                <label for="" class="col-form-label"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="section-with-border">
+                                        <h4 class="text-head"><b>Kết quả</b></h4>
+                                        <table class="table__body__table table__body__table--kpi table--small">
+                                            <caption><b>Tổng hợp thông tin vay</b></caption>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Gốc trả từng kỳ</td>
+                                                    <td>3.000.000 </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Số lần trả gốc</td>
+                                                    <td>24</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Số lần trả lãi</td>
+                                                    <td>24</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tổng lãi phải trả</td>
+                                                    <td>15.000.000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="table__header table__header--margin10">
+                                            <div class="table__pager table__pager--kpi">
+                                                <span class="table__pager__text">Hiển thị</span>
+                                                <select class="table__pager__select">
+                                                    <option>10</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                                <span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+                                            </div>
+                                            <div class="table__excel table__excel--kpi">
+                                                <div class="button button--excel">
+                                                    <div class="button__text button__text--excel"><i class="icon-file-pdf"></i> Xuất PDF</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <table class="table__body__table table__body__table--kpi">
+                                            <caption><b>Lịch trả nợ</b></caption>
+                                            <thead>
+                                                <tr>
+                                                    <th>Kỳ</th>
+                                                    <th>Ngày</th>
+                                                    <th>Gốc đầu kỳ</th>
+                                                    <th>Gốc trả trong kỳ</th>
+                                                    <th>Lãi trả trong kỳ</th>
+                                                    <th>Tổng tiền thanh toán trong kỳ</th>
+                                                    <th>Gốc cuối kỳ</th>
+                                                    <th>Tổng gốc đã trả</th>
+                                                    <th>Tổng lãi đã trả</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> 0</td>
+                                                    <td> 02/04/2018</td>
+                                                    <td> 100.000.000</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td> 1</td>
+                                                    <td> 02/04/2018</td>
+                                                    <td> 100.000.000</td>
+                                                    <td> 3.000.000</td>
+                                                    <td> 500.000</td>
+                                                    <td> 3.500.000</td>
+                                                    <td> 97.000.000</td>
+                                                    <td> 3.000.000</td>
+                                                    <td> 500.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>02/05/2018</td>
+                                                    <td>97.000.000</td>
+                                                    <td>3.000.000</td>
+                                                    <td>500.000</td>
+                                                    <td>3.500.000</td>
+                                                    <td>94.000.000</td>
+                                                    <td>6.000.000</td>
+                                                    <td>1.000.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>02/06/2018</td>
+                                                    <td>97.000.000</td>
+                                                    <td>3.000.000</td>
+                                                    <td>500.000</td>
+                                                    <td>3.500.000</td>
+                                                    <td>94.000.000</td>
+                                                    <td>6.000.000</td>
+                                                    <td>1.000.000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="table__footer table__footer--kpi text-right">
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab1" class="product-tab__content__pane">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Khách hàng</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Số tiền vay</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">VND</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Thời gian vay</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">Tháng</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Thời gian ân hạn gốc</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">Tháng</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <button class="button button__view-kpi button__view-kpi--lg" data-toggle="modal" data-target="#modal-add"><i class="icon-calendar2"></i> Tính lịch trả nợ
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Chọn thời gian ưu đãi lãi suất (năm)</label>
+                                        <div class="col-sm-8">
+                                            <div class="radio-horizontal">
+                                                <div class="radio radio-custom">
+                                                    <input id="form-radio1" class="magic-radio" type="radio" name="form-radio-button" checked="">
+                                                    <label for="form-radio1">
+                                                        <span>1</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio radio-custom">
+                                                    <input id="form-radio2" class="magic-radio" type="radio" name="form-radio-button">
+                                                    <label for="form-radio2">
+                                                        <span>2</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio radio-custom">
+                                                    <input id="form-radio3" class="magic-radio" type="radio" name="form-radio-button">
+                                                    <label for="form-radio3">
+                                                        <span>3</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio radio-custom">
+                                                    <input id="form-radio4" class="magic-radio" type="radio" name="form-radio-button">
+                                                    <label for="form-radio4">
+                                                        <span>4</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio radio-custom">
+                                                    <input id="form-radio5" class="magic-radio" type="radio" name="form-radio-button">
+                                                    <label for="form-radio5">
+                                                        <span>5</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="" placeholder="Lãi suất năm 1">
+                                                </div>
+                                                <label for="" class="col-form-label">%/năm</label>
+                                            </div>
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="" placeholder="Lãi suất năm 2">
+                                                </div>
+                                                <label for="" class="col-form-label">%/năm</label>
+                                            </div>
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="" placeholder="Lãi suất năm 3 trở đi">
+                                                </div>
+                                                <label for="" class="col-form-label">%/năm</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Ngày giải ngân</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom datepicker">
+                                                    <div class="input-custom-icon">
+                                                        <i class="icon-calendar"></i>
+                                                    </div>
+                                                </div>
+                                                <label for="" class="col-form-label"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="section-with-border">
+                                        <h4 class="text-head"><b>Kết quả</b></h4>
+                                        <table class="table__body__table table__body__table--kpi table--small">
+                                            <caption><b>Tổng hợp thông tin vay</b></caption>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Gốc trả từng kỳ</td>
+                                                    <td>3.000.000 </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Số lần trả gốc</td>
+                                                    <td>24</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Số lần trả lãi</td>
+                                                    <td>24</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tổng lãi phải trả</td>
+                                                    <td>15.000.000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="table__header table__header--margin10">
+                                            <div class="table__pager table__pager--kpi">
+                                                <span class="table__pager__text">Hiển thị</span>
+                                                <select class="table__pager__select">
+                                                    <option>10</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                                <span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+                                            </div>
+                                            <div class="table__excel table__excel--kpi">
+                                                <div class="button button--excel">
+                                                    <div class="button__text button__text--excel"><i class="icon-file-pdf"></i> Xuất PDF</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <table class="table__body__table table__body__table--kpi">
+                                            <caption><b>Lịch trả nợ</b></caption>
+                                            <thead>
+                                                <tr>
+                                                    <th>Kỳ</th>
+                                                    <th>Ngày</th>
+                                                    <th>Gốc đầu kỳ</th>
+                                                    <th>Gốc trả trong kỳ</th>
+                                                    <th>Lãi trả trong kỳ</th>
+                                                    <th>Tổng tiền thanh toán trong kỳ</th>
+                                                    <th>Gốc cuối kỳ</th>
+                                                    <th>Tổng gốc đã trả</th>
+                                                    <th>Tổng lãi đã trả</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> 0</td>
+                                                    <td> 02/04/2018</td>
+                                                    <td> 100.000.000</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td> 1</td>
+                                                    <td> 02/04/2018</td>
+                                                    <td> 100.000.000</td>
+                                                    <td> 3.000.000</td>
+                                                    <td> 500.000</td>
+                                                    <td> 3.500.000</td>
+                                                    <td> 97.000.000</td>
+                                                    <td> 3.000.000</td>
+                                                    <td> 500.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>02/05/2018</td>
+                                                    <td>97.000.000</td>
+                                                    <td>3.000.000</td>
+                                                    <td>500.000</td>
+                                                    <td>3.500.000</td>
+                                                    <td>94.000.000</td>
+                                                    <td>6.000.000</td>
+                                                    <td>1.000.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>02/06/2018</td>
+                                                    <td>97.000.000</td>
+                                                    <td>3.000.000</td>
+                                                    <td>500.000</td>
+                                                    <td>3.500.000</td>
+                                                    <td>94.000.000</td>
+                                                    <td>6.000.000</td>
+                                                    <td>1.000.000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="table__footer table__footer--kpi text-right">
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab2" class="product-tab__content__pane">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Khách hàng</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Số tiền vay</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">VND</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Thời gian vay</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">Tháng</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Lãi suất ưu đãi</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">%/năm</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Thời gian ưu đãi lãi suất</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">Tháng</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label two-lines">Lãi suất sau thời gian ưu đãi</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">Tháng</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <button class="button button__view-kpi button__view-kpi--lg" data-toggle="modal" data-target="#modal-add"><i class="icon-calendar2"></i> Tính lịch trả nợ
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Thời gian ân hạn gốc</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">Tháng</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Ngày giải ngân</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom datepicker">
+                                                    <div class="input-custom-icon">
+                                                        <i class="icon-calendar"></i>
+                                                    </div>
+                                                </div>
+                                                <label for="" class="col-form-label"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-lg-4 col-form-label">Số tiền trả gốc 1</label>
+                                        <div class="col-lg-8">
+                                            <div class="group-form">
+                                                <div class="group-input">
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="input-wrap-with-label">
+                                                                    <div class="input-wrap-custom input-short-md">
+                                                                        <input class="input-custom" value="">
+                                                                    </div>
+                                                                    <label for="" class="col-form-label">VND</label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="input-wrap-with-label">
+                                                                    <div class="input-wrap-custom input-short-sm">
+                                                                        <input class="input-custom" value="">
+                                                                    </div>
+                                                                    <label for="" class="col-form-label">Tháng</label>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <div class="group-input-button">
+                                                    <button data-tooltip="tooltip" title="Thêm số tiền trả gốc" class="button button-rounded"><i class="icon-plus3"></i></button>
+													<button data-tooltip="tooltip" title="Đặt lại" class="button button-rounded" style="background-color: #31AE27;"><i class="icon-reload-alt"></i></button>
+                                                </div>
+                                            </div>
+                                            <p class="input-note">Lưu ý: Các tháng còn lại trả đều dư nợ còn lại</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="section-with-border">
+                                        <h4 class="text-head"><b>Kết quả</b></h4>
+                                        <table class="table__body__table table__body__table--kpi table--small">
+                                            <caption><b>Tổng hợp thông tin vay</b></caption>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Gốc trả từng kỳ</td>
+                                                    <td>3.000.000 </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Số lần trả gốc</td>
+                                                    <td>24</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Số lần trả lãi</td>
+                                                    <td>24</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tổng lãi phải trả</td>
+                                                    <td>15.000.000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="table__header table__header--margin10">
+                                            <div class="table__pager table__pager--kpi">
+                                                <span class="table__pager__text">Hiển thị</span>
+                                                <select class="table__pager__select">
+                                                    <option>10</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                                <span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+                                            </div>
+                                            <div class="table__excel table__excel--kpi">
+                                                <div class="button button--excel">
+                                                    <div class="button__text button__text--excel"><i class="icon-file-pdf"></i> Xuất PDF</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <table class="table__body__table table__body__table--kpi">
+                                            <caption><b>Lịch trả nợ</b></caption>
+                                            <thead>
+                                                <tr>
+                                                    <th>Kỳ</th>
+                                                    <th>Ngày</th>
+                                                    <th>Gốc đầu kỳ</th>
+                                                    <th>Gốc trả trong kỳ</th>
+                                                    <th>Lãi trả trong kỳ</th>
+                                                    <th>Tổng tiền thanh toán trong kỳ</th>
+                                                    <th>Gốc cuối kỳ</th>
+                                                    <th>Tổng gốc đã trả</th>
+                                                    <th>Tổng lãi đã trả</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> 0</td>
+                                                    <td> 02/04/2018</td>
+                                                    <td> 100.000.000</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td> 1</td>
+                                                    <td> 02/04/2018</td>
+                                                    <td> 100.000.000</td>
+                                                    <td> 3.000.000</td>
+                                                    <td> 500.000</td>
+                                                    <td> 3.500.000</td>
+                                                    <td> 97.000.000</td>
+                                                    <td> 3.000.000</td>
+                                                    <td> 500.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>02/05/2018</td>
+                                                    <td>97.000.000</td>
+                                                    <td>3.000.000</td>
+                                                    <td>500.000</td>
+                                                    <td>3.500.000</td>
+                                                    <td>94.000.000</td>
+                                                    <td>6.000.000</td>
+                                                    <td>1.000.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>02/06/2018</td>
+                                                    <td>97.000.000</td>
+                                                    <td>3.000.000</td>
+                                                    <td>500.000</td>
+                                                    <td>3.500.000</td>
+                                                    <td>94.000.000</td>
+                                                    <td>6.000.000</td>
+                                                    <td>1.000.000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="table__footer table__footer--kpi text-right">
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						<div id="tab3" class="product-tab__content__pane in active">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Khách hàng</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Số tiền vay</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">VND</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Thời gian vay</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">Tháng</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Thời gian ân hạn gốc</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">Tháng</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+									<div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Thời gian ưu đãi lãi suất (năm)</label>
+                                        <div class="col-sm-8">
+                                            <div class="radio-horizontal">
+                                                <div class="radio radio-custom">
+                                                    <input id="form-radio41" class="magic-radio" type="radio" name="form-radio-button" checked>
+                                                    <label for="form-radio41">
+                                                        <span>1</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio radio-custom">
+                                                    <input id="form-radio42" class="magic-radio" type="radio" name="form-radio-button">
+                                                    <label for="form-radio42">
+                                                        <span>2</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio radio-custom">
+                                                    <input id="form-radio43" class="magic-radio" type="radio" name="form-radio-button">
+                                                    <label for="form-radio43">
+                                                        <span>3</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio radio-custom">
+                                                    <input id="form-radio44" class="magic-radio" type="radio" name="form-radio-button">
+                                                    <label for="form-radio44">
+                                                        <span>4</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio radio-custom">
+                                                    <input id="form-radio45" class="magic-radio" type="radio" name="form-radio-button">
+                                                    <label for="form-radio45">
+                                                        <span>5</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="" placeholder="Lãi suất năm 1">
+                                                </div>
+                                                <label for="" class="col-form-label">%/năm</label>
+                                            </div>
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="" placeholder="Lãi suất năm 2">
+                                                </div>
+                                                <label for="" class="col-form-label">%/năm</label>
+                                            </div>
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="" placeholder="Lãi suất năm 3 trở đi">
+                                                </div>
+                                                <label for="" class="col-form-label">%/năm</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">   
+									<div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Ngày giải ngân</label>
+                                        <div class="col-sm-5">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom datepicker">
+                                                    <div class="input-custom-icon">
+                                                        <i class="icon-calendar"></i>
+                                                    </div>
+                                                </div>
+                                                <label for="" class="col-form-label"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+										<div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Số tiền giải ngân lần 1</label>
+                                        <div class="col-sm-5">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">VND</label>
+                                            </div>
+                                        </div>
+                                    </div>
+										<div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Số tiền giải ngân lần 2</label>
+                                        <div class="col-sm-5">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">VND</label>
+                                            </div>
+                                        </div>
+											<div class="col-sm-3">
+												<input type="text" class="input-custom" placeholder="Tháng thứ" />
+                                        </div>
+                                    </div>
+									<div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Số tiền giải ngân lần 3</label>
+                                        <div class="col-sm-5">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">VND</label>
+                                            </div>
+                                        </div>
+											<div class="col-sm-3">
+												<input type="text" class="input-custom" placeholder="Tháng thứ" />
+                                        </div>
+                                    </div>
+									<div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Số tiền giải ngân lần 4</label>
+                                        <div class="col-sm-5">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">VND</label>
+                                            </div>
+                                        </div>
+											<div class="col-sm-3">
+												<input type="text" class="input-custom" placeholder="Tháng thứ" />
+                                        </div>
+                                    </div>
+									<button class="btn btn-link">
+                                                    <img src="images/p2/plus_active.svg" alt="" /> Thêm số lần giải ngân
+                                                </button>
+									<button class="btn btn-link">
+										<i class="icon-reset" style="color: #249C28;float: left;margin: 2px 5px 0 0;"></i> Đặt lại
+									</button>
+										<div class="box_ther">
+										<div class="form-group form-group--b">
+											
+    <span class="checkbox">
+                                                                    <input id="form-checkbox1" class="magic-checkbox" type="checkbox">
+                                                                    <label for="form-checkbox1">Khách hàng trả nợ trước hạn</label>
+                                                                    </span>
+
+											</div>
+										
+<div class="collapse" id="collapse">
+  <div class="card card-body">	  	  
+	  <div class="add_other">
+    <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Trả vào tháng thứ</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+	  <div class="form-group row form-group--b">
+                                        <label for="" class="col-sm-4 col-form-label">Tỷ lệ phí trả nợ trước hạn</label>
+                                        <div class="col-sm-8">
+                                            <div class="input-wrap-with-label">
+                                                <div class="input-wrap-custom">
+                                                    <input class="input-custom" value="">
+                                                </div>
+                                                <label for="" class="col-form-label">%</label>
+                                            </div>
+                                        </div>
+                                    </div>	  
+		  </div>
+	  
+  </div>
+</div>
+									</div>
+                                    
+                                </div>
+                            </div>
+							<div class="row">
+                                <div class="col-md-12">
+							<div class="form-group row form-group--b">
+                                        <button class="button button__view-kpi button__view-kpi--lg" data-toggle="modal" data-target="#modal-add"><i class="icon-calendar2"></i> Tính lịch trả nợ
+                                        </button>
+                                    </div>
+									</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div id="box1" style="display: block">
+										<div class="section-with-border">
+                                        <h4 class="text-head"><b>Kết quả</b></h4>
+                                        <table class="table__body__table table__body__table--kpi table--small">
+                                            <caption><b>Tổng hợp thông tin vay</b></caption>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Gốc trả từng kỳ</td>
+                                                    <td>3.000.000 </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Số lần trả gốc</td>
+                                                    <td>24</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Số lần trả lãi</td>
+                                                    <td>24</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tổng lãi phải trả</td>
+                                                    <td>15.000.000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="table__header table__header--margin10">
+                                            <div class="table__pager table__pager--kpi">
+                                                <span class="table__pager__text">Hiển thị</span>
+                                                <select class="table__pager__select">
+                                                    <option>10</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                                <span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+                                            </div>
+                                            <div class="table__excel table__excel--kpi">
+                                                <div class="button button--excel">
+                                                    <div class="button__text button__text--excel"><i class="icon-file-pdf"></i> Xuất PDF</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <table class="table__body__table table__body__table--kpi">
+                                            <caption><b>Lịch trả nợ</b></caption>
+                                            <thead>
+                                                <tr>
+                                                    <th>Kỳ</th>
+                                                    <th>Ngày</th>
+                                                    <th>Gốc đầu kỳ</th>
+                                                    <th>Gốc trả trong kỳ</th>
+                                                    <th>Lãi trả trong kỳ</th>
+                                                    <th>Tổng tiền thanh toán trong kỳ</th>
+                                                    <th>Gốc cuối kỳ</th>
+                                                    <th>Tổng gốc đã trả</th>
+                                                    <th>Tổng lãi đã trả</th>
+													<th>Phí trả nợ trước hạn</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> 0</td>
+                                                    <td> 02/04/2018</td>
+                                                    <td> 100.000.000</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+													<td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td> 1</td>
+                                                    <td> 02/04/2018</td>
+                                                    <td> 100.000.000</td>
+                                                    <td> 3.000.000</td>
+                                                    <td> 500.000</td>
+                                                    <td> 3.500.000</td>
+                                                    <td> 97.000.000</td>
+                                                    <td> 3.000.000</td>
+                                                    <td> 500.000</td>
+													<td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>02/05/2018</td>
+                                                    <td>97.000.000</td>
+                                                    <td>3.000.000</td>
+                                                    <td>500.000</td>
+                                                    <td>3.500.000</td>
+                                                    <td>94.000.000</td>
+                                                    <td>6.000.000</td>
+                                                    <td>1.000.000</td>
+													<td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>02/06/2018</td>
+                                                    <td>97.000.000</td>
+                                                    <td>3.000.000</td>
+                                                    <td>500.000</td>
+                                                    <td>3.500.000</td>
+                                                    <td>94.000.000</td>
+                                                    <td>6.000.000</td>
+                                                    <td>1.000.000</td>
+													<td>-</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="table__footer table__footer--kpi text-right">
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+									</div>
+									<div id="box2" style="display: none">
+										<div class="section-with-border">
+                                        <h4 class="text-head"><b>Kết quả</b></h4>
+                                        <table class="table__body__table table__body__table--kpi table--small">
+                                            <caption><b>Tổng hợp thông tin vay</b></caption>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Gốc trả từng kỳ</td>
+                                                    <td>3.000.000 </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Số lần trả gốc</td>
+                                                    <td>24</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Số lần trả lãi</td>
+                                                    <td>24</td>
+                                                </tr>
+												<tr>
+                                                    <td>Phí trả nợ trước hạn</td>
+                                                    <td>2.500.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tổng lãi & phí trả nợ trước hạn</td>
+                                                    <td>15.000.000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="table__header table__header--margin10">
+                                            <div class="table__pager table__pager--kpi">
+                                                <span class="table__pager__text">Hiển thị</span>
+                                                <select class="table__pager__select">
+                                                    <option>10</option>
+                                                    <option>20</option>
+                                                    <option>30</option>
+                                                    <option>40</option>
+                                                </select>
+                                                <span class="table__pager__text">/tổng số <b>100</b> bản ghi</span>
+                                            </div>
+                                            <div class="table__excel table__excel--kpi">
+                                                <div class="button button--excel">
+                                                    <div class="button__text button__text--excel"><i class="icon-file-pdf"></i> Xuất PDF</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <table class="table__body__table table__body__table--kpi">
+                                            <caption><b>Lịch trả nợ</b></caption>
+                                            <thead>
+                                                <tr>
+                                                    <th>Kỳ</th>
+                                                    <th>Ngày</th>
+                                                    <th>Gốc đầu kỳ</th>
+                                                    <th>Gốc trả trong kỳ</th>
+                                                    <th>Lãi trả trong kỳ</th>
+                                                    <th>Tổng tiền thanh toán trong kỳ</th>
+                                                    <th>Gốc cuối kỳ</th>
+                                                    <th>Tổng gốc đã trả</th>
+                                                    <th>Tổng lãi đã trả</th>
+													<th>Phí trả nợ trước hạn</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> 0</td>
+                                                    <td> 02/04/2018</td>
+                                                    <td> 100.000.000</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+													<td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td> 1</td>
+                                                    <td> 02/04/2018</td>
+                                                    <td> 100.000.000</td>
+                                                    <td> 3.000.000</td>
+                                                    <td> 500.000</td>
+                                                    <td> 3.500.000</td>
+                                                    <td> 97.000.000</td>
+                                                    <td> 3.000.000</td>
+                                                    <td> 500.000</td>
+													<td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>02/05/2018</td>
+                                                    <td>97.000.000</td>
+                                                    <td>3.000.000</td>
+                                                    <td>500.000</td>
+                                                    <td>3.500.000</td>
+                                                    <td>94.000.000</td>
+                                                    <td>6.000.000</td>
+                                                    <td>1.000.000</td>
+													<td>8.500.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>02/06/2018</td>
+                                                    <td>97.000.000</td>
+                                                    <td>3.000.000</td>
+                                                    <td>500.000</td>
+                                                    <td>3.500.000</td>
+                                                    <td>94.000.000</td>
+                                                    <td>6.000.000</td>
+                                                    <td>1.000.000</td>
+													<td>8.500.000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="table__footer table__footer--kpi text-right">
+                                            <div class="table__footer__paging">
+                                                <div class="table-paging">
+                                                    <div class="table-paging__first">Đầu</div>
+                                                    <div class="table-paging__prev">Trước</div>
+                                                    <div class="table-paging__number table-paging__number--active">1</div>
+                                                    <div class="table-paging__number">2</div>
+                                                    <div class="table-paging__number">3</div>
+                                                    <div class="table-paging__next">Sau</div>
+                                                    <div class="table-paging__last">Cuối</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+									</div>
+									
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/highcharts.js"></script>
+    <script type="text/javascript" src="js/exporting.js"></script>
+    <script src="select2/js/select2.full.min.js"></script>
+    <script src="js/datepicker/moment-with-locales.js"></script>
+    <script src="js/datepicker/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/custom.js"></script>
+	<script type="text/javascript">
+$(document).ready(function(){
+	$('#form-checkbox1').change(function(){
+    if($(this).is(":checked")) {
+       $("div#box1").hide();
+	   $("div#box2").show();
+	   $("div#collapse").show();
+		
+    } else {
+       $("div#box1").show();
+	   $("div#box2").hide();
+	   $("div#collapse").hide();
+    }
+});
+
+		
+});
+</script>
+	
+
+</body>
+
+</html>
