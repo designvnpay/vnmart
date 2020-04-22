@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-ic-kieuhoi">
+      <rect width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="ic-kieuhoi" clip-path="url(#clip-ic-kieuhoi)">
+    <g id="NhanKieuHoi" transform="translate(-83 -280)">
+      <g id="Rectangle_151">
+        <rect id="Rectangle_49" data-name="Rectangle 49" width="40" height="40" transform="translate(83 280)" fill="none"/>
+      </g>
+      <g id="Group_298">
+        <g id="Rectangle_151-2">
+          <rect id="Rectangle_50" data-name="Rectangle 50" width="40" height="40" transform="translate(83 280)" fill="none"/>
+        </g>
+        <g id="Group_418" transform="translate(89 285.978)">
+          <g id="Ellipse_26">
+            <path id="Path_81" data-name="Path 81" d="M9.4,18.5a4.3,4.3,0,1,1,4.3-4.3A4.268,4.268,0,0,1,9.4,18.5Zm0-7.3a3.009,3.009,0,0,0-3,3,3.076,3.076,0,0,0,3,3,3.076,3.076,0,0,0,3-3A3.009,3.009,0,0,0,9.4,11.2Z"/>
+          </g>
+          <g id="Ellipse_27">
+            <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="7.7" rx="8" ry="7.7" transform="translate(11 7.1)" fill="#fad869"/>
+          </g>
+          <g id="Group_415" transform="translate(6.982 1.022)">
+            <g id="Path_1015">
+              <path id="Path_82" data-name="Path 82" d="M14.1,3.6C7.8-2.7.7,2.8.4,3L-.4,2c.1,0,8.3-6.3,15.4.7Z"/>
+            </g>
+            <g id="Path_1016">
+              <path id="Path_83" data-name="Path 83" d="M15.2,3.8H12V2.5h1.9V.5h1.3Z"/>
+            </g>
+          </g>
+          <g id="Path_1017">
+            <path id="Path_84" data-name="Path 84" d="M12.7,20.8" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.25" stroke-dasharray="111"/>
+          </g>
+          <g id="Path_1018">
+            <path id="Path_85" data-name="Path 85" d="M13.5,7.8" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.25" stroke-dasharray="111"/>
+          </g>
+          <g id="Path_1019">
+            <path id="Path_86" data-name="Path 86" d="M18.9,23.2a8.741,8.741,0,0,1-7.7-4.5c-.1-.1-.1-.2-.2-.3a8.218,8.218,0,0,1,3.9-11,8.882,8.882,0,0,1,11.7,3.5,7.946,7.946,0,0,1,.6,6.4L26,16.9a7.249,7.249,0,0,0-.5-5.4,7.626,7.626,0,0,0-10.1-3,7.044,7.044,0,0,0-3.3,9.4c0,.1.1.2.1.3a7.626,7.626,0,0,0,10.1,3,.758.758,0,0,1,.4-.2l.7,1-.6.3A9.721,9.721,0,0,1,18.9,23.2Z"/>
+          </g>
+          <g id="Path_1020">
+            <path id="Path_87" data-name="Path 87" d="M25.2,20.6l-.9-.8a3.805,3.805,0,0,0,.9-1.3l1.1.7A4.863,4.863,0,0,1,25.2,20.6Z"/>
+          </g>
+          <g id="Path_1021">
+            <path id="Path_88" data-name="Path 88" d="M8.9,22.6A8.518,8.518,0,0,1,.4,14.3,8.579,8.579,0,0,1,9.1,5.9h0a9.473,9.473,0,0,1,4.7,1.3l-.7,1.1A8.107,8.107,0,0,0,9,7.2H8.9a7.369,7.369,0,0,0-7.3,7.1A7.256,7.256,0,0,0,9,21.4a7.3,7.3,0,0,0,3.5-.9l.6,1.1a8.04,8.04,0,0,1-4.1,1Z"/>
+          </g>
+          <g id="Group_416" transform="translate(16.523 9.294)">
+            <g id="Line_98">
+              <rect id="Rectangle_51" data-name="Rectangle 51" width="1.2" height="11" transform="translate(2)"/>
+            </g>
+            <g id="Path_1022">
+              <path id="Path_89" data-name="Path 89" d="M0,9.1V7.9H3.7a.665.665,0,0,0,.6-.7c0-1-.6-1.1-.6-1.1h-2a2.006,2.006,0,0,1-2-2A2.05,2.05,0,0,1,1.6,1.8H5V3H1.6c-.1.1-.6.2-.6,1.2a.684.684,0,0,0,.7.7H3.9c.5,0,1.8.4,1.8,2.3A1.943,1.943,0,0,1,4,9.1Z"/>
+            </g>
+          </g>
+          <g id="Line_99">
+            <rect id="Rectangle_52" data-name="Rectangle 52" width="3.4" height="1.2" transform="translate(4.9 12.8)"/>
+          </g>
+          <g id="Line_100">
+            <rect id="Rectangle_53" data-name="Rectangle 53" width="3.3" height="1.2" transform="translate(5.1 14.4)"/>
+          </g>
+          <g id="Group_417" transform="translate(6.982 24.774)">
+            <g id="Path_1023">
+              <path id="Path_90" data-name="Path 90" d="M7.2,3.8A10.246,10.246,0,0,1-.4.4L.5-.5A9.375,9.375,0,0,0,9.7,2.2,12.634,12.634,0,0,0,14.2.1l.8,1A13.842,13.842,0,0,1,7.2,3.8Z"/>
+            </g>
+            <g id="Path_1024">
+              <path id="Path_91" data-name="Path 91" d="M.6,2.6H-.6V-.6H2.6V.6H.6Z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

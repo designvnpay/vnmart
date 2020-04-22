@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-ic-qrpay">
+      <rect width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="ic-qrpay" clip-path="url(#clip-ic-qrpay)">
+    <g id="QRPay" transform="translate(-83 -280)">
+      <rect id="Rectangle_151" width="40" height="40" transform="translate(83 280)" fill="none"/>
+      <g id="_004-qr-code" transform="translate(91 288)">
+        <g id="Group_1351">
+          <path id="Path_1300" d="M0,24H10V14H0Zm2-8H8v6H2Z" fill="#ed1b24"/>
+          <rect id="Rectangle_3483" width="2" height="2" transform="translate(4.4 17.6)" fill="#ed1b24"/>
+          <rect id="Rectangle_3484" width="2" height="2" transform="translate(17.6 22)"/>
+          <rect id="Rectangle_3485" width="2" height="2" transform="translate(22 22)"/>
+          <path id="Path_1301" d="M22,16H20V14H14V24h2V18h2v2h6V14H22Z"/>
+          <path id="Path_1302" d="M0,10H10V0H0ZM2,2H8V8H2Z" fill="#105caa"/>
+          <rect id="Rectangle_3486" width="2" height="2" transform="translate(4.4 4.4)" fill="#105caa"/>
+          <path id="Path_1303" d="M14,0V10H24V0Zm8,8H16V2h6Z" fill="#105caa"/>
+          <rect id="Rectangle_3487" width="2" height="2" transform="translate(17.6 4.4)" fill="#105caa"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

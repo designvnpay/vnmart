@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-ic-tygia">
+      <rect width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="ic-tygia" clip-path="url(#clip-ic-tygia)">
+    <g id="Group_298" data-name="Group 298" transform="translate(-83 -280)">
+      <rect id="Rectangle_151" data-name="Rectangle 151" width="40" height="40" transform="translate(83 280)" fill="none"/>
+      <g id="Group_332" data-name="Group 332" transform="translate(87.1 287)">
+        <path id="Path_923" data-name="Path 923" d="M20.18,23.3H2.151A1.26,1.26,0,0,0,.9,24.551v8.8A1.26,1.26,0,0,0,2.151,34.6H14.079l3.95,3.95a.41.41,0,0,0,.7-.313V34.563h.2a1.26,1.26,0,0,0,1.251-1.251Z" transform="translate(0 -13.68)" fill="none"/>
+        <line id="Line_58" data-name="Line 58" x2="5.397" transform="translate(3.364 17.902)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.25"/>
+        <line id="Line_59" data-name="Line 59" x2="5.397" transform="translate(3.364 15.448)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.25"/>
+        <line id="Line_60" data-name="Line 60" x2="2.738" transform="translate(3.364 13.151)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.25"/>
+        <path id="Path_924" data-name="Path 924" d="M6.375,23.2H2.151A1.26,1.26,0,0,0,.9,24.451v8.8A1.26,1.26,0,0,0,2.151,34.5H14.079l3.95,3.95a.41.41,0,0,0,.7-.313V34.463h.2a1.26,1.26,0,0,0,1.251-1.251V30.044" transform="translate(0 -13.619)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.25"/>
+        <g id="Group_331" data-name="Group 331" transform="translate(7.463 1)">
+          <rect id="Rectangle_169" data-name="Rectangle 169" width="2.542" height="10.012" transform="translate(14.114 15.656) rotate(-45)" fill="#e0562b"/>
+          <g id="Group_330" data-name="Group 330">
+            <path id="Path_925" data-name="Path 925" d="M25.861,2.955a5.905,5.905,0,1,1-5.905,5.866,5.925,5.925,0,0,1,5.905-5.866m0-1.955a7.841,7.841,0,1,0,7.861,7.822A7.853,7.853,0,0,0,25.861,1Z" transform="translate(-18 -1)" fill="#fad869"/>
+          </g>
+          <path id="Path_926" data-name="Path 926" d="M62.008,43.3l-1.251,1.212a.756.756,0,0,1-1.1,0L52.7,37.546,55.046,35.2l6.961,6.961A.8.8,0,0,1,62.008,43.3Z" transform="translate(-39.13 -21.926)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.25"/>
+          <line id="Line_61" data-name="Line 61" x2="1.291" y2="1.291" transform="translate(13.492 13.235)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.25"/>
+          <line id="Line_62" data-name="Line 62" x1="2.386" y2="2.346" transform="translate(15.33 15.1)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.25"/>
+          <line id="Line_63" data-name="Line 63" x1="2.386" y2="2.346" transform="translate(16.504 16.267)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.25"/>
+          <path id="Path_927" data-name="Path 927" d="M27.9,11c.235-.039,3.676-3.6,7.587,0" transform="translate(-24.028 -6.108)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.25"/>
+          <path id="Path_928" data-name="Path 928" d="M42.411,2.234A7.486,7.486,0,0,0,38.5,1.1" transform="translate(-30.483 -1.061)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.25"/>
+          <path id="Path_929" data-name="Path 929" d="M24.335,1.4a7.815,7.815,0,1,0,7.157,2.19" transform="translate(-18 -1.244)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.25"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
