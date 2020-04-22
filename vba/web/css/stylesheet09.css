@@ -2784,10 +2784,10 @@ select[multiple].input-lg {
     background-image: none;
     border: 1px solid transparent;
     white-space: nowrap;
-    padding: 6px 20px;
+    padding: 10px 24px;
     font-size: 14px;
     line-height: 1.428571429;
-    border-radius: 4px;
+    border-radius: 40px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -2834,19 +2834,18 @@ fieldset[disabled] .btn {
 }
 
 .btn-default {
-    color: #333333;
+    color: #a71d42;
     background-color: #ffffff;
-    border-color: #cccccc;
+    border-color: #a71d42;transition: all .5s ease;
 }
-
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
-    color: #333333;
-    background-color: #ebebeb;
-    border-color: #adadad;
+    background-color: #a71d42;
+    color: #fff;
+    border-color: #a71d42;
 }
 
 .btn-default:active,
@@ -9411,7 +9410,7 @@ ul.list li i {
 }
 
 .section-footer .copyright h2 {
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 5px;
     text-transform: uppercase;
     font-weight: 600;
@@ -9419,7 +9418,7 @@ ul.list li i {
 
 .section-footer .copyright p {
     margin: 0;
-    line-height: 20px;
+    line-height: 20px;font-size: 14px;
 }
 
 .section-footer .social-icons {
@@ -10419,7 +10418,7 @@ header .container {
     left: 50%;
 }
 
-.title-main,
+.texts-holder .title-main,
 .text-cont {
     opacity: 0;
     user-select: none
@@ -10449,7 +10448,7 @@ header .top-menu ul li.active a {
 
 @media (min-width: 992px) {
     .item .pic-service {
-        padding: 50px 0 50px 0;
+        padding: 60px 0 50px 0;
     }
     #tab3 .service-left,
     #tab3 .service-right{
