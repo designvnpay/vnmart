@@ -434,7 +434,7 @@ img {
     width: 100%;
     height: auto;
 }
-
+.list-news img.img-responsive{max-height:inherit;}
 .img-rounded {
     border-radius: 6px;
 }
