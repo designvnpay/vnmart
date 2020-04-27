@@ -510,6 +510,9 @@ h1 {
 .main {
 	padding: 0 80px;
 }
+#container .main {
+	padding-bottom: 120px;
+}
 }
 @media (max-width: 1024px) {
 	.table {

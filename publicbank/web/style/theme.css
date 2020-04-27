@@ -700,6 +700,7 @@ select[multiple].input-lg {
     display: block;
     padding: 25px 10px 25px 55px;
 }
+
 /*.categories li a.toggle-submenu.open {
 	background-color: #738BA4;
 }*/
@@ -708,34 +709,58 @@ select[multiple].input-lg {
     padding: 15px 10px 15px 55px;
 }
 .categories>li:first-child a {
-    background-color: #71C8F1;
+    background-color: #ededed;color: #456d97;
+}
+.categories>li:first-child .active a {
+    color: #fff;
+}
+.categories>li:nth-child(2) .active a, .categories>li:nth-child(2) a:hover {
+    background-color: #9f4025;
+}
+.categories>li:nth-child(3) .active a, .categories>li:nth-child(3) a:hover {
+    background-color: #752d1a;
+}
+.categories>li:first-child a.toggle-submenu .ic_arrow {
+    background-image: url(../img/svg/submenu_ic2.svg);
+}
+.categories>li:first-child a.toggle-submenu.open .ic_arrow {
+  background-image: url(../img/svg/submenu_ic2_active.svg);
 }
 .categories>li:nth-child(2) a {
-    background-color: #00AEEF;
+    background-color: #da5e3c;
 }
 .categories>li:nth-child(3) a {
-    background-color: #3D84A5;
+    background-color: #933d26;
 }
-.categories>li:nth-child(4) a {
-    background-color: #597C93;
+.box-style2 .categories>li:first-child a {
+    background-color: #c4dffa; color: #fff;
+}
+.box-style2 .categories>li:nth-child(2) a {
+    background-color: #91c8f1;
+}
+.box-style2 .categories>li:nth-child(3) a {
+    background-color: #6ab5ec;
+}
+.box-style2 .categories>li:nth-child(4) a {
+    background-color: #43a4e8;
 }
 .categories>li:nth-child(5) a {
-    background-color: #1E556D;
+    background-color: #3d98df;
 }
 .categories>li:nth-child(6) a {
-    background-color: #4D535A;
+    background-color: #378cdc;
 }
 .categories>li:nth-child(7) a {
-    background-color: #00AEEF;
+    background-color: #3188da;
 }
 .categories>li:nth-child(8) a {
-    background-color: #3D84A5;
+    background-color: #2b85da;
 }
 .categories>li:nth-child(9) a {
-    background-color: #597C93;
+    background-color: #2281db;
 }
 .categories>li:nth-child(10) a {
-    background-color: #1E556D;
+    background-color: #197cda;
 }
 .title-container {margin-bottom: 20px;}
 .title-left h1 { font-size: 36px; margin: 0; color: #ED2124; text-transform: uppercase;}
@@ -874,6 +899,7 @@ media-heading {
 #scroll2 {
 	height:650px;
 }
+.format-editor {padding-bottom: 50px;}
 .owl-theme .owl-dots .owl-dot {
     outline: none;
 }
