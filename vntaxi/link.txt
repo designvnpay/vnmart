@@ -1,0 +1,25 @@
+﻿A/ Tiếng việt DEMO
+
+1. Hướng dẫn đặt xe & thanh toán: https://design.vnpay.vn/mobileapp/VNTAXI/html/guide.html
+
+2. Trợ giúp: https://design.vnpay.vn/mobileapp/VNTAXI/html/help.html
+
+3. Thông tin dịch vụ
+
+- Car 4 chỗ, Car 7 chỗ: https://design.vnpay.vn/mobileapp/VNTAXI/html/info1.html
+
+- Taxi 4 chỗ, Taxi 7 chỗ: https://design.vnpay.vn/mobileapp/VNTAXI/html/info2.html
+
+ 
+
+B/ Tiếng anh DEMO
+
+1. Hướng dẫn đặt xe & thanh toán: https://design.vnpay.vn/mobileapp/VNTAXI/html/en-guide.html
+
+2. Trợ giúp: https://design.vnpay.vn/mobileapp/VNTAXI/html/en-help.html
+
+3. Thông tin dịch vụ
+
+- Car 4 chỗ, Car 7 chỗ: https://design.vnpay.vn/mobileapp/VNTAXI/html/en-info1.html
+
+- Taxi 4 chỗ, Taxi 7 chỗ: https://design.vnpay.vn/mobileapp/VNTAXI/html/en-info2.html

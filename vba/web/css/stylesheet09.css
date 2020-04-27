@@ -10317,7 +10317,7 @@ header .container {
     }
 
     .links-btn {
-        padding: 39px 0 0 0;
+        padding: 26px 0 0 0;
     }
 
     .section-slider .flex-caption .texts-holder h1,
@@ -10401,7 +10401,7 @@ header .container {
     z-index: 2;
 }
 
-.list-service>li {
+#tab3 .list-service>li {
     min-height: 80px
 }
 
@@ -10462,8 +10462,8 @@ header .top-menu ul li.active a {
     }
 
     .section-slider .back-layer {
-        background-position: top right -47vw;
-        background-size: auto 86vw;
+        background-position: top 35px right -26vw;
+    background-size: auto 80vw;
     }
 
     .back-layer {
@@ -10509,13 +10509,14 @@ header {
 
 @media (max-width: 1600px) {
     .back-layer {
-        background-position: bottom -28px right -20vw;
+        background-size: cover;
+        background-position: bottom 0 right 0;
     }
 }
 
 @media (max-width: 1440px) {
     .back-layer {
-        background-position: bottom -28px right -28vw;
+        background-position: bottom -28px right -32vw;
     }
 }
 
@@ -10523,9 +10524,7 @@ header {
 ul.list-service li{
     margin-bottom: 25px
 }
-#tab1 ul.list-service li{
-    margin-bottom: 5px
-}
+
 .buttons-holder .carousel-indicators li a{
     height: auto;
 }
@@ -10538,4 +10537,9 @@ ul.list-service li{
 
 .decrips{
     height: auto;
+}
+@media (max-width: 420px) {
+.section-slider .back-layer {
+    background-size: auto 75vw;
+}
 }
