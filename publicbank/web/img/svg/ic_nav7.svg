@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="ic_nav7" transform="translate(-219 -419)">
+    <rect id="Rectangle_76" data-name="Rectangle 76" width="20" height="20" transform="translate(219 419)" fill="none"/>
+    <g id="Group_77" data-name="Group 77" transform="translate(-1 -10)">
+      <path id="Path_189" data-name="Path 189" d="M2,4V16.8H8.622a1.587,1.587,0,0,0,2.756,0H18V4H10.8V15.2H9.2V4ZM14,6.4h.8v.816l.108,0a1.817,1.817,0,0,1,1.492,2H15.069c0-.884-.412-1.023-.584-1.023-.094,0-.531.023-.531.748,0,1.266,2.438.871,2.438,2.934A1.685,1.685,0,0,1,14.806,13.6H14.8v.8H14v-.8h.1a1.836,1.836,0,0,1-1.7-2.038h1.331c0,1.1.621,1.053.716,1.053s.612-.018.612-.736c0-1.435-2.438-.8-2.438-2.948A1.649,1.649,0,0,1,14,7.238Z" transform="translate(220 429)" fill="#ed2124"/>
+    </g>
+  </g>
+</svg>

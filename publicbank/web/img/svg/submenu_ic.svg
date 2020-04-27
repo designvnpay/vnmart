@@ -1,0 +1,12 @@
+<svg id="submenu_ic" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="Group_182" data-name="Group 182" transform="translate(35 35) rotate(180)">
+    <path id="Path_241" data-name="Path 241" d="M17.5,35A17.5,17.5,0,1,1,35,17.5,17.53,17.53,0,0,1,17.5,35Zm0-33.019A15.519,15.519,0,1,0,33.019,17.5,15.543,15.543,0,0,0,17.5,1.981Z" fill="#444b54"/>
+    <g id="Group_181" data-name="Group 181">
+      <path id="Path_245" data-name="Path 245" d="M17.5,35A17.5,17.5,0,1,1,35,17.5,17.53,17.53,0,0,1,17.5,35Zm0-33.019A15.519,15.519,0,1,0,33.019,17.5,15.543,15.543,0,0,0,17.5,1.981Z" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Group_301" data-name="Group 301" transform="translate(7 -29)">
+    <rect id="Rectangle_165" data-name="Rectangle 165" width="15" height="2" rx="1" transform="translate(3 45)" fill="#fff"/>
+    <rect id="Rectangle_166" data-name="Rectangle 166" width="15" height="2" rx="1" transform="translate(12 39) rotate(90)" fill="#fff"/>
+  </g>
+</svg>
