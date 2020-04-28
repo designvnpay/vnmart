@@ -169,7 +169,7 @@ ul.nav ul li {
 }
 ul.nav ul li.menu_title {
 	width: 100%;
-	padding: 15px 0 7px;
+	padding: 15px 0;
 	text-indent: 25px;
 	font-weight: 500;
 	font-size: 19px;
@@ -188,7 +188,6 @@ ul.nav li a {
 	line-height: 55px;
 	border-top: 5px solid #A9B9B9;
 	color: #4a4a4a;
-	border-right: 1px solid #B9BCBC;
 	font-weight: 400;
 }
 ul.nav.nav-tabs li a {
@@ -212,6 +211,22 @@ ul.nav li a:hover, ul.nav li:hover a, ul.nav li.active a {
 	color: #fff;
 	text-decoration: none;
 }
+
+ul.nav>li.nav2>a {
+    background: #dd0411; color: #fff;
+}
+ul.nav>li.nav3>a {
+    background: #ad020c;color: #fff;
+}
+ul.nav li.nav1 ul li.menu_title {
+    background: #ddd;border-bottom-color: #ddd;
+}
+ul.nav li.nav2 ul li.menu_title {
+    background: #dd0411;border-bottom-color: #bd020d; color: #fff;
+}
+ul.nav li.nav3 ul li.menu_title {
+    background: #ad020c;border-bottom-color: #ad020c; color: #fff;
+}
 ul.nav.nav-tabs li a:hover, ul.nav.nav-tabs li:hover a, ul.nav.nav-tabs li.active a {
 	background: #BCD0DE;
 	color: #333;
@@ -223,7 +238,6 @@ ul.nav.nav-tabs li a:hover, ul.nav.nav-tabs li:hover a, ul.nav.nav-tabs li.activ
 	width: 100%;
 	left: 0;
 	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.32);
-	border: 1px solid #dbdbdb;
 	opacity: 0;
 	pointer-events: none;
 	-webkit-transform: translateY(10px);

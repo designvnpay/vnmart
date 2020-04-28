@@ -715,10 +715,10 @@ select[multiple].input-lg {
     color: #fff;
 }
 .categories>li:nth-child(2) .active a, .categories>li:nth-child(2) a:hover {
-    background-color: #9f4025;
+    background-color: #ad020c;
 }
 .categories>li:nth-child(3) .active a, .categories>li:nth-child(3) a:hover {
-    background-color: #752d1a;
+    background-color: #850209;
 }
 .categories>li:first-child a.toggle-submenu .ic_arrow {
     background-image: url(../img/svg/submenu_ic2.svg);
@@ -727,10 +727,10 @@ select[multiple].input-lg {
   background-image: url(../img/svg/submenu_ic2_active.svg);
 }
 .categories>li:nth-child(2) a {
-    background-color: #da5e3c;
+    background-color: #dd0411;
 }
 .categories>li:nth-child(3) a {
-    background-color: #933d26;
+    background-color: #ad020c;
 }
 .box-style2 .categories>li:first-child a {
     background-color: #c4dffa; color: #fff;
@@ -899,7 +899,7 @@ media-heading {
 #scroll2 {
 	height:650px;
 }
-.format-editor {padding-bottom: 50px;}
+.format-editor {padding-bottom: 100px;}
 .owl-theme .owl-dots .owl-dot {
     outline: none;
 }
@@ -1619,7 +1619,7 @@ ul.nav ul li h3 {
 }
 ul.nav ul li.title-sub {border-bottom:none}
 ul.nav ul li a, ul.nav li:hover ul li a {
-    padding: 15px 10px; background-color: #fff;
+    padding: 20px 10px; background-color: #fff;
     border: none;
     line-height: 18px;
     color: #333;
