@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-ic-social-fb">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="ic-social-fb" clip-path="url(#clip-ic-social-fb)">
+    <g id="Group_1439" data-name="Group 1439" transform="translate(-226 -5059)">
+      <g id="Group_1406" data-name="Group 1406" transform="translate(231 5064)">
+        <rect id="Rectangle_107" data-name="Rectangle 107" width="20" height="20" fill="#fff" opacity="0"/>
+        <path id="Path_257" data-name="Path 257" d="M20,5.6h2a.4.4,0,0,0,.4-.4V2.505a.4.4,0,0,0-.37-.4C21.394,2.061,20.15,2,19.256,2A3.772,3.772,0,0,0,15.2,6.147V8.8H12.4a.4.4,0,0,0-.4.4V12a.4.4,0,0,0,.4.4h2.8V20a.4.4,0,0,0,.4.4h2.8a.4.4,0,0,0,.4-.4V12.4h2.889a.4.4,0,0,0,.4-.356l.311-2.8A.4.4,0,0,0,22,8.8H18.8v-2A1.2,1.2,0,0,1,20,5.6Z" transform="translate(-7.208 -1.167)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

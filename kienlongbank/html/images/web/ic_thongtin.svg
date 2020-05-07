@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-ic_thongtin">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="ic_thongtin" clip-path="url(#clip-ic_thongtin)">
+    <g id="thongtinungdung" transform="translate(-15 -14.5)">
+      <rect id="Rectangle_181" data-name="Rectangle 181" width="18.75" height="27" rx="4" transform="translate(21 16.5)" fill="#fff" stroke="#007476" stroke-width="1.5"/>
+      <path id="Path_356" data-name="Path 356" d="M31.483,24a1.192,1.192,0,0,1,1.28,1.248,1.674,1.674,0,0,1-1.707,1.6A1.142,1.142,0,0,1,29.8,25.581,1.64,1.64,0,0,1,31.483,24ZM28.854,36.75c-.674,0-1.168-.416-.7-2.246l.774-3.246c.134-.52.156-.727,0-.727a5.093,5.093,0,0,0-1.595.712L27,30.682a8.908,8.908,0,0,1,4.336-2.21c.673,0,.786.81.449,2.059L30.9,33.942c-.157.6-.09.811.067.811a3.475,3.475,0,0,0,1.517-.77l.382.52a7.014,7.014,0,0,1-4.01,2.247Z" fill="#83bcbf"/>
+    </g>
+  </g>
+</svg>

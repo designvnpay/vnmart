@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#39b0b6"/>
+      <stop offset="1" stop-color="#007476"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="1" y2="0" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#91c6f4"/>
+      <stop offset="1" stop-color="#94cff5"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="1.363" x2="0.5" y2="-0.657" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#155cde"/>
+      <stop offset="0.278" stop-color="#1f7fe5"/>
+      <stop offset="0.569" stop-color="#279ceb"/>
+      <stop offset="0.82" stop-color="#2cafef"/>
+      <stop offset="1" stop-color="#2eb5f0"/>
+    </linearGradient>
+    <clipPath id="clip-graph-protect">
+      <rect width="64" height="64"/>
+    </clipPath>
+  </defs>
+  <g id="graph-protect" clip-path="url(#clip-graph-protect)">
+    <g id="Group_6840" data-name="Group 6840">
+      <path id="Path_12172" data-name="Path 12172" d="M59,21h1.5a3.509,3.509,0,0,0,3.422-4.243A3.577,3.577,0,0,0,60.385,14H51a2,2,0,0,1,0-4h3.385a3.578,3.578,0,0,0,3.537-2.757A3.509,3.509,0,0,0,54.5,3H8.5a3.5,3.5,0,0,0,0,7H11a2,2,0,0,1,0,4H4.615a3.578,3.578,0,0,0-3.537,2.757A3.509,3.509,0,0,0,4.5,21H18V32H4.615a3.578,3.578,0,0,0-3.537,2.757A3.509,3.509,0,0,0,4.5,39H7a2,2,0,0,1,0,4H4.5a3.509,3.509,0,0,0-3.422,4.243A3.578,3.578,0,0,0,4.615,50H12a2,2,0,0,1,0,4H8.615a3.578,3.578,0,0,0-3.537,2.757A3.509,3.509,0,0,0,8.5,61h45a3.5,3.5,0,0,0,0-7H52a2,2,0,0,1,0-4h5.385a3.578,3.578,0,0,0,3.537-2.757A3.509,3.509,0,0,0,57.5,43H47V32H59.385a3.578,3.578,0,0,0,3.537-2.757A3.509,3.509,0,0,0,59.5,25H59a2,2,0,0,1,0-4Z" opacity="0" fill="url(#linear-gradient)"/>
+      <path id="Path_12173" data-name="Path 12173" d="M43,11.005a37.145,37.145,0,0,1-8.651-4.289,4.208,4.208,0,0,0-4.7,0A37.154,37.154,0,0,1,21,11.005a37.155,37.155,0,0,1-10.113,1.951,1.987,1.987,0,0,0-1.884,2C9.041,25.628,9.7,38.7,21,50c1.659,1.659,5.961,5.08,8.667,7.193a3.788,3.788,0,0,0,4.665,0C37.038,55.081,41.34,51.66,43,50,54.3,38.7,54.958,25.628,55,14.956a1.988,1.988,0,0,0-1.884-2A37.149,37.149,0,0,1,43,11.005Z" fill="url(#linear-gradient-2)"/>
+      <path id="Path_12174" data-name="Path 12174" d="M41,23V37H23V23H41m0-3H23a3,3,0,0,0-3,3V37a3,3,0,0,0,3,3H41a3,3,0,0,0,3-3V23a3,3,0,0,0-3-3Z" fill="#fff"/>
+      <path id="Path_12175" data-name="Path 12175" d="M22,22H42v5H22Z" fill="#fff"/>
+      <path id="Path_12176" data-name="Path 12176" d="M23,27H41V37H23Z" fill="url(#linear-gradient-3)"/>
+      <path id="Path_12177" data-name="Path 12177" d="M40,25H39a1,1,0,0,1-1-1V23a1,1,0,0,1,1-1h1a1,1,0,0,1,1,1v1A1,1,0,0,1,40,25Z" fill="url(#linear-gradient-4)"/>
+    </g>
+  </g>
+</svg>

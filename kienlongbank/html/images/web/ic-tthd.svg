@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-ic-tthd">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="ic-tthd" clip-path="url(#clip-ic-tthd)">
+    <g id="tthd_1_" data-name="tthd (1)" transform="translate(4.001 4)">
+      <path id="Path_342" data-name="Path 342" d="M17.9,8h3.6a1.624,1.624,0,0,1,1.619,1.619V21.093a1.623,1.623,0,0,1-1.62,1.618H9.62" fill="#fff" stroke="#007476" stroke-linecap="round" stroke-width="1.5" fill-rule="evenodd"/>
+      <path id="Path_340" data-name="Path 340" d="M13.5,22.711H1.619A1.625,1.625,0,0,1,0,21.092V1.62A1.628,1.628,0,0,1,1.62,0H13.5a1.623,1.623,0,0,1,1.62,1.62V21.092a1.625,1.625,0,0,1-1.62,1.62Z" fill="#fff" stroke="#007476" stroke-width="1.5" fill-rule="evenodd"/>
+      <g id="Group_1583" data-name="Group 1583">
+        <path id="Path_339" data-name="Path 339" d="M8.939,7.159a1.57,1.57,0,0,0-3.017.611,1.449,1.449,0,0,0,.47,1.119c.52.441,1.686,1.163,2.21,1.6a1.423,1.423,0,0,1,.46,1.11,1.571,1.571,0,0,1-2.991.667M7.51,5.2v1m0,7v1" fill="none" stroke="#83bcbf" stroke-linecap="round" stroke-width="1.5" fill-rule="evenodd"/>
+      </g>
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="1" cy="1" r="1" transform="translate(6.688 18.688)" fill="#83bcbf"/>
+      <path id="Path_341" data-name="Path 341" d="M17.9,11h4.6" fill="none" stroke="#83bcbf" stroke-linecap="round" stroke-width="1.5" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="ic_guide3" transform="translate(-1019 -2373)">
+    <path id="Path_5" data-name="Path 5" d="M0,0H60V60H0Z" transform="translate(1019 2373)" fill="none"/>
+    <g id="Group_10" data-name="Group 10" transform="translate(-10.164 46.459)">
+      <g id="Group_1" data-name="Group 1" transform="translate(1034.164 2337.541)">
+        <g id="Rectangle" fill="none" stroke="#006e74" stroke-miterlimit="10" stroke-width="4">
+          <rect width="51" height="38.25" rx="5" stroke="none"/>
+          <rect x="2" y="2" width="47" height="34.25" rx="3" fill="none"/>
+        </g>
+        <g id="Group" transform="translate(29.325 24.225)">
+          <circle id="Oval" cx="2.869" cy="2.869" r="2.869" transform="translate(8.925)" fill="#e50019"/>
+          <circle id="Oval-2" data-name="Oval" cx="2.869" cy="2.869" r="2.869" fill="#e50019"/>
+        </g>
+        <path id="Line_2" data-name="Line 2" d="M0,.5H6.375" transform="translate(8.288 26.913)" fill="none" stroke="#e50019" stroke-linecap="square" stroke-miterlimit="10" stroke-width="4"/>
+        <path id="Line" d="M0,.5H46.468" transform="translate(2.55 12.888)" fill="none" stroke="#006e74" stroke-linecap="square" stroke-miterlimit="10" stroke-width="4"/>
+      </g>
+    </g>
+  </g>
+</svg>

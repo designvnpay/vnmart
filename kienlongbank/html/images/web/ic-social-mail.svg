@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-ic-social-mail">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="ic-social-mail" clip-path="url(#clip-ic-social-mail)">
+    <path id="Path_282" data-name="Path 282" d="M3.8,4A1.8,1.8,0,0,0,2.063,5.354L11,10.954l8.942-5.585A1.8,1.8,0,0,0,18.2,4ZM2,7.361V16.6a1.8,1.8,0,0,0,1.8,1.8H18.2A1.8,1.8,0,0,0,20,16.6V7.38L11,13Z" transform="translate(4 4)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-ic-social-phone">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="ic-social-phone" clip-path="url(#clip-ic-social-phone)">
+    <path id="Path_12208" data-name="Path 12208" d="M16.5,1h-9A2.5,2.5,0,0,0,5,3.5v17A2.5,2.5,0,0,0,7.5,23h9A2.5,2.5,0,0,0,19,20.5V3.5A2.5,2.5,0,0,0,16.5,1ZM12,21.125A1.125,1.125,0,1,1,13.125,20,1.124,1.124,0,0,1,12,21.125ZM17,18H7V4H17Z" transform="translate(3 3)" fill="#fff"/>
+  </g>
+</svg>

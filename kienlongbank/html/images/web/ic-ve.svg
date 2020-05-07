@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-ic-ve">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="ic-ve" clip-path="url(#clip-ic-ve)">
+    <g id="vexemphim" transform="translate(-15.22 -15.578)">
+      <path id="Path_354" data-name="Path 354" d="M27,39.52l-2.4,2.314a2.25,2.25,0,0,0-2.552-.485l-1.74-1.8a2.25,2.25,0,0,0-2.949-3.052l-1.74-1.8a2.25,2.25,0,0,0-.4-2.568L29.247,18.578a2.25,2.25,0,0,0,3.182.055l1.563,1.619" fill="#fff" stroke="#007476" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+      <path id="Path_353" data-name="Path 353" d="M35.611,18.688a2.25,2.25,0,0,0,3.182.055l1.563,1.619A2.25,2.25,0,0,0,43.482,23.6l1.563,1.618a2.25,2.25,0,0,0-.056,3.182L30.962,41.944a2.25,2.25,0,0,0-2.553-.484l-1.74-1.8A2.25,2.25,0,0,0,23.72,36.6l-1.74-1.8a2.25,2.25,0,0,0-.4-2.569L35.611,18.688Z" fill="#fff" stroke="#007476" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+      <path id="Path_355" data-name="Path 355" d="M27.417,32.335l3.237-3.126M28.98,33.954l5.935-5.731m-3.851,7.889,4.855-4.69" fill="none" stroke="#83bcbf" stroke-linecap="round" stroke-width="1.5" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

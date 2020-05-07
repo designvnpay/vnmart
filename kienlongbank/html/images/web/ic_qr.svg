@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-ic_qr">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="ic_qr" clip-path="url(#clip-ic_qr)">
+    <g id="qrpay" transform="translate(-15.026 -16.026)">
+      <path id="Path_351" data-name="Path 351" d="M20.026,30.55H41.074" fill="none" stroke="#83bcbf" stroke-linecap="round" stroke-width="1.5" fill-rule="evenodd"/>
+      <path id="Path_352" data-name="Path 352" d="M41.074,34.378v4.93a1.765,1.765,0,0,1-1.766,1.766h-4.93m0-21.048h4.93a1.765,1.765,0,0,1,1.766,1.767v4.93M26.724,41.074H21.793a1.766,1.766,0,0,1-1.767-1.766v-4.93m0-7.655V21.792a1.766,1.766,0,0,1,1.767-1.765h4.93" fill="none" stroke="#007476" stroke-linecap="round" stroke-width="1.5" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

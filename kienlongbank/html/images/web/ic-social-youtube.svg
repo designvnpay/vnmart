@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-ic-social-youtube">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="ic-social-youtube" clip-path="url(#clip-ic-social-youtube)">
+    <g id="Group_1443" data-name="Group 1443" transform="translate(-400 -5059)">
+      <g id="Group_1417" data-name="Group 1417" transform="translate(405 5064)">
+        <g id="Rectangle_109" data-name="Rectangle 109" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+          <rect width="20" height="20" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+        </g>
+        <g id="surface1" transform="translate(0 2.64)">
+          <path id="Path_280" data-name="Path 280" d="M22.392,11.546a2.629,2.629,0,0,0-2.083-1.991A41.181,41.181,0,0,0,12.9,9a41.789,41.789,0,0,0-7.451.555,2.569,2.569,0,0,0-2.083,1.991A30.367,30.367,0,0,0,3,16.405a25.19,25.19,0,0,0,.416,4.86A2.634,2.634,0,0,0,5.5,23.256a42.577,42.577,0,0,0,7.452.555,42.577,42.577,0,0,0,7.452-.555,2.571,2.571,0,0,0,2.083-1.991,35.51,35.51,0,0,0,.463-4.86A32.391,32.391,0,0,0,22.392,11.546Zm-11.987,8.1v-6.48l5.646,3.24Z" transform="translate(-3 -9)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
