@@ -1,4 +1,14 @@
 /*hao css*/
+.group-pay-bill-icon.icon7,
+.section-body-icon-pay-bill.icon70 {
+    background-image: url('../images/2icon/2icon-70.svg');
+    background-position: 0 -28px;
+}
+.group-pay-bill>li>a:hover>.group-pay-bill-icon.icon7 {
+    background-image: url('../images/2icon/2icon-70-active.svg');
+    background-position: 0 -28px;
+}
+
 #show-box, #btn-back {height: 0; opacity: 0;overflow: hidden; -webkit-transition: opacity 0.5s ease-in-out; -moz-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;}
 #show-box.active, #btn-back.active {height: auto; opacity: 1;overflow:inherit;}

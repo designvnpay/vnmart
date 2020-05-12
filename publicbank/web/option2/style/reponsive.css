@@ -1,4 +1,6 @@
 @media (min-width: 768px) {
+	#printJS-form .col-md-9 {width: 95%;}
+	#printJS-form .col-md-3 {width: 5%;}
 	.box-style {
     padding-bottom: 300px;
 	}
@@ -536,11 +538,11 @@ h1 {
 	.format-editor {padding-bottom: 300px;padding-right: 30px;}
 	.form-inline .input-group > .form-control.txt_search {width: 350px;}
 .nav-pills > li > a {
-	padding: 0 20px;
+	padding: 0 19.5px;
 }
 .owl-carousel .owl-item img {
-	min-height: 580px;
-	max-height: 580px;
+	min-height: 540px;
+	max-height: 540px;
 }
 #scroll2 .owl-carousel .owl-item img {
 	min-height: inherit;
@@ -565,18 +567,33 @@ h1 {
 }
 
 @media (min-width:1300px) {
-.main {
-	padding: 0 80px;
+	.main {
+		padding: 0 80px;
+	}
+	#container .main {
+		padding-bottom: 120px;
+	}
 }
-#container .main {
-	padding-bottom: 120px;
-}
+@media (min-width:1500px) {
+	.owl-carousel .owl-item img { min-height: 600px; max-height: 600px;}
+	.box_1col .view-grid .media-left {
+	    height: 270px;max-height: 270px;
+	}
 }
 @media (max-width: 1024px) {
 	ul.nav ul li a, ul.nav li:hover ul li a{font-size: 14px;}
 	.table {
 		font-size: 12px;
 	}
+}
+@media (max-height: 1050px) {	
+	#scroll1, #scroll2 { height: 925px;}
+}
+@media (max-height: 900px) {	
+	#scroll1, #scroll2 { height: 775px;}	
+}
+@media (max-height: 768px) {	
+	#scroll1, #scroll2 { height: 672px;}	
 }
 @media (max-width: 859px) {
 	.box-slide {
@@ -904,29 +921,38 @@ ul.nav ul li.menu2_ic5 a {
 .menu2_ic1 .ic {
 	background-position: 1px 1px;
 }
-.menu2_ic1 .ic {
-	background-position: 0 1px;
+.menu2_ic2 .ic {
+	background-position: 2px 1px;
+}
+.menu2_ic3 .ic {
+	background-position: 2px 1px;
 }
 .menu2_ic4 .ic {
-	background-position: 2px 0;
+	background-position: 1px 0;
 }
 .menu2_ic5 .ic {
 	background-position: 2px 0;
 }
 .menu2_ic6 .ic {
-	background-position: -3px 0;
+	background-position: 0 0;
 }
 .menu2_ic7 .ic {
-	background-position: 2px 0;
+	background-position: 0px 0;
+}
+.menu2_ic8 .ic {
+	background-position: 0px 0;
 }
 .menu3_ic1 .ic {
-	background-position: 1px 1px;
+	background-position: 1px -2px;
+}
+.menu3_ic5 .ic {
+	background-position: 0 0;
 }
 .menu3_ic2 .ic {
 	background-position: 1px 1px;
 }
 .menu3_ic3 .ic {
-	background-position: -2px 1px;
+	background-position: 1px 1px;
 }
 .menu3_ic4 .ic {
 	background-position: 3px 1px;
@@ -1249,15 +1275,7 @@ ul.form label.txt_table {
 	padding: 0 15px;
 }
 }
-@media (max-height: 1050px) {	
-	#scroll1, #scroll2 { height: 925px;}
-}
-@media (max-height: 900px) {	
-	#scroll1, #scroll2 { height: 775px;}	
-}
-@media (max-height: 768px) {	
-	#scroll1, #scroll2 { height: 672px;}	
-}
+
 @media (max-width: 321px) {
 .charmap .form-control {
 	width: 153px;

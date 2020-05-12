@@ -1,0 +1,9 @@
+<svg id="arrow-blue" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_182" data-name="Group 182" transform="translate(30 30) rotate(180)">
+    <path id="Path_241" data-name="Path 241" d="M15,30A15,15,0,1,1,30,15,15,15,0,0,1,15,30ZM15,1.7A13.3,13.3,0,1,0,28.3,15,13.3,13.3,0,0,0,15,1.7Z" transform="translate(0 0)" fill="#456d97"/>
+    <g id="Group_181" data-name="Group 181" transform="translate(0 0)">
+      <path id="Path_245" data-name="Path 245" d="M15,30A15,15,0,1,1,30,15,15,15,0,0,1,15,30ZM15,1.7A13.3,13.3,0,1,0,28.3,15,13.3,13.3,0,0,0,15,1.7Z" transform="translate(0 0)" fill="#456d97"/>
+    </g>
+  </g>
+  <path id="Path_248" data-name="Path 248" d="M14.3,3.992a.317.317,0,0,0-.221.545l6.131,6.131L14.083,16.8a.318.318,0,1,0,.449.449l6.356-6.356a.318.318,0,0,0,0-.449L14.532,4.085a.314.314,0,0,0-.228-.093Z" transform="translate(-2.413 4.151)" fill="#456d97" stroke="#456d97" stroke-width="1"/>
+</svg>
